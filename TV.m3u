@@ -1,4 +1,4 @@
-3#EXTM3U catchup="shift" catchup-days="5" billed-msg="Welcome to RageTV!"
+#EXTM3U catchup="shift" catchup-days="5" billed-msg="Welcome to RageTV!"
 max-conn="9"
 
 url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz" refresh="3600"

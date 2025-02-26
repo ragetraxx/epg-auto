@@ -6486,6 +6486,11 @@ https://absvod.akamaized.net/c/2/m/fc28828c-eb94-11ef-9b2f-91efeac2e6ba.ism/mani
 #EXTINF:-1 tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/VOpasrQd0mDIfszLdlhrSQ.jpg" type="series" group-title="Incognito",S1E029 Detected
 https://absvod.akamaized.net/c/2/m/8aa7e912-eb95-11ef-a8d5-6bf0eac2e6ba.ism/manifest.mpd
 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ba09dd6f04911ef92b29bbeeac2e6ba:fc2e09bab8bddf78734c19d997bef959
+#EXTINF:-1 tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/m6gpfQbvzxnecDZqKRp_nA.jpg" type="series" group-title="Incognito",S1E030 Trap
+https://absvod.akamaized.net/c/2/m/0ba09dd6-f049-11ef-92b2-9bbeeac2e6ba.ism/manifest.mpd
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey

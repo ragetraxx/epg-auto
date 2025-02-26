@@ -3,8 +3,8 @@ max-conn="9"
 
 url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz" refresh="3600"
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/w9AFvhj8WasqSFccUsZAThrI7kW.jpg" group-logo="https://www.iconpacks.net/icons/1/free-cinema-icon-849-thumb.png" tvg-country="Philippines" group-title="Now Streaming",The Apprentice (2024)
-https://vod.provider.plex.tv/library/metadata/5f40d7a0427eeb0041f4d0f6/extras/66e0f86cfa93fafba537a385/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=zFMCCYVgJVxFJiF8-mSp
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/qdskwF31vjnthI5CTtExpjRwi9W.jpg" group-logo="https://www.iconpacks.net/icons/1/free-cinema-icon-849-thumb.png" tvg-country="Philippines" group-title="Now Streaming",Wish (2023)
+https://vod.provider.plex.tv/library/metadata/5f4096ab5a76a80042e59377/extras/651727a3fe05ca6d74e998b2/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=4JLdQXbxw7barrPtxgxN
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sUEKFfAdR18XFNpwAEfvhn2Ni0k.jpg" tvg-id="" group-logo="https://www.iconpacks.net/icons/1/free-cinema-icon-849-thumb.png" tvg-country="Philippines" group-title="Now Streaming",Millers in Marriage (2025)
 https://vod.provider.plex.tv/library/metadata/665c4caceb0b64247de4a075/extras/67856d5d336e29d55f3a019c/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=zFMCCYVgJVxFJiF8-mSp
@@ -5692,6 +5692,15 @@ start
 #KODIPROP:inputstream.adaptive.license_key=6457ffc114454facad1593d021f633fe:2a1296135a6612f54295f0764c9c5460
 #EXTINF:-1 type="movie" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/6457FFC1-1445-4FAC-AD15-93D021F633FE/0-2x3.jpg?width=180" group-title="Film Library",The EE BAFTA Film Awards 2025
 https://qp-pldt-vod-streaming-prod.akamaized.net/content/pubcontent/vol/6457FFC1-1445-4FAC-AD15-93D021F633FE/1739880286045-output_cenc_dash.ism/index.mpd?pipeline=ttml_removal
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/aau2E9HW5TvlxoNPHET6ZnAcV72.jpg" group-title="Film Library",A Copenhagen Love Story (2025)
+https://gstream.hollymoviehd.cc/streamsvr/Z-pKE6X-Y4/0-4
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/j3Q2MrpmaOrKfN2pInNvRNhYa4G.jpg" group-title="Film Library",Putin (2025)
+https://gstream.hollymoviehd.cc/streamsvr/aeelIzT3x0/0-4
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/m9ckCVKU9vW3Dxc8hbodx7mjJbe.jpg" group-title="Film Library",Wish (2023)
+https://gstream.hollymoviehd.cc/streamsvr/du2_PcRcmc/0-4
 
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/ba58VvRoXNdm619LcjJ3Myiz7PN.jpg" group-title="Film Library",A Cambodian Spring (2018)
 https://gstream.hollymoviehd.cc/streamsvr/eX0KTSW11O/0-4
@@ -14567,3 +14576,4 @@ https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/5ef1ead56d048943f75
 #EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://image.tmdb.org/t/p/w1280/xgTyGlmOYnDwUugITwd8MY5AQ5F.jpg",All That Breathes (2023) 
 https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/6406dabad940521074c9c1ce_hbovodhd/dash0/MYS_DOLBY_index.mpd
 
+end

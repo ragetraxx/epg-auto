@@ -3370,7 +3370,7 @@ https://cvtv.cvalley.net/hls/KSHBLaff/KSHBLaff.m3u8
 #EXTINF:-1 tvg-id="Comet.TV.(COMET).us" tvg-name="Comet TV (COMET)" tvg-logo="https://i.imgur.com/urX82hM.png" group-title="USA Local Channels",  Comet TV (KTVO(
 https://cvtv.cvalley.net/hls/KTVOComet/KTVOComet.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.plex.tv/photo?size=small-120&scale=2&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F41babb58-eb00-4a0d-8a5f-094950a5d8f2%2FJames_Roebuck_-_COPDS-PLEX_CH_LOGO_07.png" group-title="Plex TV",Cops
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://i.imgur.com/wyj30Hi.png" tvg-logo="https://images.plex.tv/photo?size=small-120&scale=2&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F41babb58-eb00-4a0d-8a5f-094950a5d8f2%2FJames_Roebuck_-_COPDS-PLEX_CH_LOGO_07.png" group-title="Plex TV",Cops
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-626c1753ffda6789d20a452e.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=PG8cze1ATcsgtYs_-Kxg
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.plex.tv/photo?size=small-120&scale=2&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F08872b9b-a4a7-4533-a19b-d2c24a7bf2f1%2FJAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png" group-title="Plex TV",Jail
@@ -3898,7 +3898,7 @@ https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5eea60567408
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images.plex.tv/photo?size=small-120&scale=2&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fa650b375-4c01-4378-b14a-1373f307b721%2FRevolt_color.png" group-title="Plex TV",Revolt Mixtape
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66fd3873216b603e031725fa.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=PG8cze1ATcsgtYs_-Kxg
 
-#EXTINF:-1 group-title="PeacockTV" group-logo="https://i.imgur.com/hCwWJ6g.jpeg"
+#EXTINF:-1 group-title="PeacockTV" group-logo="https://i.imgur.com/aNfAbVI.png"
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=002046c9a49b9ab1cdb6616bec5d26c3:d2f92f6b7edc9a1a05d393ba0c20ef9e
@@ -5693,6 +5693,9 @@ start
 #EXTINF:-1 type="movie" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/6457FFC1-1445-4FAC-AD15-93D021F633FE/0-2x3.jpg?width=180" group-title="Film Library",The EE BAFTA Film Awards 2025
 https://qp-pldt-vod-streaming-prod.akamaized.net/content/pubcontent/vol/6457FFC1-1445-4FAC-AD15-93D021F633FE/1739880286045-output_cenc_dash.ism/index.mpd?pipeline=ttml_removal
 
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/ba58VvRoXNdm619LcjJ3Myiz7PN.jpg" group-title="Film Library",A Cambodian Spring (2018)
+https://gstream.hollymoviehd.cc/streamsvr/eX0KTSW11O/0-4
+
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/yVd55Cmce9qxLMWH3nvMs1FL2pw.jpg" group-title="Film Library",Presence (2025)
 https://gstream.hollymoviehd.cc/streamsvr/8Ez5ZfSKo2/0-0
 
@@ -6473,36 +6476,6 @@ https://absvod.akamaized.net/c/2/m/fc28828c-eb94-11ef-9b2f-91efeac2e6ba.ism/mani
 #KODIPROP:inputstream.adaptive.license_key=8aa7e912eb9511efa8d56bf0eac2e6ba:9f89e53ee7b465466a00a896e7ab4f38
 #EXTINF:-1 tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/VOpasrQd0mDIfszLdlhrSQ.jpg" type="series" group-title="Incognito",S1E029 Detected
 https://absvod.akamaized.net/c/2/m/8aa7e912-eb95-11ef-a8d5-6bf0eac2e6ba.ism/manifest.mpd
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1aff956d4b7a35b96796a924be279fd3:921a9e776c3bc895852f97c4d7dd5fff
-#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/040517X0-portrait.jpg",80 For Brady 2023
-https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/64ddf8a9d940521074dde8cb_hbovodhd/dash0/MYS_DOLBY_index.mpd
-
-https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/5c766663be7189575a8c58e8_hbovodhd/dash0/IDN_index.mpd
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"MqlmrWO5P/a/r+Jb7EpqUg", "kid":"Y/Ef4IHOUD2E+OCd72eXOQ" } ], "type":"temporary" }
-#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/017484X0-portrait.jpg",300 2007
-https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/61b8038afbbcc21f45d24f31_hbovodhd/dash0/MYS_DOLBY_index.mpd
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"cm1mhBTLsb/V8lv8SoCt+g", "kid":"67c5unSRVjms46/i+IP1Zg" } ], "type":"temporary" }
-#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/017814X0-portrait.jpg",300: Rise Of An Empire 2014
-https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/5ef1ead56d048943f757d045_hbovodhd/dash0/MYS_DOLBY_index.mpd
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=3da7954f870d56992b55af368f401976:7fad2d7f2c64a81bf46883e1eea7e66a
-#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/040285X0-portrait.jpg",All That Breathes 2023
-https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/6406dabad940521074c9c1ce_hbovodhd/dash0/MYS_DOLBY_index.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -14565,3 +14538,32 @@ https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/62038b3ed9405210749
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"rOjEp/rhGUgVrTb1hHvoXA","kid":"/dEg8ce598a5m2Ym3cH9FA"}],"type":"temporary"}
 https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/63426f3ed940521074b740d4_hbovodhd/dash0/IDN_DOLBY_index.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1aff956d4b7a35b96796a924be279fd3:921a9e776c3bc895852f97c4d7dd5fff
+#EXTINF:-1 type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://image.tmdb.org/t/p/original/arHuVD9ofBSXhES4KK7LyjgeSvx.jpg",80 For Brady (2023)
+https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/64ddf8a9d940521074dde8cb_hbovodhd/dash0/MYS_DOLBY_index.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"MqlmrWO5P/a/r+Jb7EpqUg", "kid":"Y/Ef4IHOUD2E+OCd72eXOQ" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://image.tmdb.org/t/p/w1280/h7Lcio0c9ohxPhSZg42eTlKIVVY.jpg",300 (2007)
+https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/61b8038afbbcc21f45d24f31_hbovodhd/dash0/MYS_DOLBY_index.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"cm1mhBTLsb/V8lv8SoCt+g", "kid":"67c5unSRVjms46/i+IP1Zg" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://image.tmdb.org/t/p/w1280/wYDdWN1McB1Sio4z1dPSkb40Z78.jpg",300: Rise Of An Empire (2014)
+https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/5ef1ead56d048943f757d045_hbovodhd/dash0/MYS_DOLBY_index.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=3da7954f870d56992b55af368f401976:7fad2d7f2c64a81bf46883e1eea7e66a
+#EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://image.tmdb.org/t/p/w1280/xgTyGlmOYnDwUugITwd8MY5AQ5F.jpg",All That Breathes (2023) 
+https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/6406dabad940521074c9c1ce_hbovodhd/dash0/MYS_DOLBY_index.mpd
+

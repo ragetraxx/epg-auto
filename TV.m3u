@@ -2515,7 +2515,7 @@ http://212.102.60.231/WWE/manifest.m3u8
 
 #EXTINF:-1 tvg-id="NFL.Network.us" tvg-name="NFL Network" tvg-logo="https://cdn2.downdetector.com/static/uploads/c/300/31114/NFL_Network_logo.png" ch-number="464" group-title="USA Channels",  NFL Network
 #EXTHTTP:{"connection":"keep-alive","user-agent":"Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.163 Mobile Safari/537.36"}
-http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
+http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-id="NFL.RedZone.us" tvg-name="NFL Redzone HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/NFL_Network_Redzone.png" ch-number="465" group-title="USA Channels",    NFL Redzone
 #EXTHTTP:{"connection":"keep-alive","user-agent":"Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.163 Mobile Safari/537.36"}

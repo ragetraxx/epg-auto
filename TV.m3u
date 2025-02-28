@@ -5688,6 +5688,12 @@ https://gstream.hollymoviehd.cc/streamsvr/7c92ZV-Wsv/0-2
 
 start
 
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg" group-title="Film Library",Civil War (2024)
+https://gstream.hollymoviehd.cc/streamsvr/-lHAXOFM7x/0-0
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/1XaPBkYFr7OnPuD36Yer3ueFWrK.jpg" group-title="Film Library",Marked Men: Rule + Shaw (2025)
+https://gstream.hollymoviehd.cc/streamsvr/gCUqbJyrOG/0-2
+
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/cXzCOx1hUuU9CfmiEv6rXjb6EqU.jpg" group-title="Film Library",The Lord of the Rings: The War of the Rohirrim (2024)
 https://gstream.hollymoviehd.cc/streamsvr/pPkGVDpY-n/0-1
 
@@ -5842,6 +5848,9 @@ https://gstream.hollymoviehd.cc/streamsvr/RbI373b2l9/0-3
 
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/ccn6bFUA5DECjA3Lo0CuJqGNQCv.jpg" group-title="Film Library",(Movie) One of Them Days
 https://gstream.hollymoviehd.cc/streamsvr/umZheAX-Pi/0-1
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/qg1KYq9IsUkZiXiSbMGVwHogTDw.jpg" group-title="Pinoy Films",Pasahero (2024)
+https://gstream.hollymoviehd.cc/streamsvr/aVbw6XWukI/0-0
 
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/sUUUxJhuU16h1hD8qrzDphXRyTA.jpg" group-title="Pinoy Films",Sosyal Climbers (2025)
 https://gstream.hollymoviehd.cc/streamsvr/TpFjiIB8k5/0-2
@@ -6088,33 +6097,43 @@ https://gstream.hollymoviehd.cc/streamsvr/xp8bTGLk5O/0-4
 https://vod.provider.plex.tv/library/metadata/60ad2998c037da002dbd41c1/extras/65456aaa5a93d570de20d943/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=nUsUTVGiaGpBsoJiX9gZ
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/8uib4EWHrAnhUg08pFLAnoo50rf.jpg" group-title="Shōgun",S01E01 Anjin
-https://gstream.hollyserieshd.cc/streamsvr/6RH0NO9G2U/0-5
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
+https://gstream.hollymoviehd.cc/streamsvr/6RH0NO9G2U/0-5
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/gUglbYu9EjhpVoxzBWHsXVQYpQX.jpg" group-title="Shōgun",S01E02 Servants of Two Masters
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/ZeXtZCRpAZ/0-1
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/uXMdeoIltO85372VLX85abAC109.jpg" group-title="Shōgun",S01E03 Tomorrow Is Tomorrow
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/n72k-FSVgf/0-3
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/kF8DfadGNPJi3fMZEZgiFRaoRH9.jpg" group-title="Shōgun",S01E04 The Eightfold Fence
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/kkMXoVPLkk/0-3
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/5N5isVZvgdYeGsASiUgQJzHW6Ll.jpg" group-title="Shōgun",S01E05 Broken to the Fist
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/ctAS9-0ZM0/0-1
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/15qoHmtC3zKQtZulccXs2GAMnKq.jpg" group-title="Shōgun",S01E06 Ladies of the Willow World
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/FzHOEdPy59/0-5
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/s5yGuWq058n3urFKDIwjyNOzgCD.jpg" group-title="Shōgun",S01E07 A Stick of Time
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/DswYQc0OB9/0-4
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/jX99BvnOAF2bNjQvNHtMmCxmUOa.jpg" group-title="Shōgun",S01E08 The Abyss of Life
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/13zDgqEvBR/0-5
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/tAoNG2uBLRYJZKJOq9k9Xvb0voT.jpg" group-title="Shōgun",S01E09 Crimson Sky
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/6Ktn2ipzM-/0-0
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/dIXtG4MafmmjzNhU7ANJZByGmvr.jpg" group-title="Shōgun",S01E010A Dream of a Dream
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"Kodi/21.0"}
 https://gstream.hollyserieshd.cc/streamsvr/6vqwOEoKAN/0-5
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/ujU2vr6ATIcscYm66FhuI9Vx48Q.jpg" group-title="Britains Got Talent Season 18",Episode 1
@@ -6355,7 +6374,6 @@ https://gstream.hollymoviehd.cc/streamsvr/OwWHAeOVxq/0-3
 
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/d6aiEgFoFfWrdXwxdn52mTfDCnx.jpg" group-title="Pinoy Films",Three Words to Forever (2018)
 https://gstream.hollymoviehd.cc/streamsvr/m22z--ck3-/0-4
-
 Incognito
 
 #EXTINF:-1 tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/t3KzMo22gpM72i2V2AysQg.jpg" group-title="Now Streaming",Incognito Trailer
@@ -7658,3 +7676,4 @@ https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/5fca2a096d048943f76
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ldz87Ksi8AqsDCEPgE7CfQ", "kid":"1l8/iOlzX2auDOjqGODmCg" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="" type="movie" group-title="HBO GO! MOVIES ASIA" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/030581X0-portrait.jpg",Wonder Woman 1984 2020
 https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/63bf8370d940521074c309f2_hbovodhd/dash0/MYS_DOLBY_index.mpd
+

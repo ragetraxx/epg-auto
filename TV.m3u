@@ -2515,7 +2515,7 @@ http://212.102.60.231/WWE/manifest.m3u8
 
 #EXTINF:-1 tvg-id="NFL.Network.us" tvg-name="NFL Network" tvg-logo="https://cdn2.downdetector.com/static/uploads/c/300/31114/NFL_Network_logo.png" ch-number="464" group-title="USA Channels",  NFL Network
 #EXTHTTP:{"connection":"keep-alive","user-agent":"Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.163 Mobile Safari/537.36"}
-http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
+http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-id="NFL.RedZone.us" tvg-name="NFL Redzone HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/NFL_Network_Redzone.png" ch-number="465" group-title="USA Channels",    NFL Redzone
 #EXTHTTP:{"connection":"keep-alive","user-agent":"Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.163 Mobile Safari/537.36"}
@@ -5688,10 +5688,34 @@ https://gstream.hollymoviehd.cc/streamsvr/7c92ZV-Wsv/0-2
 
 start
 
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/cXzCOx1hUuU9CfmiEv6rXjb6EqU.jpg" group-title="Film Library",The Lord of the Rings: The War of the Rohirrim (2024)
+https://gstream.hollymoviehd.cc/streamsvr/pPkGVDpY-n/0-1
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/q88TUs0LYOS2ZnyBxpDjWtyZddN.jpg" group-title="Film Library",82nd Golden Globe Awards (2025)
+https://gstream.hollymoviehd.cc/streamsvr/4ytf4pUd-4/0-3
+
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6457ffc114454facad1593d021f633fe:2a1296135a6612f54295f0764c9c5460
 #EXTINF:-1 type="movie" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/6457FFC1-1445-4FAC-AD15-93D021F633FE/0-2x3.jpg?width=180" group-title="Film Library",The EE BAFTA Film Awards 2025
 https://qp-pldt-vod-streaming-prod.akamaized.net/content/pubcontent/vol/6457FFC1-1445-4FAC-AD15-93D021F633FE/1739880286045-output_cenc_dash.ism/index.mpd?pipeline=ttml_removal
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/6Tzq8vYW5ji0WQnMkg8kBFx3tWJ.jpg" group-title="Film Library",Black Diamond (2025)
+https://gstream.hollymoviehd.cc/streamsvr/GKJvhhgDaz/0-0
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/uX40XUTBJFIskKmpThelUnRXelq.jpg" group-title="Film Library",Wish You Were Here (2025)
+https://gstream.hollymoviehd.cc/streamsvr/-tKxgMm9r0/0-4
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/hg9OeaCRSpazrfqYyEFr6BDaZW8.jpg" group-title="Film Library",Uprising (2024)
+https://gstream.hollymoviehd.cc/streamsvr/X6SBo6jBmp/0-1
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/wNKm4nC6vUyI1UluEr9nNNhGkNw.jpg" group-title="Film Library",Cold Wallet (2025)
+https://gstream.hollymoviehd.cc/streamsvr/HPkdg91CSC/0-2
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/AnDwpI8dY8iqJVUwVS5UotYAbB1.jpg" group-title="Film Library",Squad 36 (2025)
+https://gstream.hollymoviehd.cc/streamsvr/-378ve9prl/0-2
+
+#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/3gOkUUujMQhgrUyaxOm8DMhMKny.jpg" group-title="Film Library",Uppercut (2025)
+https://gstream.hollymoviehd.cc/streamsvr/xe7KOhu5nl/0-3
 
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/w1280/7uVdqyf7xiHeGjxhnRTKjGnO0Gm.jpg" group-title="Film Library",The Wrong Track (2025)
 https://gstream.hollymoviehd.cc/streamsvr/Pw7lhXoJdi/0-2
@@ -6058,83 +6082,64 @@ https://gstream.hollymoviehd.cc/streamsvr/HoGfQ6z0zd/0-0
 #EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/8YrHSzR89PZxIhF1a1ZVhQX7OlJ.jpg" group-title="Film Library",Woodstock (1970)
 https://gstream.hollymoviehd.cc/streamsvr/xp8bTGLk5O/0-4
 
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/wXW9DAuzWwRP6cYBA83yoW0SUil.jpg" group-title="Beast Games",S1E1 1000 People Fight for 5000000 Dollars
-https://gstream.hollymoviehd.cc/streamsvr/aUgu9T3Dzo/0-0
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/w4pW3bt0oEniODSioG0ltLS4uXP.jpg" group-title="Beast Games",S1E2 500 People Trapped In My City
-https://gstream.hollymoviehd.cc/streamsvr/XnbFplFumB/0-2
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/r6LRRaA2l2tMDttWbYl3dXdJUij.jpg" group-title="Beast Games",S1E3 The Solitary Experiment
-https://gstream.hollymoviehd.cc/streamsvr/YIO3T3pKtT/0-2
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/2QNfQswP320ttvEoVb2eUh8tU9P.jpg" group-title="Beast Games",S1E4 The Golden Ticket
-https://gstream.hollymoviehd.cc/streamsvr/tl4ACC_INT/0-5
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/6c1n1RiCYIpXiztDXbQikaAemJ0.jpg" group-title="Beast Games",S1E5 Fight to Win a Private Island
-https://gstream.hollymoviehd.cc/streamsvr/Ruohe5m_uN/0-1
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/tIZSccaZkjZfSHgdvGWRMx8UIDb.jpg" group-title="Beast Games",S1E6 Physical Mental Chance...Your Choice
-https://gstream.hollymoviehd.cc/streamsvr/g3viHIvF6w/0-4
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/O1rMgJBF9rsNpZaSI0vx8jp2po.jpg" group-title="Beast Games",S1E7 The Elimination Train
-https://gstream.hollymoviehd.cc/streamsvr/KTpMDS95fT/0-4
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/mgBC43tl3suXVZwepRogyLiYpJZ.jpg" group-title="Beast Games",S1E8 Can We Talk…For A Minute
-https://gstream.hollymoviehd.cc/streamsvr/6QHkisT6hY/0-5
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/iyOqWdMZs3rok2gCu0knq2KwT56.jpg" group-title="Beast Games",S1E9 Bribe Your Way to the Finale
-https://gstream.hollymoviehd.cc/streamsvr/-0lkf2VrYT/0-2
-
-#EXTINF:-1 type="movie" tvg-logo="https://image.tmdb.org/t/p/original/a0GffywWSzQZ77fdjUBOex8Zi1g.jpg" group-title="Beast Games",S1E010 Coin Flip
-https://gstream.hollymoviehd.cc/streamsvr/PwKdCVS-9Y/0-2
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/fmo7pOmLThRpUEKuMXnnpy6g6DU.jpg" group-title="Squid Game",S02E01 Bread and Lottery
-https://gstream.hollymoviehd.cc/streamsvr/kaJKCucZmM/0-3
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/qtAhq9RZnVRqooQfLW7JZOEzrbS.jpg" group-title="Squid Game",S02E02 Halloween Party
-https://gstream.hollymoviehd.cc/streamsvr/Yf886L98TY/0-1
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/yL7phVQmwbBr0IVrDnqsNiPrpwQ.jpg" group-title="Squid Game",S02E03 001
-https://gstream.hollymoviehd.cc/streamsvr/5rPFXVV4vB/0-3
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/gbtaPIZeFwViB25zigpU42UALEE.jpg" group-title="Squid Game",S02E04 Six Legs
-https://gstream.hollymoviehd.cc/streamsvr/WtJ_5zvtBK/0-5
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/575R0zTaCUtmLjLSsBp3hLl1DQn.jpg" group-title="Squid Game",S02E05 One More Game
-https://gstream.hollymoviehd.cc/streamsvr/K1d-Yr8Jg_/0-0
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/jlzRf80aoGnKrEcREmsFA5WvzAM.jpg" group-title="Squid Game",S02E06 O X
-https://gstream.hollymoviehd.cc/streamsvr/2kzhjoGg5e/0-4
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/tO8hO3jWp4JveXmBbPikd4IQbss.jpg" group-title="Squid Game",S02E07 Friend or Foe
-https://gstream.hollymoviehd.cc/streamsvr/FRmcfuEfON/0-0
-
-Wednesday
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E01 Wednesdays Child Is Full of Woe
-https://gstream.hollymoviehd.cc/streamsvr/6sdvonz8NV/0-5
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E02 Woe Is the Loneliest Number
-https://gstream.hollymoviehd.cc/streamsvr/ecKF4Tq7ex/0-0
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E03 Friend or Woe
-https://gstream.hollymoviehd.cc/streamsvr/FK3FWezBc2/0-1
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E04 Woe What a Night
-https://gstream.hollymoviehd.cc/streamsvr/QQXvCgT_MM/0-0
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E05 You Reap What You Woe
-https://gstream.hollymoviehd.cc/streamsvr/efebZVdStR/0-0
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E06 Quid Pro Woe
-https://gstream.hollymoviehd.cc/streamsvr/cw_LMx8MW1/0-1
-
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E07 If You Don't Woe Me by Now
-https://gstream.hollymoviehd.cc/streamsvr/QZCfmeyo6P/0-5
 
 
-#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" group-title="Wednesday", S01E08 A Murder of Woes
-https://gstream.hollymoviehd.cc/streamsvr/khx79EbWlD/0-0
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/edbba8kF5dMyF8hPgGiP1aPAX1I.jpg" group-title="Now Streaming",Shōgun
+https://vod.provider.plex.tv/library/metadata/60ad2998c037da002dbd41c1/extras/65456aaa5a93d570de20d943/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=nUsUTVGiaGpBsoJiX9gZ
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/8uib4EWHrAnhUg08pFLAnoo50rf.jpg" group-title="Shōgun",S01E01 Anjin
+https://gstream.hollyserieshd.cc/streamsvr/6RH0NO9G2U/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/gUglbYu9EjhpVoxzBWHsXVQYpQX.jpg" group-title="Shōgun",S01E02 Servants of Two Masters
+https://gstream.hollyserieshd.cc/streamsvr/ZeXtZCRpAZ/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/uXMdeoIltO85372VLX85abAC109.jpg" group-title="Shōgun",S01E03 Tomorrow Is Tomorrow
+https://gstream.hollyserieshd.cc/streamsvr/n72k-FSVgf/0-3
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/kF8DfadGNPJi3fMZEZgiFRaoRH9.jpg" group-title="Shōgun",S01E04 The Eightfold Fence
+https://gstream.hollyserieshd.cc/streamsvr/kkMXoVPLkk/0-3
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/5N5isVZvgdYeGsASiUgQJzHW6Ll.jpg" group-title="Shōgun",S01E05 Broken to the Fist
+https://gstream.hollyserieshd.cc/streamsvr/ctAS9-0ZM0/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/15qoHmtC3zKQtZulccXs2GAMnKq.jpg" group-title="Shōgun",S01E06 Ladies of the Willow World
+https://gstream.hollyserieshd.cc/streamsvr/FzHOEdPy59/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/s5yGuWq058n3urFKDIwjyNOzgCD.jpg" group-title="Shōgun",S01E07 A Stick of Time
+https://gstream.hollyserieshd.cc/streamsvr/DswYQc0OB9/0-4
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/jX99BvnOAF2bNjQvNHtMmCxmUOa.jpg" group-title="Shōgun",S01E08 The Abyss of Life
+https://gstream.hollyserieshd.cc/streamsvr/13zDgqEvBR/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/tAoNG2uBLRYJZKJOq9k9Xvb0voT.jpg" group-title="Shōgun",S01E09 Crimson Sky
+https://gstream.hollyserieshd.cc/streamsvr/6Ktn2ipzM-/0-0
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/dIXtG4MafmmjzNhU7ANJZByGmvr.jpg" group-title="Shōgun",S01E010A Dream of a Dream
+https://gstream.hollyserieshd.cc/streamsvr/6vqwOEoKAN/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/ujU2vr6ATIcscYm66FhuI9Vx48Q.jpg" group-title="Britains Got Talent Season 18",Episode 1
+https://gstream.hollymoviehd.cc/streamsvr/0JnooJtOyF/0-2
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/frBmrEXytYo6tlgZb5NJ2UnPzRU.jpg" group-title="Now Streaming",The Walking Dead The Ones Who Live
+https://vod.provider.plex.tv/library/metadata/6372d74656262adbf1f16be0/extras/65bdf2619f219f7916a694c5/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=CmG3NWZNz-ihWh8A9d19
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/hikNgOTUgd6ASVqHgvW6TpjoZGG.jpg" group-title="The Walking Dead: The Ones Who Live", S01E01 Years
+https://gstream.hollymoviehd.cc/streamsvr/0a6g8kDVxN/0-3
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/faHjP0CJp4f57xcSjE7UlntNPyR.jpg" group-title="The Walking Dead: The Ones Who Live", S01E02 Gone
+https://gstream.hollymoviehd.cc/streamsvr/uOYX5uBLmb/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/o1Qw7o1ab4tAzMUh5esJ41TNpZF.jpg" group-title="The Walking Dead: The Ones Who Live", S01E03 Bye
+https://gstream.hollymoviehd.cc/streamsvr/fAaR09njfb/0-3
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/93RqOHVclGyBoH4FIi3VmHnlxXe.jpg" group-title="The Walking Dead: The Ones Who Live", S01E04 What We
+https://gstream.hollymoviehd.cc/streamsvr/kggO9YhWwp/0-0
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/q6Vqo90TAbu9NbuIhPgxzgIZogh.jpg" group-title="The Walking Dead: The Ones Who Live", S01E05 Become
+https://gstream.hollymoviehd.cc/streamsvr/W6DW4HslZP/0-0
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/aC727VkeHt1XTo7yzzHA0emwmvx.jpg" group-title="The Walking Dead: The Ones Who Live", S01E06 The Last Time
+https://gstream.hollymoviehd.cc/streamsvr/bfTqHNSo16/0-0
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eegDeQKEMEZ9L1RVSDV01S06UCh.jpg" group-title="Now Streaming",Newtopia (2025)
 https://vod.provider.plex.tv/library/metadata/64f0db0287c790ed9c0b9988/extras/67846b36b7280973dc69452c/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=LTnkZxdDnevmN812s1kx
@@ -6150,6 +6155,9 @@ https://gstream.hollymoviehd.cc/streamsvr/X52rtjB1Fw/0-0
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/7902tvNhWHaweGsZd3eZbFUgtVp.jpg" group-title="Newtopia",S01E04 Episode 4
 https://gstream.hollymoviehd.cc/streamsvr/jKjo-dE8x_/0-4
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/3TEc3IZatG2QkDLfWNxG0QWzLqa.jpg" group-title="Newtopia",S01E05 Episode 5
+https://gstream.hollymoviehd.cc/streamsvr/c3QSRNAc4W/0-1
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/65MS4IWTecmsm6XnqBO9DMtGUgw.jpg" group-title="Now Streaming",High Potential
 https://vod.provider.plex.tv/library/metadata/646e036d7a2b3b58610b5cab/extras/67a211c9dd0590fb00d82684/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=r779--4jnCCb2W7j6aws

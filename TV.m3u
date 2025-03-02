@@ -6187,6 +6187,50 @@ https://gstream.hollymoviehd.cc/streamsvr/5jE79fktUU/0-0
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/hOWw1dyYeiBRB8CACkkUuvBl0nE.jpg" group-title="High Potential",S01E013 Let's Play
 https://gstream.hollymoviehd.cc/streamsvr/djLdCFsWOu/0-5
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/edbba8kF5dMyF8hPgGiP1aPAX1I.jpg" group-title="Now Streaming",Shōgun
+https://vod.provider.plex.tv/library/metadata/60ad2998c037da002dbd41c1/extras/65456aaa5a93d570de20d943/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=nUsUTVGiaGpBsoJiX9gZ
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/8uib4EWHrAnhUg08pFLAnoo50rf.jpg" group-title="Shōgun",S01E01 Anjin
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/6RH0NO9G2U/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/gUglbYu9EjhpVoxzBWHsXVQYpQX.jpg" group-title="Shōgun",S01E02 Servants of Two Masters
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/ZeXtZCRpAZ/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/uXMdeoIltO85372VLX85abAC109.jpg" group-title="Shōgun",S01E03 Tomorrow Is Tomorrow
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/n72k-FSVgf/0-3
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/kF8DfadGNPJi3fMZEZgiFRaoRH9.jpg" group-title="Shōgun",S01E04 The Eightfold Fence
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/kkMXoVPLkk/0-3
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/5N5isVZvgdYeGsASiUgQJzHW6Ll.jpg" group-title="Shōgun",S01E05 Broken to the Fist
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/ctAS9-0ZM0/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/15qoHmtC3zKQtZulccXs2GAMnKq.jpg" group-title="Shōgun",S01E06 Ladies of the Willow World
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/FzHOEdPy59/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/s5yGuWq058n3urFKDIwjyNOzgCD.jpg" group-title="Shōgun",S01E07 A Stick of Time
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/DswYQc0OB9/0-4
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/jX99BvnOAF2bNjQvNHtMmCxmUOa.jpg" group-title="Shōgun",S01E08 The Abyss of Life
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/13zDgqEvBR/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/tAoNG2uBLRYJZKJOq9k9Xvb0voT.jpg" group-title="Shōgun",S01E09 Crimson Sky
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/6Ktn2ipzM-/0-0
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/dIXtG4MafmmjzNhU7ANJZByGmvr.jpg" group-title="Shōgun",S01E010 A Dream of a Dream
+#EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
+https://gstream.hollymoviehd.cc/streamsvr/6vqwOEoKAN/0-5
+
+
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/rGBgFM5INpRbCkShsLhOF0hxUA9.jpg" tvg-id="" tvg-country="Philippines" tvg-info="The Pitt" group-title="The Pitt", S01E1 7:00 AM
 https://gstream.hollymoviehd.cc/streamsvr/YajyiuLFwl/0-2
 

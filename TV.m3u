@@ -6230,6 +6230,26 @@ https://gstream.hollymoviehd.cc/streamsvr/6Ktn2ipzM-/0-0
 #EXTHTTP:{"Connection":"keep-alive","user-agent":"ExoPlayerLib/2.15.1 ExoPlayerDemo/2.15.1 (Linux;Android 14)"}
 https://gstream.hollymoviehd.cc/streamsvr/6vqwOEoKAN/0-5
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/t6vF3ZSmtwDKAoyzrDXn3Q4vMsI.jpg" group-title="Now Streaming",Zero Day
+https://vod.provider.plex.tv/library/metadata/64010db42ab22540d29cbf4a/extras/6791838e05f3c1f1a92b5187/parts/hls.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=dq8xwHkszywdxKb-TUt_
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/21g2S1IetHHgNiDnFLfmMskat9I.jpg" group-title="Zero Day",S01E01 Episode 1
+https://gstream.hollymoviehd.cc/streamsvr/Pg4w6JilHX/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/mqWDwTtNYVPYRKnb0RmMu9XtRcu.jpg" group-title="Zero Day",S01E02 Episode 2
+https://gstream.hollymoviehd.cc/streamsvr/PtLDVlxfhG/0-0
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/3skvIi6EKl86Ftybyih7KftgL8i.jpg" group-title="Zero Day",S01E03 Episode 3
+https://gstream.hollymoviehd.cc/streamsvr/WMoR7CwymN/0-0
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/wefzP0WGXGSWfHHexWWHrmb3r2l.jpg" group-title="Zero Day",S01E04 Episode 4
+https://gstream.hollymoviehd.cc/streamsvr/AnkmUplAke/0-2
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/ge0hY7Me2ivvSz4dfBwT7dEwt8I.jpg" group-title="Zero Day",S01E05 Episode 5
+https://gstream.hollymoviehd.cc/streamsvr/sahKtXrQtT/0-5
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/m1bQkshHQU9WhSxY29xTiqIZYQx.jpg" group-title="Zero Day",S01E06 Episode 6
+https://gstream.hollymoviehd.cc/streamsvr/H6ygqf8MHd/0-3
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/rGBgFM5INpRbCkShsLhOF0hxUA9.jpg" tvg-id="" tvg-country="Philippines" tvg-info="The Pitt" group-title="The Pitt", S01E1 7:00 AM
 https://gstream.hollymoviehd.cc/streamsvr/YajyiuLFwl/0-2
@@ -6264,6 +6284,9 @@ https://gstream.hollymoviehd.cc/streamsvr/m-EZ6QzxCD/0-2
 
 #EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/gwVzPPtJEdMGoIPjQVUdlSZkKzl.jpg" group-title="The White Lotus", S03E02 Special Treatments
 https://gstream.hollymoviehd.cc/streamsvr/B0XTtgudg-/0-1
+
+#EXTINF:-1 type="series" tvg-logo="https://image.tmdb.org/t/p/original/wCR6wNzG9OiCMo5FZHWjXXr5r1.jpg" group-title="The White Lotus", S03E03 The Meaning of Dreams
+https://gstream.hollymoviehd.cc/streamsvr/1PYia7OQvq/0-3
 
 
 Wolf Like Me
@@ -6545,6 +6568,11 @@ https://absvod.akamaized.net/c/2/m/0ba09dd6-f049-11ef-92b2-9bbeeac2e6ba.ism/mani
 #KODIPROP:inputstream.adaptive.license_key=9cb09d9ef04911ef94afdebceac2e6ba:5409f7bb6b0f8ca98d109d203a5b9eb4
 #EXTINF:-1 tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/Tjhd75XfyJeBlbo_VdCixw.jpg" type="series" group-title="Incognito",S1E031 Track Down
 https://absvod.akamaized.net/c/2/m/9cb09d9e-f049-11ef-94af-debceac2e6ba.ism/manifest.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c2ec487cf57711efa9f28f4ee6eab83f:b4bbc521db72c7665c48bfe5b600b30d
+#EXTINF:-1 tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/OVyET-uEJ616bnRv3D69gA.jpg" type="series" group-title="Incognito",S1E032 Back Up
+https://absvod.akamaized.net/c/2/m/c2ec487c-f577-11ef-a9f2-8f4ee6eab83f.ism/manifest.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash

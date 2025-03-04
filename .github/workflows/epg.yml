@@ -21,10 +21,15 @@ jobs:
           grep '^#EXTINF' TV.m3u | awk -F'tvg-id="' '{print $2}' | awk -F'"' '{print $1}' > channels.txt
           cat channels.txt  # Print extracted channels for debugging
 
-      - name: Fetch EPG XML
+      - name: Fetch and Extract EPG XML
         run: |
           curl -o epg.xml.gz "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
           gunzip -f epg.xml.gz || mv epg.xml.gz epg.xml  # Extract if compressed
+
+      - name: Filter EPG XML to Keep Only Needed Channels
+        run: |
+          grep -Ff channels.txt epg.xml > filtered_epg.xml || echo "No matching channels found"
+          mv filtered_epg.xml epg.xml
 
       - name: Commit and Push Changes
         run: |

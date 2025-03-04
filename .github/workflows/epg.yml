@@ -42,21 +42,14 @@ jobs:
           cat *.xml > merged_epg.xml
           ls -lh merged_epg.xml  # Debugging: check file size
 
-      - name: Extract Available EPG Channel IDs
-        run: |
-          grep '<channel id="' merged_epg.xml | awk -F'id="' '{print $2}' | awk -F'"' '{print $1}' > available_channels.txt
-          cat available_channels.txt  # Print available EPG channel IDs
-
-      - name: Compare Available Channels with Channel List
-        run: |
-          echo "Checking if listed channels exist in EPG..."
-          grep -Ff channels.txt available_channels.txt || echo "Some channels are missing!"
-
       - name: Filter EPG XML to Keep Only Needed Channels
         run: |
-          grep -Ff channels.txt merged_epg.xml > epg.xml || echo "No matching channels found!"
-          ls -lh epg.xml  # Debugging: check file size
-          head -n 50 epg.xml  # Print first few lines for verification
+          grep -Ff channels.txt merged_epg.xml > epg.xml || echo "" > epg.xml
+          if [ ! -s epg.xml ]; then
+            echo "Filtered EPG is empty! Using full merged EPG instead."
+            mv merged_epg.xml epg.xml
+          fi
+          ls -lh epg.xml  # Debugging: check final file size
 
       - name: Upload EPG XML to GitHub Releases
         uses: softprops/action-gh-release@v1

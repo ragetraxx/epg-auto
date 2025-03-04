@@ -17,7 +17,7 @@ jobs:
           curl -o channels.txt "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/formatted_channels.txt"
           cat channels.txt  # Debugging: print extracted channels
 
-      - name: Download & Extract EPG Files
+      - name: Download EPG Files
         run: |
           rm -f epg.xml.gz epg.xml merged_epg.xml  # Clean old files
           
@@ -34,30 +34,42 @@ jobs:
 
           for url in "${urls[@]}"; do
             filename=$(basename "$url")
+            echo "Downloading $filename..."
             curl -o "$filename" "$url"
-            gunzip -f "$filename" || mv "$filename" "${filename%.gz}"
           done
 
-      - name: Debug EPG File Extraction
+      - name: Debug Downloaded Files
         run: |
-          for file in *.xml; do
-            echo "Checking $file..."
-            ls -lh "$file"
-            head -n 10 "$file"
+          echo "Checking downloaded files..."
+          ls -lh
+
+      - name: Extract EPG XML Files
+        run: |
+          for file in *.gz; do
+            echo "Extracting $file..."
+            gunzip -f "$file" || mv "$file" "${file%.gz}"
           done
 
-      - name: Validate EPG XML Before Merging
+      - name: Debug Extracted XML Files
+        run: |
+          echo "Checking extracted XML files..."
+          ls -lh *.xml
+
+      - name: Validate and Merge EPG XML
         run: |
           echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > merged_epg.xml
           for file in *.xml; do
             if grep -q '<?xml' "$file"; then
-              tail -n +2 "$file" >> merged_epg.xml  # Skip first line
+              tail -n +2 "$file" >> merged_epg.xml
+              echo "Merged: $file"
             else
               echo "Skipping invalid XML: $file"
             fi
           done
           echo '</tv>' >> merged_epg.xml
-          ls -lh merged_epg.xml  # Debugging: check final size
+
+          echo "Final merged EPG file size:"
+          ls -lh merged_epg.xml
 
       - name: Filter EPG XML to Keep Only Needed Channels
         run: |

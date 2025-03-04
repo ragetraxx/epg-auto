@@ -41,8 +41,9 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git stash  # Temporarily save unstaged changes
           git pull --rebase
-          git status  # Debugging: Show changed files
+          git stash pop || echo "No stashed changes to apply"  # Restore changes
           git add epg.xml channels.txt
           git commit -m "Auto-updated EPG & Channels" --allow-empty
           git push

@@ -15,14 +15,14 @@ jobs:
       - name: Fetch Channel List
         run: |
           curl -o channels.txt "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/formatted_channels.txt"
-          cat channels.txt
+          cat channels.txt  # Debugging: print extracted channels
 
       - name: Fetch and Extract EPG XML
         run: |
           rm -f epg.xml.gz epg.xml  # Remove old files to force fresh download
           curl -o epg.xml.gz "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
           gunzip -f epg.xml.gz || mv epg.xml.gz epg.xml  # Extract if compressed
-          ls -lh epg.xml  # Check file size
+          ls -lh epg.xml  # Debugging: check file size
 
       - name: Filter EPG XML to Keep Only Needed Channels
         run: |
@@ -33,6 +33,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git pull --rebase  # Prevent push conflicts
           git add epg.xml channels.txt
           git commit -m "Auto-updated EPG & Channels" --allow-empty
           git push

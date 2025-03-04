@@ -9,6 +9,13 @@ jobs:
   update-epg:
     runs-on: ubuntu-latest
     steps:
+      - name: Free Up Disk Space
+        run: |
+          echo "Freeing up disk space..."
+          sudo rm -rf /usr/local/lib/android /opt/ghc /usr/share/dotnet
+          sudo apt-get clean
+          df -h  # Show free disk space after cleanup
+
       - name: Checkout repository
         uses: actions/checkout@v3
 

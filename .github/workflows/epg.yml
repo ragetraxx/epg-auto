@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch TV.m3u File
         run: |
-          curl -o TV.m3u "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/TV.m3u"
+          curl -o formatted_channels.txt "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/TV.m3u"
 
       - name: Extract Channel List
         run: |

@@ -12,15 +12,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch New EPG XML
+      - name: Fetch TV.m3u File
+        run: |
+          curl -o TV.m3u "https://raw.githubusercontent.com/ragetraxx/github.io/main/TV.m3u"
+
+      - name: Extract Channel List
+        run: |
+          grep '^#EXTINF' TV.m3u | awk -F'tvg-id="' '{print $2}' | awk -F'"' '{print $1}' > channels.txt
+
+      - name: Fetch EPG XML
         run: |
           curl -o epg.xml "https://epg.pw/xmltv/epg_ALL.xml.gz"
-          gunzip -f epg.xml.gz  # Extracts the file if it's compressed
+          gunzip -f epg.xml.gz  # Extracts the XML file if compressed
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add epg.xml
+          git add epg.xml channels.txt
           git commit -m "Auto-updated EPG" || exit 0
           git push

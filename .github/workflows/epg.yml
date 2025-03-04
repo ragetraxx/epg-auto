@@ -14,11 +14,11 @@ jobs:
 
       - name: Fetch TV.m3u File
         run: |
-          curl -o TV.m3u "https://raw.githubusercontent.com/ragetraxx/github.io/main/TV.m3u"
+          curl -o TV.m3u "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/TV.m3u"
 
       - name: Extract Channel List
         run: |
-          grep '^#EXTINF' TV.m3u | sed -n 's/.*tvg-id="[^"]*".*/\1/p' > channels.txt
+          grep '^#EXTINF' TV.m3u | awk -F'tvg-id="' '{print $2}' | awk -F'"' '{print $1}' > channels.txt
           cat channels.txt  # Print extracted channels for debugging
 
       - name: Fetch EPG XML

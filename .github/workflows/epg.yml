@@ -21,7 +21,6 @@ jobs:
         run: |
           rm -f epg.xml.gz epg.xml merged_epg.xml  # Clean old files
           
-          # List of EPG URLs
           urls=(
             "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
             "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
@@ -33,27 +32,31 @@ jobs:
             "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"
           )
 
-          # Download & extract each EPG source
           for url in "${urls[@]}"; do
-            filename=$(basename "$url")  # Extract filename from URL
+            filename=$(basename "$url")
             curl -o "$filename" "$url"
             gunzip -f "$filename" || mv "$filename" "${filename%.gz}"
           done
 
-          # Merge all EPG files into one
+          # Merge all EPG files
           cat *.xml > merged_epg.xml
-
-          # Ensure EPG XML is valid (Optional)
           ls -lh merged_epg.xml  # Debugging: check file size
+
+      - name: Extract Available EPG Channel IDs
+        run: |
+          grep '<channel id="' merged_epg.xml | awk -F'id="' '{print $2}' | awk -F'"' '{print $1}' > available_channels.txt
+          cat available_channels.txt  # Print available EPG channel IDs
+
+      - name: Compare Available Channels with Channel List
+        run: |
+          echo "Checking if listed channels exist in EPG..."
+          grep -Ff channels.txt available_channels.txt || echo "Some channels are missing!"
 
       - name: Filter EPG XML to Keep Only Needed Channels
         run: |
-          if grep -Ff channels.txt merged_epg.xml > epg.xml; then
-            echo "Filtered EPG saved."
-          else
-            echo "No matching channels found! Keeping original EPG."
-            mv merged_epg.xml epg.xml
-          fi
+          grep -Ff channels.txt merged_epg.xml > epg.xml || echo "No matching channels found!"
+          ls -lh epg.xml  # Debugging: check file size
+          head -n 50 epg.xml  # Print first few lines for verification
 
       - name: Upload EPG XML to GitHub Releases
         uses: softprops/action-gh-release@v1

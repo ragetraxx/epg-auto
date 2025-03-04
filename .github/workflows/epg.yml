@@ -38,9 +38,26 @@ jobs:
             gunzip -f "$filename" || mv "$filename" "${filename%.gz}"
           done
 
-          # Merge all EPG files
-          cat *.xml > merged_epg.xml
-          ls -lh merged_epg.xml  # Debugging: check file size
+      - name: Debug EPG File Extraction
+        run: |
+          for file in *.xml; do
+            echo "Checking $file..."
+            ls -lh "$file"
+            head -n 10 "$file"
+          done
+
+      - name: Validate EPG XML Before Merging
+        run: |
+          echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > merged_epg.xml
+          for file in *.xml; do
+            if grep -q '<?xml' "$file"; then
+              tail -n +2 "$file" >> merged_epg.xml  # Skip first line
+            else
+              echo "Skipping invalid XML: $file"
+            fi
+          done
+          echo '</tv>' >> merged_epg.xml
+          ls -lh merged_epg.xml  # Debugging: check final size
 
       - name: Filter EPG XML to Keep Only Needed Channels
         run: |
@@ -49,7 +66,7 @@ jobs:
             echo "Filtered EPG is empty! Using full merged EPG instead."
             mv merged_epg.xml epg.xml
           fi
-          ls -lh epg.xml  # Debugging: check final file size
+          ls -lh epg.xml  # Debugging: check final size
 
       - name: Upload EPG XML to GitHub Releases
         uses: softprops/action-gh-release@v1

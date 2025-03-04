@@ -22,8 +22,8 @@ jobs:
 
       - name: Fetch EPG XML
         run: |
-          curl -o epg.xml "https://epg.pw/xmltv/epg_ALL.xml.gz"
-          gunzip -f epg.xml.gz  # Extracts the XML file if compressed
+          curl -o epg.xml.gz "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+          gunzip -f epg.xml.gz || mv epg.xml.gz epg.xml  # Extract if compressed
 
       - name: Commit and Push Changes
         run: |

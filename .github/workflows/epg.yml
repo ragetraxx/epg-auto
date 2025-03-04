@@ -17,12 +17,43 @@ jobs:
           curl -o channels.txt "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/formatted_channels.txt"
           cat channels.txt  # Debugging: print extracted channels
 
-      - name: Fetch and Extract EPG XML
+      - name: Download & Extract EPG Files
         run: |
-          rm -f epg.xml.gz epg.xml  # Remove old files
-          curl -o epg.xml.gz "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-          gunzip -f epg.xml.gz || mv epg.xml.gz epg.xml
-          ls -lh epg.xml  # Debugging: check file size
+          rm -f epg.xml.gz epg.xml merged_epg.xml  # Clean old files
+          
+          # List of EPG URLs
+          urls=(
+            "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+            "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"
+          )
+
+          # Download & extract each EPG source
+          for url in "${urls[@]}"; do
+            filename=$(basename "$url")  # Extract filename from URL
+            curl -o "$filename" "$url"
+            gunzip -f "$filename" || mv "$filename" "${filename%.gz}"
+          done
+
+          # Merge all EPG files into one
+          cat *.xml > merged_epg.xml
+
+          # Ensure EPG XML is valid (Optional)
+          ls -lh merged_epg.xml  # Debugging: check file size
+
+      - name: Filter EPG XML to Keep Only Needed Channels
+        run: |
+          if grep -Ff channels.txt merged_epg.xml > epg.xml; then
+            echo "Filtered EPG saved."
+          else
+            echo "No matching channels found! Keeping original EPG."
+            mv merged_epg.xml epg.xml
+          fi
 
       - name: Upload EPG XML to GitHub Releases
         uses: softprops/action-gh-release@v1

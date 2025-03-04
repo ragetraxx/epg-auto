@@ -9,13 +9,6 @@ jobs:
   update-epg:
     runs-on: ubuntu-latest
     steps:
-      - name: Free Up Disk Space
-        run: |
-          echo "Freeing up disk space..."
-          sudo rm -rf /usr/local/lib/android /opt/ghc /usr/share/dotnet
-          sudo apt-get clean
-          df -h  # Show free disk space after cleanup
-
       - name: Checkout repository
         uses: actions/checkout@v3
 
@@ -24,68 +17,12 @@ jobs:
           curl -o channels.txt "https://raw.githubusercontent.com/ragetraxx/epg-auto/main/formatted_channels.txt"
           cat channels.txt  # Debugging: print extracted channels
 
-      - name: Download EPG Files
+      - name: Fetch and Extract EPG XML
         run: |
-          rm -f epg.xml.gz epg.xml merged_epg.xml  # Clean old files
-          
-          urls=(
-            "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-            "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"
-          )
-
-          for url in "${urls[@]}"; do
-            filename=$(basename "$url")
-            echo "Downloading $filename..."
-            curl -o "$filename" "$url"
-          done
-
-      - name: Debug Downloaded Files
-        run: |
-          echo "Checking downloaded files..."
-          ls -lh
-
-      - name: Extract EPG XML Files
-        run: |
-          for file in *.gz; do
-            echo "Extracting $file..."
-            gunzip -f "$file" || mv "$file" "${file%.gz}"
-          done
-
-      - name: Debug Extracted XML Files
-        run: |
-          echo "Checking extracted XML files..."
-          ls -lh *.xml
-
-      - name: Validate and Merge EPG XML
-        run: |
-          echo '<?xml version="1.0" encoding="UTF-8"?><tv>' > merged_epg.xml
-          for file in *.xml; do
-            if grep -q '<?xml' "$file"; then
-              tail -n +2 "$file" >> merged_epg.xml
-              echo "Merged: $file"
-            else
-              echo "Skipping invalid XML: $file"
-            fi
-          done
-          echo '</tv>' >> merged_epg.xml
-
-          echo "Final merged EPG file size:"
-          ls -lh merged_epg.xml
-
-      - name: Filter EPG XML to Keep Only Needed Channels
-        run: |
-          grep -Ff channels.txt merged_epg.xml > epg.xml || echo "" > epg.xml
-          if [ ! -s epg.xml ]; then
-            echo "Filtered EPG is empty! Using full merged EPG instead."
-            mv merged_epg.xml epg.xml
-          fi
-          ls -lh epg.xml  # Debugging: check final size
+          rm -f epg.xml.gz epg.xml  # Remove old files
+          curl -o epg.xml.gz "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+          gunzip -f epg.xml.gz || mv epg.xml.gz epg.xml
+          ls -lh epg.xml  # Debugging: check file size
 
       - name: Upload EPG XML to GitHub Releases
         uses: softprops/action-gh-release@v1

@@ -1,4 +1,4 @@
-name: Convert HLS to DASH with ClearKey
+name: Convert HLS to DASH with ClearKey and Push to epg-auto
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub Actions
@@ -28,10 +28,16 @@ jobs:
             -encryption_kid a1b2c3d4e5f67890a1b2c3d4e5f67890 \
             output/output.mpd
 
-      - name: Commit and Push MPD to GitHub
+      - name: Checkout epg-auto Repository
         run: |
+          git clone https://github.com/ragetraxx/epg-auto.git
+          cp -r output/* epg-auto/
+
+      - name: Commit and Push MPD to epg-auto
+        run: |
+          cd epg-auto
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add output/
+          git add .
           git commit -m "Added generated MPD files"
-          git push
+          git push https://github.com/ragetraxx/epg-auto.git main

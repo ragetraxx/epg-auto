@@ -1,43 +1,43 @@
-name: Convert HLS to DASH with ClearKey and Push to epg-auto
+name: Convert HLS to MPD
 
 on:
-  workflow_dispatch:  # Allows manual triggering from GitHub Actions
+  workflow_dispatch: # Allows manual execution
+  schedule:
+    - cron: '0 * * * *' # Runs every hour (adjust as needed)
 
 jobs:
   convert:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+    - name: Install FFmpeg
+      run: sudo apt update && sudo apt install -y ffmpeg
 
-      - name: Convert HLS to MPD with ClearKey
-        run: |
-          mkdir -p output
-          ffmpeg -i "https://ssh101stream.ssh101.com/akamaissh101/ssh101/ragetv/playlist.m3u8" \
-            -c:v copy -c:a copy -f dash \
-            -seg_duration 4 \
-            -use_timeline 1 -use_template 1 \
-            -init_seg_name init-stream$RepresentationID$.m4s \
-            -media_seg_name chunk-stream$RepresentationID$-$Number$.m4s \
-            -encryption_scheme cenc-aes-ctr \
-            -encryption_key 414c4144494e4f50454e534553414d45 \
-            -encryption_kid a1b2c3d4e5f67890a1b2c3d4e5f67890 \
-            output/output.mpd
+    - name: Create Output Directory
+      run: mkdir -p output
 
-      - name: Checkout epg-auto Repository
-        run: |
-          git clone https://github.com/ragetraxx/epg-auto.git
-          cp -r output/* epg-auto/
+    - name: Convert HLS to MPD with ClearKey DRM
+      run: |
+        ffmpeg -i "https://ssh101stream.ssh101.com/akamaissh101/ssh101/ragetv/playlist.m3u8" \
+          -c:v libx264 -b:v 2500k -preset fast -keyint_min 48 -g 48 -sc_threshold 0 \
+          -c:a aac -b:a 128k -ac 2 -ar 48000 \
+          -f dash \
+          -seg_duration 4 \
+          -use_timeline 1 -use_template 1 \
+          -init_seg_name init-stream$RepresentationID$.m4s \
+          -media_seg_name chunk-stream$RepresentationID$-$Number$.m4s \
+          -encryption_scheme cenc-aes-ctr \
+          -encryption_key 414c4144494e4f50454e534553414d45 \
+          -encryption_kid a1b2c3d4e5f67890a1b2c3d4e5f67890 \
+          output/output.mpd
 
-      - name: Commit and Push MPD to epg-auto
-        run: |
-          cd epg-auto
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Added generated MPD files"
-          git push https://github.com/ragetraxx/epg-auto.git main
+    - name: Commit and Push Output File
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add output/output.mpd
+        git commit -m "Update MPD file"
+        git push

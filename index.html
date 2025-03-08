@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,35 +7,71 @@
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
         body {
-            text-align: center;
+            margin: 0;
+            padding: 0;
             background-color: #000;
             color: white;
             font-family: Arial, sans-serif;
+            text-align: center;
         }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .header img {
+            height: 40px; /* Adjust logo size */
+            margin-right: 10px;
+        }
+
         .player-container {
             position: relative;
-            display: inline-block;
+            width: 100%;
+            max-width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px; /* Avoid overlap with the header */
         }
+
         video {
-            width: 80%;
+            width: 90%;
             max-width: 800px;
-            margin-top: 20px;
+            height: auto;
             border: 2px solid #fff;
         }
-        .logo {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 100px; /* Adjust size */
-            opacity: 0.8;
+
+        @media (max-width: 600px) {
+            .header img {
+                height: 30px;
+            }
+            .header h1 {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Rage TV - Live Stream</h1>
+
+    <!-- Fixed Header with Logo and Site Name -->
+    <div class="header">
+        <img src="logo.png" alt="Logo">
+        <h1>Rage TV - Live Stream</h1>
+    </div>
+
+    <!-- Responsive Video Player -->
     <div class="player-container">
         <video id="video" controls autoplay></video>
-        <img src="logo.png" alt="Logo" class="logo">
     </div>
 
     <script>
@@ -55,5 +90,6 @@
             video.play();
         }
     </script>
+
 </body>
 </html>

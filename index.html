@@ -6,13 +6,19 @@
     <title>Rage TV Player</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
-        body {
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
             background-color: #000;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
+            height: 100vh;
+            overflow: hidden;
         }
 
         .header {
@@ -29,26 +35,26 @@
         }
 
         .header img {
-            height: 40px; /* Adjust logo size */
+            height: 40px;
             margin-right: 10px;
         }
 
         .player-container {
-            position: relative;
-            width: 100%;
-            max-width: 100vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100vw;
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 60px; /* Avoid overlap with the header */
         }
 
         video {
-            width: 90%;
-            max-width: 800px;
-            height: auto;
-            border: 2px solid #fff;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
         }
 
         @media (max-width: 600px) {
@@ -69,7 +75,7 @@
         <h1>Rage TV - Live Stream</h1>
     </div>
 
-    <!-- Responsive Video Player -->
+    <!-- Full-Screen Video Player -->
     <div class="player-container">
         <video id="video" controls autoplay></video>
     </div>

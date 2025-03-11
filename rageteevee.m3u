@@ -3,7 +3,7 @@ max-conn="9"
 
 url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml"
 
-#EXTINF:82 group-title="PBB ALL Access" tvg-id="iptv/pbballaccesslivestream" tvg-logo="https://i.imgur.com/aEnPH2R.png" provider="IPTV1" provider-logo="" provider-type="iptv", PBB All-Access Livestream
+#EXTINF:82 group-title="PBB ALL Access" group-logo="https://absprod-static.iwanttfc.com/c/6/images/8AGuj0Nj6Y-IrXeT0Xsvbw.jpg" tvg-id="iptv/pbballaccesslivestream" tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/NPGk9ajnQTxjzvYuK-Hn-Q.jpg" provider="IPTV1" provider-logo="" provider-type="iptv", PBB All-Access Livestream
 http://abslive.studentsdemo.com/hls/stream_1/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW1faWQiOiIgMSIsImV4cCI6MzMxOTUyMjc5Nn0.EMovSvY_JpfhQyqfoEkDFpGQFoszxMgabuWYK2z9lqM
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fmAtnEeYvxeHpBWuQjZxTh5SCkg.jpg" group-logo="https://www.iconpacks.net/icons/1/free-cinema-icon-849-thumb.png" tvg-country="Philippines" group-title="Now Streaming",Dark Nuns (2025)

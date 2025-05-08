@@ -4,7 +4,7 @@ max-conn="9"
 x-url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml, https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz, https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/tvpass-epg.xml, https://tvpass.org/epg.xml, https://github.com/atone77721/CIGNAL_EPG/raw/refs/heads/main/merged_epg.xml.gz"
 
 #EXTINF:-1 tvg-id="" group-logo="https://i.imgur.com/QN7EdYv.png" tvg-name="" tvg-logo="https://i.imgur.com/lemgLSj.png" group-title="The Papal Conclave",The Papal Conclave: BihmTV Special Coverage
-https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8
+#https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8
 
 #EXTINF:82 type="movie" group-title="Pope Francis" group-logo="https://absprod-static.iwanttfc.com/c/6/images/bmPsBfwPbOv8CIe-2N_gSg.jpg" tvg-id="" tvg-logo="https://absprod-static.iwanttfc.com/c/6/images/bmPsBfwPbOv8CIe-2N_gSg.jpg" provider="IPTV1" provider-logo="" provider-type="iptv",Pope Francis Public Viewing at St. Peter's Basilica
 #KODIPROP:inputstream=inputstream.adaptive

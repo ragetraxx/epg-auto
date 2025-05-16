@@ -205,10 +205,271 @@
                 <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">SineManila</a>
-                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/ragetv/playlist.m3u8">RageTV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
                 <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8">BIHMTV</a>
-                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/ragemusicph/playlist.m3u8">Rage Music TV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-container">
+        <video id="video" controls autoplay poster="logo.png"></video>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Rage Media Network | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+
+    <script>
+        var video = document.getElementById('video');
+        var dropdownButton = document.querySelector('.dropdown-button');
+        var dropdownContent = document.querySelector('.dropdown-content');
+        var channelLinks = document.querySelectorAll('.dropdown-content a');
+
+        function loadStream(url) {
+            if (Hls.isSupported()) {
+                if (window.hls) {
+                    window.hls.destroy();
+                }
+                window.hls = new Hls();
+                window.hls.loadSource(url);
+                window.hls.attachMedia(video);
+                window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+                video.play();
+            }
+        }
+
+        // Load the default channel on start (e.g., the first one)
+        const defaultChannelLink = channelLinks[3]; // Rage Music TV is now the 4th link
+        if (defaultChannelLink) {
+            loadStream(defaultChannelLink.dataset.url);
+            const channelName = defaultChannelLink.textContent;
+            dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+        }
+
+        // Toggle dropdown visibility
+        dropdownButton.addEventListener('click', function() {
+            dropdownContent.classList.toggle('show');
+        });
+
+        // Change channel when a link is clicked
+        channelLinks.forEach(link => {
+            li<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rage Media Player</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6729071183746449" crossorigin="anonymous"></script>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6729071183746449"></amp-auto-ads>
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align items from the top */
+            min-height: 100vh;
+            padding-top: 60px; /* Space for the fixed header */
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            height: 35px;
+        }
+
+        .header-logo h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 10px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Channel Dropdown */
+        .channel-dropdown {
+            position: relative;
+        }
+
+        .dropdown-button {
+            background: #34495e;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-button:hover {
+            background-color: #2c3e50;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #34495e;
+            border: 1px solid #2c3e50;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            min-width: 150px;
+            display: none; /* Initially hidden */
+            flex-direction: column;
+        }
+
+        .dropdown-content.show {
+            display: flex;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Video Player */
+        .player-container {
+            width: 95%;
+            max-width: 960px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            margin-top: 30px;
+            background-color: #222; /* Dark background for the player */
+        }
+
+        video {
+            display: block; /* Prevent extra space below the video */
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.8);
+            color: #bdc3c7;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-logo h1 {
+                font-size: 1.2em;
+            }
+            .dropdown-button {
+                font-size: 0.9em;
+            }
+            .player-container {
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-logo img {
+                height: 30px;
+            }
+            .header-logo h1 {
+                font-size: 1em;
+                margin-left: 5px;
+            }
+            .dropdown-button {
+                padding: 8px 12px;
+                font-size: 0.8em;
+            }
+            .dropdown-content a {
+                font-size: 0.8em;
+                padding: 8px 12px;
+            }
+            .player-container {
+                border-radius: 5px;
+            }
+            video {
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="logo.png" alt="Rage Media Logo">
+            <h1>Rage Media</h1>
+        </div>
+        <div class="channel-dropdown">
+            <button class="dropdown-button">
+                <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
+                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8">BIHMTV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
             </div>
         </div>
     </div>
@@ -260,6 +521,1150 @@
         // Change channel when a link is clicked
         channelLinks.forEach(link => {
             link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const url = this.dataset.url;
+                const channelName = this.textContent;
+                loadStream(url);
+                dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+                dropdownContent.classList.remove('show'); // Hide dropdown after selection
+            });
+        });
+
+        // Close dropdown when clicking outside
+        window.addEventListener('click', function(event) {
+            if (!event.target.matches('.dropdown-button') && !dropdownContent.contains(event.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </scr<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rage Media Player</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6729071183746449" crossorigin="anonymous"></script>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6729071183746449"></amp-auto-ads>
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align items from the top */
+            min-height: 100vh;
+            padding-top: 60px; /* Space for the fixed header */
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            height: 35px;
+        }
+
+        .header-logo h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 10px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Channel Dropdown */
+        .channel-dropdown {
+            position: relative;
+        }
+
+        .dropdown-button {
+            background: #34495e;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-button:hover {
+            background-color: #2c3e50;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #34495e;
+            border: 1px solid #2c3e50;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            min-width: 150px;
+            display: none; /* Initially hidden */
+            flex-direction: column;
+        }
+
+        .dropdown-content.show {
+            display: flex;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Video Player */
+        .player-container {
+            width: 95%;
+            max-width: 960px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            margin-top: 30px;
+            background-color: #222; /* Dark background for the player */
+        }
+
+        video {
+            display: block; /* Prevent extra space below the video */
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.8);
+            color: #bdc3c7;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-logo h1 {
+                font-size: 1.2em;
+            }
+            .dropdown-button {
+                font-size: 0.9em;
+            }
+            .player-container {
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-logo img {
+                height: 30px;
+            }
+            .header-logo h1 {
+                font-size: 1em;
+                margin-left: 5px;
+            }
+            .dropdown-button {
+                padding: 8px 12px;
+                font-size: 0.8em;
+            }
+            .dropdown-content a {
+                font-size: 0.8em;
+                padding: 8px 12px;
+            }
+            .player-container {
+                border-radius: 5px;
+            }
+            video {
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="logo.png" alt="Rage Media Logo">
+            <h1>Rage Media</h1>
+        </div>
+        <div class="channel-dropdown">
+            <button class="dropdown-button">
+                <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
+                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8">BIHMTV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-container">
+        <video id="video" controls autoplay poster="logo.png"></video>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Rage Media Network | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+
+    <script>
+        var video = document.getElementById('video');
+        var dropdownButton = document.querySelector('.dropdown-button');
+        var dropdownContent = document.querySelector('.dropdown-content');
+        var channelLinks = document.querySelectorAll('.dropdown-content a');
+
+        function loadStream(url) {
+            if (Hls.isSupported()) {
+                if (window.hls) {
+                    window.hls.destroy();
+                }
+                window.hls = new Hls();
+                window.hls.loadSource(url);
+                window.hls.attachMedia(video);
+                window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+                video.play();
+            }
+        }
+
+        // Load the default channel on start (e.g., the first one)
+        const defaultChannelLink = channelLinks[3]; // Rage Music TV is now the 4th link
+        if (defaultChannelLink) {
+            loadStream(defaultChannelLink.dataset.url);
+            const channelName = defaultChannelLink.textContent;
+            dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+        }
+
+        // Toggle dropdown visibility
+        dropdownButton.addEventListener('click', function() {
+            dropdownContent.classList.toggle('show');
+        });
+
+        // Change channel when a link is clicked
+        channelLinks.forEach(link => {
+            li<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rage Media Player</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6729071183746449" crossorigin="anonymous"></script>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6729071183746449"></amp-auto-ads>
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align items from the top */
+            min-height: 100vh;
+            padding-top: 60px; /* Space for the fixed header */
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            height: 35px;
+        }
+
+        .header-logo h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 10px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Channel Dropdown */
+        .channel-dropdown {
+            position: relative;
+        }
+
+        .dropdown-button {
+            background: #34495e;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-button:hover {
+            background-color: #2c3e50;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #34495e;
+            border: 1px solid #2c3e50;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            min-width: 150px;
+            display: none; /* Initially hidden */
+            flex-direction: column;
+        }
+
+        .dropdown-content.show {
+            display: flex;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Video Player */
+        .player-container {
+            width: 95%;
+            max-width: 960px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            margin-top: 30px;
+            background-color: #222; /* Dark background for the player */
+        }
+
+        video {
+            display: block; /* Prevent extra space below the video */
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.8);
+            color: #bdc3c7;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-logo h1 {
+                font-size: 1.2em;
+            }
+            .dropdown-button {
+                font-size: 0.9em;
+            }
+            .player-container {
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-logo img {
+                height: 30px;
+            }
+            .header-logo h1 {
+                font-size: 1em;
+                margin-left: 5px;
+            }
+            .dropdown-button {
+                padding: 8px 12px;
+                font-size: 0.8em;
+            }
+            .dropdown-content a {
+                font-size: 0.8em;
+                padding: 8px 12px;
+            }
+            .player-container {
+                border-radius: 5px;
+            }
+            video {
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="logo.png" alt="Rage Media Logo">
+            <h1>Rage Media</h1>
+        </div>
+        <div class="channel-dropdown">
+            <button class="dropdown-button">
+                <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
+                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8">BIHMTV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-container">
+        <video id="video" controls autoplay poster="logo.png"></video>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Rage Media Network | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+
+    <script>
+        var video = document.getElementById('video');
+        var dropdownButton = document.querySelector('.dropdown-button');
+        var dropdownContent = document.querySelector('.dropdown-content');
+        var channelLinks = document.querySelectorAll('.dropdown-content a');
+
+        function loadStream(url) {
+            if (Hls.isSupported()) {
+                if (window.hls) {
+                    window.hls.destroy();
+                }
+                window.hls = new Hls();
+                window.hls.loadSource(url);
+                window.hls.attachMedia(video);
+                window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+                video.play();
+            }
+        }
+
+        // Load the default channel on start (e.g., the first one)
+        const defaultChannelLink = channelLinks[3]; // Rage Music TV is now the 4th link
+        if (defaultChannelLink) {
+            loadStream(defaultChannelLink.dataset.url);
+            const channelName = defaultChannelLink.textContent;
+            dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+        }
+
+        // Toggle dropdown visibility
+        dropdownButton.addEventListener('click', function() {
+            dropdownContent.classList.toggle('show');
+        });
+
+        // Change channel when a link is clicked
+        channelLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const url = this.dataset.url;
+                const channelName = this.textContent;
+                loadStream(url);
+                dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+                dropdownContent.classList.remove('show'); // Hide dropdown after selection
+            });
+        });
+
+        // Close dropdown when clicking outside
+        window.addEventListener('click', function(event) {
+            if (!event.target.matches('.dropdown-button') && !dropdownContent.contains(event.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </script>
+
+</body>
+</html>
+nk.addEventListener('click', function(event) {
+                event.preventDefault();
+                const url = this.dataset.url;
+                const channelName = this.textContent;
+                loadStream(url);
+                dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+                dropdownContent.classList.remove('show'); // Hide dropdown after selection
+            });
+        });
+
+        // Close dropdown when clicking outside
+        window.addEventListener('click', function(event) {
+            if (!event.target.matches('.dropdown-button') && !dropdownContent.contains(event.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </script>
+
+</body>
+</html>
+ipt>
+
+</body>
+</html>
+nk.add<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rage Media Player</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6729071183746449" crossorigin="anonymous"></script>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6729071183746449"></amp-auto-ads>
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align items from the top */
+            min-height: 100vh;
+            padding-top: 60px; /* Space for the fixed header */
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            height: 35px;
+        }
+
+        .header-logo h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 10px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Channel Dropdown */
+        .channel-dropdown {
+            position: relative;
+        }
+
+        .dropdown-button {
+            background: #34495e;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-button:hover {
+            background-color: #2c3e50;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #34495e;
+            border: 1px solid #2c3e50;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            min-width: 150px;
+            display: none; /* Initially hidden */
+            flex-direction: column;
+        }
+
+        .dropdown-content.show {
+            display: flex;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Video Player */
+        .player-container {
+            width: 95%;
+            max-width: 960px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            margin-top: 30px;
+            background-color: #222; /* Dark background for the player */
+        }
+
+        video {
+            display: block; /* Prevent extra space below the video */
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.8);
+            color: #bdc3c7;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-logo h1 {
+                font-size: 1.2em;
+            }
+            .dropdown-button {
+                font-size: 0.9em;
+            }
+            .player-container {
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-logo img {
+                height: 30px;
+            }
+            .header-logo h1 {
+                font-size: 1em;
+                margin-left: 5px;
+            }
+            .dropdown-button {
+                padding: 8px 12px;
+                font-size: 0.8em;
+            }
+            .dropdown-content a {
+                font-size: 0.8em;
+                padding: 8px 12px;
+            }
+            .player-container {
+                border-radius: 5px;
+            }
+            video {
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="logo.png" alt="Rage Media Logo">
+            <h1>Rage Media</h1>
+        </div>
+        <div class="channel-dropdown">
+            <button class="dropdown-button">
+                <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
+                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8">BIHMTV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-container">
+        <video id="video" controls autoplay poster="logo.png"></video>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Rage Media Network | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+
+    <script>
+        var video = document.getElementById('video');
+        var dropdownButton = document.querySelector('.dropdown-button');
+        var dropdownContent = document.querySelector('.dropdown-content');
+        var channelLinks = document.querySelectorAll('.dropdown-content a');
+
+        function loadStream(url) {
+            if (Hls.isSupported()) {
+                if (window.hls) {
+                    window.hls.destroy();
+                }
+                window.hls = new Hls();
+                window.hls.loadSource(url);
+                window.hls.attachMedia(video);
+                window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+                video.play();
+            }
+        }
+
+        // Load the default channel on start (e.g., the first one)
+        const defaultChannelLink = channelLinks[3]; // Rage Music TV is now the 4th link
+        if (defaultChannelLink) {
+            loadStream(defaultChannelLink.dataset.url);
+            const channelName = defaultChannelLink.textContent;
+            dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+        }
+
+        // Toggle dropdown visibility
+        dropdownButton.addEventListener('click', function() {
+            dropdownContent.classList.toggle('show');
+        });
+
+        // Change channel when a link is clicked
+        channelLinks.forEach(link => {
+            li<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rage Media Player</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6729071183746449" crossorigin="anonymous"></script>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6729071183746449"></amp-auto-ads>
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align items from the top */
+            min-height: 100vh;
+            padding-top: 60px; /* Space for the fixed header */
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            height: 35px;
+        }
+
+        .header-logo h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 10px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Channel Dropdown */
+        .channel-dropdown {
+            position: relative;
+        }
+
+        .dropdown-button {
+            background: #34495e;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-button:hover {
+            background-color: #2c3e50;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #34495e;
+            border: 1px solid #2c3e50;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            min-width: 150px;
+            display: none; /* Initially hidden */
+            flex-direction: column;
+        }
+
+        .dropdown-content.show {
+            display: flex;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Video Player */
+        .player-container {
+            width: 95%;
+            max-width: 960px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            margin-top: 30px;
+            background-color: #222; /* Dark background for the player */
+        }
+
+        video {
+            display: block; /* Prevent extra space below the video */
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(44, 62, 80, 0.8);
+            color: #bdc3c7;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-logo h1 {
+                font-size: 1.2em;
+            }
+            .dropdown-button {
+                font-size: 0.9em;
+            }
+            .player-container {
+                margin-top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-logo img {
+                height: 30px;
+            }
+            .header-logo h1 {
+                font-size: 1em;
+                margin-left: 5px;
+            }
+            .dropdown-button {
+                padding: 8px 12px;
+                font-size: 0.8em;
+            }
+            .dropdown-content a {
+                font-size: 0.8em;
+                padding: 8px 12px;
+            }
+            .player-container {
+                border-radius: 5px;
+            }
+            video {
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="logo.png" alt="Rage Media Logo">
+            <h1>Rage Media</h1>
+        </div>
+        <div class="channel-dropdown">
+            <button class="dropdown-button">
+                <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
+                <a href="#" data-url="https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8">BIHMTV</a>
+                <a href="#" data-url="https://stream.gia.tv/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-container">
+        <video id="video" controls autoplay poster="logo.png"></video>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Rage Media Network | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </div>
+
+    <script>
+        var video = document.getElementById('video');
+        var dropdownButton = document.querySelector('.dropdown-button');
+        var dropdownContent = document.querySelector('.dropdown-content');
+        var channelLinks = document.querySelectorAll('.dropdown-content a');
+
+        function loadStream(url) {
+            if (Hls.isSupported()) {
+                if (window.hls) {
+                    window.hls.destroy();
+                }
+                window.hls = new Hls();
+                window.hls.loadSource(url);
+                window.hls.attachMedia(video);
+                window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+                video.play();
+            }
+        }
+
+        // Load the default channel on start (e.g., the first one)
+        const defaultChannelLink = channelLinks[3]; // Rage Music TV is now the 4th link
+        if (defaultChannelLink) {
+            loadStream(defaultChannelLink.dataset.url);
+            const channelName = defaultChannelLink.textContent;
+            dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+        }
+
+        // Toggle dropdown visibility
+        dropdownButton.addEventListener('click', function() {
+            dropdownContent.classList.toggle('show');
+        });
+
+        // Change channel when a link is clicked
+        channelLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const url = this.dataset.url;
+                const channelName = this.textContent;
+                loadStream(url);
+                dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+                dropdownContent.classList.remove('show'); // Hide dropdown after selection
+            });
+        });
+
+        // Close dropdown when clicking outside
+        window.addEventListener('click', function(event) {
+            if (!event.target.matches('.dropdown-button') && !dropdownContent.contains(event.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </script>
+
+</body>
+</html>
+nk.addEventListener('click', function(event) {
+                event.preventDefault();
+                const url = this.dataset.url;
+                const channelName = this.textContent;
+                loadStream(url);
+                dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${channelName} <i class="fas fa-caret-down"></i>`;
+                dropdownContent.classList.remove('show'); // Hide dropdown after selection
+            });
+        });
+
+        // Close dropdown when clicking outside
+        window.addEventListener('click', function(event) {
+            if (!event.target.matches('.dropdown-button') && !dropdownContent.contains(event.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </script>
+
+</body>
+</html>
+EventListener('click', function(event) {
                 event.preventDefault();
                 const url = this.dataset.url;
                 const channelName = this.textContent;

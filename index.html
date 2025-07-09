@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Rage Media Player</title>
-    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="icon" href="logo.png" type="image/png"/>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <style>
         * {
             margin: 0;
@@ -76,7 +76,7 @@
             background-color: #34495e;
             display: none;
             flex-direction: column;
-            min-width: 180px;
+            min-width: 220px;
             border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.3);
             z-index: 100;
@@ -86,6 +86,15 @@
             padding: 10px;
             color: white;
             text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .dropdown-content a img {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
         }
 
         .dropdown-content a:hover {
@@ -144,10 +153,21 @@
                 <i class="fas fa-tv"></i> Channels <i class="fas fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8">SineManila</a>
-                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-ragetv/ragetv/playlist.m3u8">RageTV</a>
-                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-bihmtv/bihmtv/playlist.m3u8">BIHMTV</a>
-                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8">Rage Music TV</a>
+                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-ragemusictv/ragemusictv/playlist.m3u8" data-logo="https://i.imgur.com/a3iXI35.png">
+                    <img src="https://i.imgur.com/a3iXI35.png" alt="Rage Music TV Logo"> Rage Music TV
+                </a>
+                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-ragetv/ragetv/playlist.m3u8" data-logo="https://i.imgur.com/Ym32WqZ.png">
+                    <img src="https://i.imgur.com/Ym32WqZ.png" alt="RageTV Logo"> RageTV
+                </a>
+                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8" data-logo="https://i.imgur.com/2N1kh1D.png">
+                    <img src="https://i.imgur.com/2N1kh1D.png" alt="SineManila Logo"> SineManila
+                </a>
+                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-bihmtv/bihmtv/playlist.m3u8" data-logo="https://i.imgur.com/lemgLSj.png">
+                    <img src="https://i.imgur.com/lemgLSj.png" alt="BIHM TV Logo"> BIHM TV
+                </a>
+                <a href="#" data-url="https://live20.bozztv.com/giatv/giatv-animex/animex/playlist.m3u8" data-logo="https://i.imgur.com/0FLu8iV.png">
+                    <img src="https://i.imgur.com/0FLu8iV.png" alt="animeX Logo"> animeX
+                </a>
             </div>
         </div>
     </div>
@@ -178,10 +198,11 @@
             }
         }
 
-        // Load default stream (Rage Music TV)
+        // Load default stream (animeX)
         const defaultChannel = channelLinks[channelLinks.length - 1];
         loadStream(defaultChannel.dataset.url);
-        dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${defaultChannel.textContent} <i class="fas fa-caret-down"></i>`;
+        video.poster = defaultChannel.dataset.logo || "logo.png";
+        dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${defaultChannel.textContent.trim()} <i class="fas fa-caret-down"></i>`;
 
         // Dropdown behavior
         dropdownButton.addEventListener("click", () => {
@@ -192,8 +213,10 @@
             link.addEventListener("click", e => {
                 e.preventDefault();
                 const url = link.dataset.url;
-                const name = link.textContent;
+                const name = link.textContent.trim();
+                const logo = link.dataset.logo;
                 loadStream(url);
+                video.poster = logo || "logo.png";
                 dropdownButton.innerHTML = `<i class="fas fa-tv"></i> ${name} <i class="fas fa-caret-down"></i>`;
                 dropdownContent.classList.remove("show");
             });

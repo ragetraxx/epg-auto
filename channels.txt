@@ -1,1006 +1,809 @@
-1. #EXTINF:-1 group-logo="https://i.imgur.com/RTIHqG3.png" group-title="Vision"
-2. Converge Info
-3. A2Z
-4. All TV
-5. PTV
-6. TV5
-7. One PH
-8. GMA
-9. One News
-10. RPTV
-11. Bilyonaryo News Channel
-12. GTV
-13. UNTV
-14. IBC
-15. Kapamilya Channel SD
-16. Jeepney TV
-17. ANC SD
-18. Teleradyo Serbisyo
-19. Cinemo
-20. Cinema One
-21. PBO
-22. Viva Cinema
-23. TMC
-24. Aliw Channel
-25. DZRH TV
-26. Net 25
-27. Celestial Movies Pinoy
-28. Solar Flix
-29. Solar Sports
-30. RJTV
-31. ONE SPORTS
-32. NBA TV PH
-33. SLA
-34. Pinoy Xtreme Channel
-35. One Media
-36. RJ DigiTV
-37. CLTV36
-38. Knowledge Channel
-39. Asian Food Network
-40. Metro Channel
-41. Living Asia HD
-42. TLC
-43. History Channel
-44. Discovery Channel
-45. Discovery Asia
-46. Animal Planet
-47. HGTV
-48. Fashion TV
-49. Filam TV HD
-50. Vegas Life
-51. Mindanow Network
-52. Techstorm
-53. Global Trekker
-54. CINEMAWORLD
-55. Cinemax
-56. HBO
-57. Tap Movies
-58. TapAction Flix
-59. Tap TV
-60. Tap Edge
-61. AXN
-62. Rock Entertainment
-63. Warner TV
-64. Lifetime
-65. Thrill
-66. Crime Investigation
-67. Hallypop
-68. Rock TV of Manila
-69. MYX
-70. Lotus Macau
-71. TV5 Monde Asia
-72. KBS World
-73. Kix
-74. ANC HD
-75. CNN International
-76. Fox News
-77. BBC News
-78. Bloomberg
-79. USA Today
-80. Euronews
-81. DEUTSCHE WELLE
-82. SEA Today
-83. Voice of America
-84. WION News
-85. ABC Australia
-86. Advisory Channel
-87. Al Jazeera
-88. CHANNEL NEWS ASIA
-89. NHK World Japan
-90. France 24
-91. Saudi TV
-92. CGTN Documentary
-93. CGTN
-94. Arirang
-95. CCTV4
-96. Phoenix InfoNews Channel
-97. Advisory Channel
-98. Cartoon Network SD
-99. Animax
-100. Cartoonito
-101. Nick Jr
-102. Nickelodeon
-103. Edge Sports
-104. Premier Sports 1
-105. Premier Sports 2
-106. Premier Football
-107. SPOTV
-108. SPOTV 2
-109. Motorvision
-110. Eurosport
-111. SMNI
-112. Radio Maria
-113. Light TV
-114. Oras Ng Himala
-115. TV Maria
-116. TBN Asia
-117. TBN Inspire
-118. 3ABN
-119. EWTN
-120. INCTV
-121. TVE
-122. RESERVED
-123. Reserved
-124. RESERVED
-125. Da Ai Television
-126. CTV Entertainment
-127. KBS Korea
-128. Xingkong
-129. BS Premium
-130. NHK BS1
-131. KBS 2
-132. Star Chinese
-133. BS Fuji
-134. Celestial Classic Movies
-135. Kapamilya Channel HD
-136. Kapamilya Channel HD
-137. Kapamilya Channel HD
-138. PTV (2)
-139. #EXTINF:-1 group-logo="https://i.imgur.com/d6ViCs3.jpeg" group-title="Cignal Play"
-140.  Knowledge Channel
-141. One PH
-142. Buko
-143. Sari-Sari
-144. PTV
-145. TV5 Cignal
-146. DepEd Channel
-147. One News
-148. RPTV
-149. IBC 13
-150. TrueTV
-151. A2Z
-152.  Bilyonaryo Channel
-153. TVN Movies Pinoy
-154. PBO
-155. Viva Cinema
-156. TMC (Tagalized Movie Channel)
-157. Tap Movies
-158. Thrill
-159. HBO
-160. HBO Hits
-161. HBO Family
-162. HBO Signature
-163. HITS Movies
-164. Tap Action Flix
-165. Cinemax
-166. NBA TV  Philippines
-167. PBA Rush
-168. One Sports HD Cignal
-169. One Sports Plus
-170. UAAP Varsity Channel
-171. TAP Sports
-172. MEDIA PILIPINAS TV
-173. Premier Sports
-174. Premier Sports 2
-175. SpoTV HD
-176. SpoTV 2 HD
-177. Animax
-178. DreamWorks HD
-179. Dreamworks Tagalog
-180. Moonbug Kids
-181. Nickelodeon
-182. Cartoon Network (Cignal)
-183. Nick Jr.
-184.  Warner TV
-185.  TVN Premium
-186.  KBS World
-187. AXN
-188.  Hits HD
-189.  Hits Now
-190.  Lifetime
-191.  Tap TV
-192. Tap Edge
-193.  Rock Action
-194.  Rock Entertainment
-195.  Crime Investigation
-196.  Asian Food Network (Cignal)
-197. Food Network
-198. HGTV
-199. Fashion TV
-200. History HD
-201. Discovery Channel
-202. Animal Planet
-203. Travel Channel
-204. BBC Earth
-205. BBC Lifestyle
-206. Techstorm
-207.  CNN International
-208.  BBC World News
-209.  Bloomberg
-210.  ABC Australia
-211. Al Jazeera
-212. CHANNEL NEWS ASIA
-213.  CCTV-4
-214.  France 24
-215. Arirang
-216.  CGTN Documentary
-217. NHK World Japan
-218.  TV5 Monde
-219.  Lotus Macau
-220.  KIX HD
-221. TV Maria
-222. tvUP
-223. RESERVED
-224. RESERVED
-225. #EXTINF:-1 group-logo="https://i.imgur.com/R5VUgqJ.png" group-title="iWantTFC Channels"
-226.  Kapamilya Channel HD (Stream 1)
-227. MYX (Stream 1)
-228. MYX (Stream 2)
-229. ANC (Stream 1)
-230. ANC (Stream 2)
-231. Knowledge Channel
-232. Knowledge Channel
-233.  CINEMO!
-234. Cinema One
-235. Teleradyo Serbisyo (Stream 1)
-236. GMA PINOY TV (Asia)
-237. The Filipino Channel ASIA
-238. The Filipino Channel EUROPE
-239. The Filipino Channel CANADA
-240. GMA PINOY TV (VPN United States)
-241. GMA LIFE TV (VPN United States)
-242.   GMA News TV (VPN United States)
-243. #EXTINF:-1 group-logo="https://i.imgur.com/zbkAYva.png" group-title="RageTV Plus"
-244. RageTV (Test Broadcast)
-245. Heart Of Asia
-246. I Heart Movies
-247. HALLYPOP
-248. Front Row Channel
-249. JUNGO TV PINOY
-250. SCREAMFLIX
-251. COMBAT GO
-252. AWSN
-253. CP24
-254. CTV News Channel
-255. National Geographic
-256. Outdoor Channel
-257. Techstorm (CBM)
-258. Living Asia Channel
-259. Vegas Life TV
-260. FilAm TV
-261. Latino Channel TV
-262. ACTV
-263. MindaNOW Network
-264. Setanta Sports Asia
-265. Global Fashion Channel
-266. Wellbeing TV
-267. FIGHT SPORTS HD
-268.  Premier Sports HD
-269. Moonbug Kids HD
-270. ZOO MOO
-271. ANIME x HIDIVE
-272. All Day Anime
-273. Q Game X
-274. CNBC Asia
-275. BBC News Asia Pacific (720p)
-276. Bloomberg TV Asia (720p)
-277. Bloomberg TV Asia Live Event (720p)
-278. Global News
-279.  Channel news Asia
-280. RT International
-281. TRT World
-282.  Al Jazeera
-283.  DW DEUTSCHEWELLE
-284.   EURONEWS
-285. CBS News
-286. Sky News HD
-287. WION
-288. Sea Today
-289.  Hi-YAH!
-290.  AsianCrush
-291. Astro Boo
-292.  KBS World
-293.  NEW K MOVIES
-294. Arirang
-295. One Asia
-296.   NHK World Premium
-297.   NHK World Japan
-298.   MagellanTV NOW
-299.  MTV 90s
-300. Trace UK
-301. MTV
-302. MTV Live
-303. MTV Hits
-304. CLUBBING TV
-305.  EWTN Asia-Pacific
-306. CCTV4
-307.  HBO HD
-308.  HBO Hits HD
-309. HBO Family
-310.  Cinemax
-311.  Dreamworks
-312.  Warner TV
-313.  HITS Movies
-314. HBO
-315.  NBC GOLF CHANNEL
-316. BBC World News
-317.   France24
-318. Hope Channel Philippines
-319. Scientology Network
-320.   NOW 70s
-321.   NOW 80s
-322.   Now Rock
-323.   Trace Sport Stars
-324.   Trace Urban
-325.   Kidoodle TV
-326. Basketball 24/7
-327.   NHRA 5V
-328. Hope Channel International
-329. GCTV
-330. CCTN 47
-331. #EXTINF:-1 group-title="Smart and Pilipinas Live Stream" group-logo="https://i.imgur.com/9GN1g9E.png"
-332. Smart Live TV 1
-333. Smart Live TV 2
-334. Smart Live TV 5
-335. Smart Live TV 6
-336. Smart Live TV 7
-337. Smart Live TV 8
-338. Smart Live TV 9
-339. Pilipinas Live 1
-340. Pilipinas Live 2
-341. Pilipinas Live 3
-342. Pilipinas Live 4
-343. Pilipinas Live 5
-344. Pilipinas Live 6
-345. Pilipinas Live 7
-346. Pilipinas Live 8
-347. Pilipinas Live 9
-348. Pilipinas Live 10
-349. #EXTINF:-1 group-title="Premium Live Events" group-logo="https://i.imgur.com/iumonWk.png"
-350. MLB 1
-351. MLB 2
-352. MLB 3
-353. NBA 1
-354. NBA 2
-355. NBA 3
-356. NBA 4
-357. NBA 5
-358. NBA 6
-359. NBA 7
-360. NBA 8
-361. NBA 9
-362. NBA 10
-363. NBA 11
-364. NBA 12
-365. NBA 13
-366. NFL 1
-367. NFL 2
-368. NFL 3
-369. NFL 4
-370. NFL 5
-371. NFL 6
-372. NFL 7
-373. NFL 8
-374. NFL 9
-375. NFl 10
-376. NFL 11
-377. NFL 12
-378. NFL 13
-379. NFL 14
-380. NFL 15
-381. NHL 1
-382. NHL 2
-383. NHL 3
-384. NHL 4
-385. NHL 5
-386. NHL 6
-387. NHL 7
-388. NHL 8
-389. NHL 9
-390. NHL 10
-391. NHL 11
-392. NHL 13
-393. PPV 1
-394. PPV 2
-395. PPV 3
-396. PPV 4
-397. PPV 5
-398. PPV 6
-399. #EXTINF:-1 group-logo="https://i.imgur.com/40VMt7A.png" group-title="SPORTSNET"
-400. Sportsnet World (CA)
-401. Sportsnet One (CA)
-402. Sportsnet (EAST)
-403. Sportsnet (West)
-404. Sportsnet 360
-405. Sportsnet (Pacific)
-406. SPORTSNET ONTARIO (CA)
-407. SPORTSNET LIVE #9 (CA)
-408. SPORTSNET LIVE #10 (CA)
-409. SPORTSNET LIVE #11 (CA)
-410. SPORTSNET LIVE #12 (CA)
-411. SPORTSNET LIVE #13 (CA)
-412. SPORTSNET LIVE #14 (CA)
-413. SPORTSNET LIVE #15 (CA)
-414. SPORTSNET LIVE #16 (CA)
-415. SPORTSNET LIVE #17 (CA)
-416. SPORTSNET LIVE #18 (CA)
-417. SPORTSNET LIVE #21 (CA)
-418. SPORTSNET LIVE #22 (CA)
-419. SPORTSNET LIVE #24 (CA)
-420. SPORTSNET LIVE #25 (CA)
-421. #EXTINF:-1 group-logo="https://i.imgur.com/zbaSPgW.png" group-title="World Sports"
-422.  BEIN SPORTS EXTRA
-423.  BEIN SPORTS 1 HD
-424.  BEIN SPORTS 2 HD
-425.  BEIN SPORTS 3 HD
-426. Go3 Sports 1
-427. Go3 Sports 2
-428. Go3 Sports 3
-429. Eurosports HD
-430. NBC Golf
-431. NBC4 KNBC
-432. DAZN
-433.   Horizon Sport
-434.  TNT Sports 1
-435.  TNT Sports 2
-436.  TNT Sports 3
-437.  TNT Sports 4
-438.  TNT Sports 5
-439. Dazn 1
-440. Dazn 2
-441. SPOTV
-442. SPOTV2
-443. Setanta Sports 1
-444. Setanta Sports 2
-445. Eurosports
-446. Eurosports 1
-447. Eurosports 2
-448. LaLiga EA Sports
-449. Dazn Combat
-450. #EXTINF:-1 group-logo="https://i.imgur.com/FBSW9Kl.png" group-title="Music Channels"
-451. Remember The 80s
-452. Nothin But 90s
-453. Hot Country
-454. Rock Alternative
-455. Flashback 70s
-456. Hiphop N RnB
-457. Music Legends
-458. Y2K
-459. Qwest
-460. Pop Adult
-461. Classic Rock
-462. Greatest Hits
-463. Hitlist
-464. SPA
-465. Todays KPop
-466. Easy Listening
-467. Smooth Jazz
-468. Soul Storm
-469. Euro Hits
-470. Trance UK
-471. Exitos Del Momento
-472. Trance Latina
-473. Trace Brazuca
-474. Party Tyme Karaoke
-475. Revolt Mixtape
-476. XITE 80s Flashback
-477. XITE 90s Throwback
-478. XITE Celebrates
-479. XITE Hits
-480. XITE Only Love
-481. XITE Rock On
-482. Vevo '70s
-483. Vevo '80s
-484. Vevo '90s
-485. Vevo 2010s
-486. Vevo 2K
-487. Vevo Country
-488. Vevo Features
-489. Vevo Hip-Hop
-490. Vevo Latino
-491. Vevo Pop
-492. Vevo R&B
-493. Vevo Retro Rock
-494. #EXTINF:-1 group-logo="https://i.imgur.com/1NBsc85.png" group-title="USA Channels"
-495. ABC NEWS
-496. CBS News
-497. NBC News NOW
-498. LiveNOW from FOX
-499. ABC (WABC)
-500.   CBS East
-501. FOX (WNYW)
-502. NBC (WNBC)
-503. WGN Chicago
-504. ACC Network
-505.      beIN Sports
-506. Big Ten Network
-507.      CBS Sports Network
-508.   ESPN
-509.   ESPN 2
-510.  ESPNews
-511.      ESPN U
-512. FIGHT NETWORK
-513.      FS1
-514.      FS2
-515. Fox Soccer Plus
-516.   Mav TV
-517. Marquee Sports Network
-518. SEC Network
-519. New England Sports Network
-520.      NBA TV USA
-521.      WWE NETWORK
-522.   NFL Network
-523.     NFL Redzone
-524.  NFL Channel
-525.      MLB Network
-526.      NHL Network
-527.   Spectrum LA Dodgers
-528.   Spectrum LA Lakers
-529. Sportsnet
-530.  SportsNet New York
-531.  TSN1
-532.  TSN2
-533.  TSN3
-534.  TSN 4K
-535.  TSN5
-536.  NBC SPORTS Boston
-537.    Sportsman Channel
-538.      NBC Golf
-539.      Tennis Channel
-540.   World Fishing Network
-541.  MSG Network
-542.   UFC 247
-543. DAZN 1
-544. DAZN 2
-545. The Cowboy Channel
-546.      Outdoor Channel
-547. Outside
-548.      Stadium
-549.      YES Network
-550. Redbull
-551.   World Poker Tour
-552. A&E
-553. USA Network
-554. TNT
-555. TBS East
-556. truTV East
-557. SYFY East
-558. Oxygen East
-559. Paramount Network East
-560. GAME SHOW NETWORK
-561.   E! Entertainment Television HDTV (East) (E! HD)
-562. FX East
-563. FXM
-564. FXX East
-565. MTV East
-566. MTV2 East
-567. MTV Classic
-568. MTV Live
-569. MTV-U
-570.   HBO East
-571.      HBO 2
-572.      HBO Comedy East
-573.      HBO Family East
-574.      HBO Zone East
-575.      HBO Signature
-576.      Cinemax
-577. Cinemax East
-578. Cinemax West
-579. MoreMax (East)
-580.  OuterMax east
-581.  5StarMAX
-582.   Crave1
-583.   Crave 2
-584.   Crave 3
-585.   Crave 4
-586. Starz East
-587. Starz West
-588. Starz Cinema
-589. Starz Comedy East
-590.      Starz Edge East
-591.      Starz Encore East
-592.      Starz Encore Action
-593.      Starz Encore Westerns
-594.      Showtime East
-595.      Showtime 2 East
-596.      Showtime Extreme East
-597.      Showtime Next East
-598.      Showtime Women East
-599.      Showtime West
-600. Sony Movies
-601.      MGM+
-602.      MGM+ Hits
-603.      MGM+ Drive-In
-604.      MGM+ Marquee
-605. AccuWeather
-606. Comedy TV
-607.     AMC
-608.   AHC
-609.     Animal Planet
-610. Adult Swim
-611.   Antenna TV
-612. Aspire TV
-613.   BBC America
-614.     BBC World News
-615.     BET
-616.      BET Gospel
-617.      BET Her
-618.      BET Jams
-619.      BET Soul
-620.   W Network
-621.   Love Nature
-622.      Bloomberg
-623.      Boomerang
-624.      Bounce
-625.      Bravo
-626. Buzzr TV
-627.      Cartoon Network
-628. CLEO TV
-629. Catchy Comedy
-630.      CMT
-631.      CNBC
-632.      CNN
-633.      CNN International
-634. TRT World
-635.      Comedy Central
-636. Great American Family
-637. Cooking Channel
-638.  Court TV
-639.  Curiosity Stream
-640.      C-SPAN
-641.      Discovery Channel
-642.      Discovery Family
-643.      Discovery Life
-644.      Discovery Science
-645.      Disney Channel
-646.      DisneyJr
-647.      DisneyXD
-648.      Food Network
-649.      FOX Business Network
-650.      FOX News Channel
-651.      FOX Weather
-652.   History Channel
-653. History 2
-654. FOXSOUL
-655. Freeform
-656. Fuse
-657. getTV
-658. Hallmark
-659. Hallmark Drama
-660. Hallmark Movies and Mysteries
-661. HGTV East
-662. HLN
-663. HSN
-664.      INSP
-665. ID (Investigation Discovery)
-666.      ION
-667.  ION Plus
-668.  Smithsonian
-669. Scripps News Channel
-670.      Laff TV
-671.      Lifetime East
-672.      Lifetime Movies Network
-673.      Logo East
-674.   Me TV
-675.   Military History
-676.      MotorTrend
-677.      MSNBC
-678. Much
-679.      National Geographic
-680.      National Geographic Wild
-681. Pixl
-682. Teen Nick
-683.      Nickelodeon East
-684.      NickJr East
-685.      NickMusic USA
-686.      NickToons East
-687.     OWN
-688.      OVATION TV
-689.      PopTV East
-690.      Pursuit Channel
-691.   QVCHD
-692.      ReelzChannel
-693. WeTV
-694.      Revolt
-695.      SundanceTV
-696.      TCM (Turner Classic Movies) East
-697.      TLC (The Learning Channel) East
-698.   Travel    Channel
-699.      TVLand
-700.      TVOne
-701.      FanduelTV
-702.      VH1 East
-703.      Vice
-704.      Weather Channel
-705.     PBS Kids
-706.     Magnolia
-707.     AXSTV
-708.   BBC NEWS
-709.   Start TV
-710.   Up TV
-711.   FTV Midnite Secrets
-712.   NewsNation
-713.   Nosey
-714.   GinxTV
-715.   COSI TV
-716.   Comet
-717.   Grit TV
-718.   Charge TV
-719.   TBD TV
-720.   Crime and Investigation HDTV
-721.   Destination America
-722. #EXTINF:-1 group-title="USA Local Channels" group-logo="https://i.imgur.com/1NBsc85.png"
-723.      FOX (WFXT)
-724. CBS News Los Angeles
-725. NBC News Los Angeles
-726. ABC Los Angeles
-727. KRCA TV
-728. KCAL Los Angeles
-729.  NBC (KNBC
-730.   CBS (KCTV)
-731.   NBC (KOMU)
-732.   CW (KOMU-TV3)
-733.   CBS (KRCG)
-734.   ABC (KMIZ)
-735.   FOX (KQFX)
-736.   NBC (KSHB)
-737.   PBS (KMOS)
-738.   ABC (KMBC)
-739.   CBS (KTVO-DT2)
-740.   ABC (KTVO)
-741.   FOX (KYOU)
-742.   NBC (KYOU-DT2)
-743.   FOX (WDAF)
-744.   PBS (KCPT)
-745.   CW (KCWE)
-746.   ION TV (KPXE))
-747.   KMCI 38 (The Spot)
-748.   CTNi (KNLJ2)
-749.   CW (KYOU4)
-750.   My Zou TV
-751.   MNT (KSMO)
-752.   NBC (KYOU-DT2)
-753.   Me TV (KMBC)
-754.   Bounce TV (KMCI)
-755.   MeTV (KMIZ)
-756.   COZI TV (KSHB)
-757.   LAFF (KSHB)
-758.   Comet TV (KTVO(
-759. Cops
-760. Jail
-761. Ice Pilots
-762. Operation Repo
-763. Euro News
-764. Reuters TV
-765. France 24
-766. Yahoo Finance
-767. USA Today
-768. News World
-769. Newsmax
-770. RevryNews
-771. i24 Updates
-772. Moconomy
-773. MLB
-774. WPT
-775. Speedvision
-776. Motorvision
-777. Court Sports Network
-778. Pickle TV
-779. Tennis+
-780. Cricket Gold
-781. PLL Network
-782. TNA Wrestling Channel
-783. Glory
-784. PFL MMA
-785. The Ring
-786. SportsGrid
-787. Wired2Fish TV
-788. Poker Night
-789. PokerGo
-790. MotosportTV
-791. SLOPES
-792. Fight Network
-793. Fite 247
-794. XFC TV
-795. Racing America
-796. Hard Knocks
-797. PursuitUP
-798. Waypoint TV
-799. Fuel TV
-800. Monster Jam
-801. NHRA TV
-802. SURFER
-803. Team Liquid
-804. Nitro Circus TV
-805. FTF Sports
-806. Unbeaten
-807. Womens Sports Network
-808. CampusLore Sports
-809. MavTV Motorsports Network
-810. Pac12 Insider
-811. DFB Play TV
-812. Mythical 247
-813. Ghost Show and Friends
-814. Creator Television
-815. Funny or Die
-816. Humor Mill
-817. Just for Laughs Gags
-818. WITZ ComedyTV
-819. Always Funny
-820. Fail Army
-821. Startalk TV
-822. TED
-823. Unexplained
-824. Popular Science
-825. Robot Wars by Mech+
-826. True History
-827. Gravitas Movies
-828. Gravitas Documentaries
-829. Documentary+
-830. Discover Film
-831. RCM
-832. The Preview Channel
-833. Maverick Black Cinema
-834. Artflix
-835. The Martha Stewart Channel
-836. The Emeril Lagasse Channel
-837. The Design Network
-838. Tastemade
-839. Drool
-840. Hello Inspo
-841. 5 Minute Crafts
-842. GUSTOTV
-843. CraftsyTV
-844. Made it Myself TV
-845. Cooking Panda
-846. The Bob Ross Channel
-847. Cirque Du Soleil
-848. Love Stories TV
-849. Choppertown
-850. PopstarTV
-851. Revry
-852. The Boat Show
-853. Fashion TV
-854. Glewed TV
-855. Commune
-856. Cinepride
-857. MoreU
-858. Holiday Scapes
-859. GoUSA
-860. Magellan TV
-861. Wild Earth
-862. AKCtv
-863. The Pet Collective
-864. ZenLIFE
-865. People Are Awesome
-866. Weather SPY
-867. Best of Dr Phil
-868. FilmRise Hot Ones
-869. Nosey
-870. Judge Nosey
-871. Made in Hollywood
-872. ZNation
-873. Farscape
-874. Wu Tang Collection
-875. Action Hollywood Movies
-876. Gravitas Adrenaline
-877. GalxyTV
-878. Adventures of Sonic the Hedgehog
-879. Kidz Bop
-880. KidoodleTV
-881. Toon Googles Jr
-882. BratTV
-883. 123GO
-884. Smurf TV
-885. Skwad
-886. WatchKid
-887. Camp Spoopy
-888. Eddies Wonderland
-889. Toon Googles
-890. Hunter
-891. 21 Jump Street
-892. Lone Star
-893. Death Valley Days
-894. Grjngo
-895. Infamous TV
-896. The Carol Burnett Show
-897. Johnny Carson TV
-898. The Ed Sullivan Show
-899. Animation+
-900. Dungeon TV
-901. FrightFlix
-902. WatchItScream
-903. TFH
-904. Movie Italy Channel
-905. Shemaroo Bollywood
-906. Zeebollyworld
-907. KweliTV
-908. TV Afroland
-909. Remember The 80s
-910. Nothin But 90s
-911. Hot Country
-912. Rock Alternative
-913. Flashback 70s
-914. Hiphop N RnB
-915. Music Legends
-916. Y2K
-917. Qwest
-918. Pop Adult
-919. Classic Rock
-920. Greatest Hits
-921. Hitlist
-922. SPA
-923. Todays KPop
-924. Easy Listening
-925. Smooth Jazz
-926. Soul Storm
-927. Euro Hits
-928. Trance UK
-929. Exitos Del Momento
-930. Trance Latina
-931. Trace Brazuca
-932. Party Tyme Karaoke
-933. Revolt Mixtape
-934. #EXTINF:-1 group-title="PeacockTV" group-logo="https://i.imgur.com/aNfAbVI.png"
-935. PeacockTV Premier League
-936. Peacock 1
-937. Peacock 2
-938. NBC Sport Peacock
-939. Universo East
-940. NBC 1
-941. USA Network
-942. Peacock TV
-943. Dateline
-944. Hallmark Channel - Premium - Linear - HD
-945. NBC NEWS NOW - Linear
-946. NBC Sports on Peacock - Linear
-947. REELZ - Premium - Linear - HD
-948. That 70s Show - Linear - Premium - Linear - HD
-949. SNL Vault - Linear
-950. LOL - Linear
-951. This Old House - Linear
-952. Nosey - Linear
-953. Confess by Nosey - Linear
-954. Love Nature - Premium - Linear - HD
-955. MovieSphere by Lionsgate - Linear - HD
-956. Ghost Hunters Channel - Linear - HD
-957. Hallmark Mystery - Premium - Linear - HD
-958. Hallmark Family - Premium - Linear - HD
-959. Ebony TV by Lionsgate - Linear - HD
-960. Telemundo Al Dia - Linear
-961. NFL Channel - Linear
-962. GolfPass - Linear
-963. Premier League TV - Linear - HD
-964. WWE Network - Linear
-965. Law & Crime Network - Linear
-966. Top Gear - Linear
-967. Decision 2024 - Premium - Linear - HD
-968. TODAY All Day - Linear
-969. Sky News - Linear
-970. Noticias Telemundo Ahora - Linear - HD
-971. NBC New York News - Linear
-972. NBC Chicago News - Linear
-973. NBC Philadelphia News - Linear
-974. NBC South Florida News - Linear
-975. NBC Boston News - Linear
-976. NBC Los Angeles News - Linear
-977. Circle - Linear
-978. LX - Linear
-979. CNBC
-980.  Channel 4 HD
-981.  E4 HD
-982.  More4 HD
-983.  Film4 HD
-984.  4seven
-985.  RT脠 One
-986.  RT脠 Two
-987.  RT脠 News
-988.  RT脠jr
-989. Virgin Media One HD
-990. Virgin Media Two HD
-991. Virgin Media Three HD
-992. Virgin Media Four HD
-993. Chennel 4
-994. ITV2
-995. ITV3
-996. ITV4
-997. Channel 5
-998. BBC2
-999. Film4
-1000. More4
-1001. #EXTINF:-1 group-logo="https://i.imgur.com/u9TjIex.png" group-title="FanDuel Sports Network"
-1002.  FanDuel Sports Detroit
-1003.  FanDuel Sports Florida
-1004.  FanDuel Sports Midwest
-1005.  FanDuel Sports North
-1006.  FanDuel Sports Southwest
+#EXTM3U x-tvg-url="https://tvpass.org/epg.xml"
+#EXTINF:-1 tvg-id="ae-us-eastern-feed" tvg-name="A&E US Eastern Feed SD" group-title="Live",A&E US Eastern Feed SD
+https://tvpass.org/live/AEEast/sd
+#EXTINF:-1 tvg-id="ae-us-eastern-feed" tvg-name="A&E US Eastern Feed HD" group-title="Live",A&E US Eastern Feed HD
+https://tvpass.org/live/AEEast/hd
+#EXTINF:-1 tvg-id="abc-kabc-los-angeles-ca" tvg-name="ABC (KABC) Los Angeles SD" group-title="Live",ABC (KABC) Los Angeles SD
+https://tvpass.org/live/abc-kabc-los-angeles-ca/sd
+#EXTINF:-1 tvg-id="abc-kabc-los-angeles-ca" tvg-name="ABC (KABC) Los Angeles HD" group-title="Live",ABC (KABC) Los Angeles HD
+https://tvpass.org/live/abc-kabc-los-angeles-ca/hd
+#EXTINF:-1 tvg-id="abc-wabc-new-york-ny" tvg-name="ABC (WABC) New York, NY SD" group-title="Live",ABC (WABC) New York, NY SD
+https://tvpass.org/live/WABCDT1/sd
+#EXTINF:-1 tvg-id="abc-wabc-new-york-ny" tvg-name="ABC (WABC) New York, NY HD" group-title="Live",ABC (WABC) New York, NY HD
+https://tvpass.org/live/WABCDT1/hd
+#EXTINF:-1 tvg-id="acc-network" tvg-name="ACC Network SD" group-title="Live",ACC Network SD
+https://tvpass.org/live/ACCNetwork/sd
+#EXTINF:-1 tvg-id="acc-network" tvg-name="ACC Network HD" group-title="Live",ACC Network HD
+https://tvpass.org/live/ACCNetwork/hd
+#EXTINF:-1 tvg-id="altitude-sports-denver" tvg-name="Altitude Sports Denver SD" group-title="Live",Altitude Sports Denver SD
+https://tvpass.org/live/altitude-sports-denver/sd
+#EXTINF:-1 tvg-id="altitude-sports-denver" tvg-name="Altitude Sports Denver HD" group-title="Live",Altitude Sports Denver HD
+https://tvpass.org/live/altitude-sports-denver/hd
+#EXTINF:-1 tvg-id="amc-eastern-feed" tvg-name="AMC Eastern Feed SD" group-title="Live",AMC Eastern Feed SD
+https://tvpass.org/live/AMCEast/sd
+#EXTINF:-1 tvg-id="amc-eastern-feed" tvg-name="AMC Eastern Feed HD" group-title="Live",AMC Eastern Feed HD
+https://tvpass.org/live/AMCEast/hd
+#EXTINF:-1 tvg-id="american-heroes-channel" tvg-name="American Heroes Channel SD" group-title="Live",American Heroes Channel SD
+https://tvpass.org/live/AmericanHeroesChannel/sd
+#EXTINF:-1 tvg-id="american-heroes-channel" tvg-name="American Heroes Channel HD" group-title="Live",American Heroes Channel HD
+https://tvpass.org/live/AmericanHeroesChannel/hd
+#EXTINF:-1 tvg-id="animal-planet-us-east" tvg-name="Animal Planet US East SD" group-title="Live",Animal Planet US East SD
+https://tvpass.org/live/AnimalPlanetEast/sd
+#EXTINF:-1 tvg-id="animal-planet-us-east" tvg-name="Animal Planet US East HD" group-title="Live",Animal Planet US East HD
+https://tvpass.org/live/AnimalPlanetEast/hd
+#EXTINF:-1 tvg-id="bbc-america-east" tvg-name="BBC America East SD" group-title="Live",BBC America East SD
+https://tvpass.org/live/BBCAmericaEast/sd
+#EXTINF:-1 tvg-id="bbc-america-east" tvg-name="BBC America East HD" group-title="Live",BBC America East HD
+https://tvpass.org/live/BBCAmericaEast/hd
+#EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News North America HD SD" group-title="Live",BBC News North America HD SD
+https://tvpass.org/live/BBCWorldNewsNorthAmerica/sd
+#EXTINF:-1 tvg-id="bbc-news-north-america-hd" tvg-name="BBC News North America HD HD" group-title="Live",BBC News North America HD HD
+https://tvpass.org/live/BBCWorldNewsNorthAmerica/hd
+#EXTINF:-1 tvg-id="bet-eastern-feed" tvg-name="BET Eastern Feed SD" group-title="Live",BET Eastern Feed SD
+https://tvpass.org/live/BETEast/sd
+#EXTINF:-1 tvg-id="bet-eastern-feed" tvg-name="BET Eastern Feed HD" group-title="Live",BET Eastern Feed HD
+https://tvpass.org/live/BETEast/hd
+#EXTINF:-1 tvg-id="bet-her" tvg-name="BET Her SD" group-title="Live",BET Her SD
+https://tvpass.org/live/BETHerEast/sd
+#EXTINF:-1 tvg-id="bet-her" tvg-name="BET Her HD" group-title="Live",BET Her HD
+https://tvpass.org/live/BETHerEast/hd
+#EXTINF:-1 tvg-id="big-ten-network" tvg-name="Big Ten Network SD" group-title="Live",Big Ten Network SD
+https://tvpass.org/live/BTN/sd
+#EXTINF:-1 tvg-id="big-ten-network" tvg-name="Big Ten Network HD" group-title="Live",Big Ten Network HD
+https://tvpass.org/live/BTN/hd
+#EXTINF:-1 tvg-id="bloomberg-tv-usa" tvg-name="Bloomberg TV USA SD" group-title="Live",Bloomberg TV USA SD
+https://tvpass.org/live/BloombergTV/sd
+#EXTINF:-1 tvg-id="bloomberg-tv-usa" tvg-name="Bloomberg TV USA HD" group-title="Live",Bloomberg TV USA HD
+https://tvpass.org/live/BloombergTV/hd
+#EXTINF:-1 tvg-id="boomerang" tvg-name="Boomerang SD" group-title="Live",Boomerang SD
+https://tvpass.org/live/Boomerang/sd
+#EXTINF:-1 tvg-id="boomerang" tvg-name="Boomerang HD" group-title="Live",Boomerang HD
+https://tvpass.org/live/Boomerang/hd
+#EXTINF:-1 tvg-id="bravo-usa-eastern-feed" tvg-name="Bravo USA Eastern Feed SD" group-title="Live",Bravo USA Eastern Feed SD
+https://tvpass.org/live/BravoEast/sd
+#EXTINF:-1 tvg-id="bravo-usa-eastern-feed" tvg-name="Bravo USA Eastern Feed HD" group-title="Live",Bravo USA Eastern Feed HD
+https://tvpass.org/live/BravoEast/hd
+#EXTINF:-1 tvg-id="cspan" tvg-name="C-SPAN SD" group-title="Live",C-SPAN SD
+https://tvpass.org/live/CSPAN/sd
+#EXTINF:-1 tvg-id="cspan" tvg-name="C-SPAN HD" group-title="Live",C-SPAN HD
+https://tvpass.org/live/CSPAN/hd
+#EXTINF:-1 tvg-id="cspan-2" tvg-name="C-SPAN 2 SD" group-title="Live",C-SPAN 2 SD
+https://tvpass.org/live/CSPAN2/sd
+#EXTINF:-1 tvg-id="cspan-2" tvg-name="C-SPAN 2 HD" group-title="Live",C-SPAN 2 HD
+https://tvpass.org/live/CSPAN2/hd
+#EXTINF:-1 tvg-id="cartoon-network-usa-eastern-feed" tvg-name="Cartoon Network USA Eastern Feed SD" group-title="Live",Cartoon Network USA Eastern Feed SD
+https://tvpass.org/live/CartoonNetworkEast/sd
+#EXTINF:-1 tvg-id="cartoon-network-usa-eastern-feed" tvg-name="Cartoon Network USA Eastern Feed HD" group-title="Live",Cartoon Network USA Eastern Feed HD
+https://tvpass.org/live/CartoonNetworkEast/hd
+#EXTINF:-1 tvg-id="cbs-kcbs-los-angeles-ca" tvg-name="CBS (KCBS) Los Angeles SD" group-title="Live",CBS (KCBS) Los Angeles SD
+https://tvpass.org/live/cbs-kcbs-los-angeles-ca/sd
+#EXTINF:-1 tvg-id="cbs-kcbs-los-angeles-ca" tvg-name="CBS (KCBS) Los Angeles HD" group-title="Live",CBS (KCBS) Los Angeles HD
+https://tvpass.org/live/cbs-kcbs-los-angeles-ca/hd
+#EXTINF:-1 tvg-id="cbs-wcbs-new-york-ny" tvg-name="CBS (WCBS) New York, NY SD" group-title="Live",CBS (WCBS) New York, NY SD
+https://tvpass.org/live/WCBSDT1/sd
+#EXTINF:-1 tvg-id="cbs-wcbs-new-york-ny" tvg-name="CBS (WCBS) New York, NY HD" group-title="Live",CBS (WCBS) New York, NY HD
+https://tvpass.org/live/WCBSDT1/hd
+#EXTINF:-1 tvg-id="cbs-sports-network-usa" tvg-name="CBS Sports Network USA SD" group-title="Live",CBS Sports Network USA SD
+https://tvpass.org/live/CBSSportsNetworkUSA/sd
+#EXTINF:-1 tvg-id="cbs-sports-network-usa" tvg-name="CBS Sports Network USA HD" group-title="Live",CBS Sports Network USA HD
+https://tvpass.org/live/CBSSportsNetworkUSA/hd
+#EXTINF:-1 tvg-id="chicago-sports-network" tvg-name="Chicago Sports Network SD" group-title="Live",Chicago Sports Network SD
+https://tvpass.org/live/chicago-sports-network/sd
+#EXTINF:-1 tvg-id="chicago-sports-network" tvg-name="Chicago Sports Network HD" group-title="Live",Chicago Sports Network HD
+https://tvpass.org/live/chicago-sports-network/hd
+#EXTINF:-1 tvg-id="cinemax-eastern-feed" tvg-name="Cinemax Eastern Feed SD" group-title="Live",Cinemax Eastern Feed SD
+https://tvpass.org/live/CinemaxEast/sd
+#EXTINF:-1 tvg-id="cinemax-eastern-feed" tvg-name="Cinemax Eastern Feed HD" group-title="Live",Cinemax Eastern Feed HD
+https://tvpass.org/live/CinemaxEast/hd
+#EXTINF:-1 tvg-id="cmt-us-eastern-feed" tvg-name="CMT US Eastern Feed SD" group-title="Live",CMT US Eastern Feed SD
+https://tvpass.org/live/CMTEast/sd
+#EXTINF:-1 tvg-id="cmt-us-eastern-feed" tvg-name="CMT US Eastern Feed HD" group-title="Live",CMT US Eastern Feed HD
+https://tvpass.org/live/CMTEast/hd
+#EXTINF:-1 tvg-id="cnbc-usa" tvg-name="CNBC USA SD" group-title="Live",CNBC USA SD
+https://tvpass.org/live/CNBC/sd
+#EXTINF:-1 tvg-id="cnbc-usa" tvg-name="CNBC USA HD" group-title="Live",CNBC USA HD
+https://tvpass.org/live/CNBC/hd
+#EXTINF:-1 tvg-id="cnn" tvg-name="CNN US SD" group-title="Live",CNN US SD
+https://tvpass.org/live/CNN/sd
+#EXTINF:-1 tvg-id="cnn" tvg-name="CNN US HD" group-title="Live",CNN US HD
+https://tvpass.org/live/CNN/hd
+#EXTINF:-1 tvg-id="comedy-central-us-eastern-feed" tvg-name="Comedy Central (US) Eastern Feed SD" group-title="Live",Comedy Central (US) Eastern Feed SD
+https://tvpass.org/live/ComedyCentralEast/sd
+#EXTINF:-1 tvg-id="comedy-central-us-eastern-feed" tvg-name="Comedy Central (US) Eastern Feed HD" group-title="Live",Comedy Central (US) Eastern Feed HD
+https://tvpass.org/live/ComedyCentralEast/hd
+#EXTINF:-1 tvg-id="crime-investigation-network-usa-hd" tvg-name="Crime & Investigation Network USA HD SD" group-title="Live",Crime & Investigation Network USA HD SD
+https://tvpass.org/live/CrimePlusInvestigation/sd
+#EXTINF:-1 tvg-id="crime-investigation-network-usa-hd" tvg-name="Crime & Investigation Network USA HD HD" group-title="Live",Crime & Investigation Network USA HD HD
+https://tvpass.org/live/CrimePlusInvestigation/hd
+#EXTINF:-1 tvg-id="cw-kfmbtv2-san-diego-ca" tvg-name="CW (KFMB-TV2) San Diego SD" group-title="Live",CW (KFMB-TV2) San Diego SD
+https://tvpass.org/live/cw-kfmbtv2-san-diego-ca/sd
+#EXTINF:-1 tvg-id="cw-kfmbtv2-san-diego-ca" tvg-name="CW (KFMB-TV2) San Diego HD" group-title="Live",CW (KFMB-TV2) San Diego HD
+https://tvpass.org/live/cw-kfmbtv2-san-diego-ca/hd
+#EXTINF:-1 tvg-id="cw-wdcw-district-of-columbia" tvg-name="CW (WDCW) District of Columbia SD" group-title="Live",CW (WDCW) District of Columbia SD
+https://tvpass.org/live/cw-wdcw-district-of-columbia/sd
+#EXTINF:-1 tvg-id="cw-wdcw-district-of-columbia" tvg-name="CW (WDCW) District of Columbia HD" group-title="Live",CW (WDCW) District of Columbia HD
+https://tvpass.org/live/cw-wdcw-district-of-columbia/hd
+#EXTINF:-1 tvg-id="destination-america" tvg-name="Destination America SD" group-title="Live",Destination America SD
+https://tvpass.org/live/DestinationAmerica/sd
+#EXTINF:-1 tvg-id="destination-america" tvg-name="Destination America HD" group-title="Live",Destination America HD
+https://tvpass.org/live/DestinationAmerica/hd
+#EXTINF:-1 tvg-id="discovery-channel-us-eastern-feed" tvg-name="Discovery Channel (US) Eastern Feed SD" group-title="Live",Discovery Channel (US) Eastern Feed SD
+https://tvpass.org/live/DiscoveryChannelEast/sd
+#EXTINF:-1 tvg-id="discovery-channel-us-eastern-feed" tvg-name="Discovery Channel (US) Eastern Feed HD" group-title="Live",Discovery Channel (US) Eastern Feed HD
+https://tvpass.org/live/DiscoveryChannelEast/hd
+#EXTINF:-1 tvg-id="discovery-family-channel" tvg-name="Discovery Family Channel SD" group-title="Live",Discovery Family Channel SD
+https://tvpass.org/live/DiscoveryFamily/sd
+#EXTINF:-1 tvg-id="discovery-family-channel" tvg-name="Discovery Family Channel HD" group-title="Live",Discovery Family Channel HD
+https://tvpass.org/live/DiscoveryFamily/hd
+#EXTINF:-1 tvg-id="discovery-life-channel" tvg-name="Discovery Life Channel SD" group-title="Live",Discovery Life Channel SD
+https://tvpass.org/live/DiscoveryLife/sd
+#EXTINF:-1 tvg-id="discovery-life-channel" tvg-name="Discovery Life Channel HD" group-title="Live",Discovery Life Channel HD
+https://tvpass.org/live/DiscoveryLife/hd
+#EXTINF:-1 tvg-id="disney-eastern-feed" tvg-name="Disney Eastern Feed SD" group-title="Live",Disney Eastern Feed SD
+https://tvpass.org/live/DisneyChannelEast/sd
+#EXTINF:-1 tvg-id="disney-eastern-feed" tvg-name="Disney Eastern Feed HD" group-title="Live",Disney Eastern Feed HD
+https://tvpass.org/live/DisneyChannelEast/hd
+#EXTINF:-1 tvg-id="disney-junior-usa-east" tvg-name="Disney Junior USA East SD" group-title="Live",Disney Junior USA East SD
+https://tvpass.org/live/DisneyJuniorEast/sd
+#EXTINF:-1 tvg-id="disney-junior-usa-east" tvg-name="Disney Junior USA East HD" group-title="Live",Disney Junior USA East HD
+https://tvpass.org/live/DisneyJuniorEast/hd
+#EXTINF:-1 tvg-id="disney-xd-usa-eastern-feed" tvg-name="Disney XD USA Eastern Feed SD" group-title="Live",Disney XD USA Eastern Feed SD
+https://tvpass.org/live/DisneyXDEast/sd
+#EXTINF:-1 tvg-id="disney-xd-usa-eastern-feed" tvg-name="Disney XD USA Eastern Feed HD" group-title="Live",Disney XD USA Eastern Feed HD
+https://tvpass.org/live/DisneyXDEast/hd
+#EXTINF:-1 tvg-id="e-entertainment-usa-eastern-feed" tvg-name="E! Entertainment USA Eastern Feed SD" group-title="Live",E! Entertainment USA Eastern Feed SD
+https://tvpass.org/live/EEast/sd
+#EXTINF:-1 tvg-id="e-entertainment-usa-eastern-feed" tvg-name="E! Entertainment USA Eastern Feed HD" group-title="Live",E! Entertainment USA Eastern Feed HD
+https://tvpass.org/live/EEast/hd
+#EXTINF:-1 tvg-id="espn" tvg-name="ESPN SD" group-title="Live",ESPN SD
+https://tvpass.org/live/ESPN/sd
+#EXTINF:-1 tvg-id="espn" tvg-name="ESPN HD" group-title="Live",ESPN HD
+https://tvpass.org/live/ESPN/hd
+#EXTINF:-1 tvg-id="espn-deportes" tvg-name="ESPN Deportes SD" group-title="Live",ESPN Deportes SD
+https://tvpass.org/live/espn-deportes/sd
+#EXTINF:-1 tvg-id="espn-deportes" tvg-name="ESPN Deportes HD" group-title="Live",ESPN Deportes HD
+https://tvpass.org/live/espn-deportes/hd
+#EXTINF:-1 tvg-id="espn-news" tvg-name="ESPN News SD" group-title="Live",ESPN News SD
+https://tvpass.org/live/ESPNews/sd
+#EXTINF:-1 tvg-id="espn-news" tvg-name="ESPN News HD" group-title="Live",ESPN News HD
+https://tvpass.org/live/ESPNews/hd
+#EXTINF:-1 tvg-id="espn-u" tvg-name="ESPN U SD" group-title="Live",ESPN U SD
+https://tvpass.org/live/ESPNU/sd
+#EXTINF:-1 tvg-id="espn-u" tvg-name="ESPN U HD" group-title="Live",ESPN U HD
+https://tvpass.org/live/ESPNU/hd
+#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN2 SD" group-title="Live",ESPN2 SD
+https://tvpass.org/live/ESPN2/sd
+#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN2 HD" group-title="Live",ESPN2 HD
+https://tvpass.org/live/ESPN2/hd
+#EXTINF:-1 tvg-id="fanduel-sports-indiana" tvg-name="Fanduel Sports Indiana SD" group-title="Live",Fanduel Sports Indiana SD
+https://tvpass.org/live/fanduel-sports-indiana/sd
+#EXTINF:-1 tvg-id="fanduel-sports-indiana" tvg-name="Fanduel Sports Indiana HD" group-title="Live",Fanduel Sports Indiana HD
+https://tvpass.org/live/fanduel-sports-indiana/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-detroit-hd" tvg-name="Fanduel Sports Network Detroit SD" group-title="Live",Fanduel Sports Network Detroit SD
+https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-detroit-hd" tvg-name="Fanduel Sports Network Detroit HD" group-title="Live",Fanduel Sports Network Detroit HD
+https://tvpass.org/live/fanduel-sports-network-detroit-hd/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-florida" tvg-name="Fanduel Sports Network Florida SD" group-title="Live",Fanduel Sports Network Florida SD
+https://tvpass.org/live/fanduel-sports-network-florida/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-florida" tvg-name="Fanduel Sports Network Florida HD" group-title="Live",Fanduel Sports Network Florida HD
+https://tvpass.org/live/fanduel-sports-network-florida/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-great-lakes" tvg-name="Fanduel Sports Network Great Lakes SD" group-title="Live",Fanduel Sports Network Great Lakes SD
+https://tvpass.org/live/fanduel-sports-network-great-lakes/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-great-lakes" tvg-name="Fanduel Sports Network Great Lakes HD" group-title="Live",Fanduel Sports Network Great Lakes HD
+https://tvpass.org/live/fanduel-sports-network-great-lakes/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-north" tvg-name="Fanduel Sports Network North SD" group-title="Live",Fanduel Sports Network North SD
+https://tvpass.org/live/fanduel-sports-network-north/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-north" tvg-name="Fanduel Sports Network North HD" group-title="Live",Fanduel Sports Network North HD
+https://tvpass.org/live/fanduel-sports-network-north/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-ohio-cleveland" tvg-name="Fanduel Sports Network Ohio Cleveland SD" group-title="Live",Fanduel Sports Network Ohio Cleveland SD
+https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-ohio-cleveland" tvg-name="Fanduel Sports Network Ohio Cleveland HD" group-title="Live",Fanduel Sports Network Ohio Cleveland HD
+https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-oklahoma" tvg-name="Fanduel Sports Network Oklahoma SD" group-title="Live",Fanduel Sports Network Oklahoma SD
+https://tvpass.org/live/fanduel-sports-network-oklahoma/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-oklahoma" tvg-name="Fanduel Sports Network Oklahoma HD" group-title="Live",Fanduel Sports Network Oklahoma HD
+https://tvpass.org/live/fanduel-sports-network-oklahoma/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-san-diego" tvg-name="Fanduel Sports Network San Diego SD" group-title="Live",Fanduel Sports Network San Diego SD
+https://tvpass.org/live/fanduel-sports-network-san-diego/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-san-diego" tvg-name="Fanduel Sports Network San Diego HD" group-title="Live",Fanduel Sports Network San Diego HD
+https://tvpass.org/live/fanduel-sports-network-san-diego/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-socal" tvg-name="Fanduel Sports Network Socal SD" group-title="Live",Fanduel Sports Network Socal SD
+https://tvpass.org/live/fanduel-sports-network-socal/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-socal" tvg-name="Fanduel Sports Network Socal HD" group-title="Live",Fanduel Sports Network Socal HD
+https://tvpass.org/live/fanduel-sports-network-socal/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-carolinas" tvg-name="Fanduel Sports Network South Carolinas SD" group-title="Live",Fanduel Sports Network South Carolinas SD
+https://tvpass.org/live/fanduel-sports-network-south-carolinas/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-carolinas" tvg-name="Fanduel Sports Network South Carolinas HD" group-title="Live",Fanduel Sports Network South Carolinas HD
+https://tvpass.org/live/fanduel-sports-network-south-carolinas/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-tennessee-usa" tvg-name="Fanduel Sports Network South Tennessee SD" group-title="Live",Fanduel Sports Network South Tennessee SD
+https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-tennessee-usa" tvg-name="Fanduel Sports Network South Tennessee HD" group-title="Live",Fanduel Sports Network South Tennessee HD
+https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-west" tvg-name="Fanduel Sports Network West SD" group-title="Live",Fanduel Sports Network West SD
+https://tvpass.org/live/fanduel-sports-network-west/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-west" tvg-name="Fanduel Sports Network West HD" group-title="Live",Fanduel Sports Network West HD
+https://tvpass.org/live/fanduel-sports-network-west/hd
+#EXTINF:-1 tvg-id="fanduel-sports-network-wisconsin" tvg-name="Fanduel Sports Network Wisconsin SD" group-title="Live",Fanduel Sports Network Wisconsin SD
+https://tvpass.org/live/fanduel-sports-network-wisconsin/sd
+#EXTINF:-1 tvg-id="fanduel-sports-network-wisconsin" tvg-name="Fanduel Sports Network Wisconsin HD" group-title="Live",Fanduel Sports Network Wisconsin HD
+https://tvpass.org/live/fanduel-sports-network-wisconsin/hd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-georgia" tvg-name="Fanduel Sports Southeast Georgia SD" group-title="Live",Fanduel Sports Southeast Georgia SD
+https://tvpass.org/live/fanduel-sports-southeast-georgia/sd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-georgia" tvg-name="Fanduel Sports Southeast Georgia HD" group-title="Live",Fanduel Sports Southeast Georgia HD
+https://tvpass.org/live/fanduel-sports-southeast-georgia/hd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-north-carolina" tvg-name="Fanduel Sports Southeast North Carolina SD" group-title="Live",Fanduel Sports Southeast North Carolina SD
+https://tvpass.org/live/fanduel-sports-southeast-north-carolina/sd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-north-carolina" tvg-name="Fanduel Sports Southeast North Carolina HD" group-title="Live",Fanduel Sports Southeast North Carolina HD
+https://tvpass.org/live/fanduel-sports-southeast-north-carolina/hd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-south-carolina" tvg-name="Fanduel Sports Southeast South Carolina SD" group-title="Live",Fanduel Sports Southeast South Carolina SD
+https://tvpass.org/live/fanduel-sports-southeast-south-carolina/sd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-south-carolina" tvg-name="Fanduel Sports Southeast South Carolina HD" group-title="Live",Fanduel Sports Southeast South Carolina HD
+https://tvpass.org/live/fanduel-sports-southeast-south-carolina/hd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-tennessee-nashville" tvg-name="Fanduel Sports Southeast Tennessee Nashville SD" group-title="Live",Fanduel Sports Southeast Tennessee Nashville SD
+https://tvpass.org/live/fanduel-sports-southeast-tennessee-nashville/sd
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-tennessee-nashville" tvg-name="Fanduel Sports Southeast Tennessee Nashville HD" group-title="Live",Fanduel Sports Southeast Tennessee Nashville HD
+https://tvpass.org/live/fanduel-sports-southeast-tennessee-nashville/hd
+#EXTINF:-1 tvg-id="bally-sports-sun" tvg-name="Fanduel Sports Sun SD" group-title="Live",Fanduel Sports Sun SD
+https://tvpass.org/live/fanduel-sports-sun/sd
+#EXTINF:-1 tvg-id="bally-sports-sun" tvg-name="Fanduel Sports Sun HD" group-title="Live",Fanduel Sports Sun HD
+https://tvpass.org/live/fanduel-sports-sun/hd
+#EXTINF:-1 tvg-id="fanduel-sports-tennessee-east" tvg-name="Fanduel Sports Tennessee East SD" group-title="Live",Fanduel Sports Tennessee East SD
+https://tvpass.org/live/fanduel-sports-tennessee-east/sd
+#EXTINF:-1 tvg-id="fanduel-sports-tennessee-east" tvg-name="Fanduel Sports Tennessee East HD" group-title="Live",Fanduel Sports Tennessee East HD
+https://tvpass.org/live/fanduel-sports-tennessee-east/hd
+#EXTINF:-1 tvg-id="food-network-usa-eastern-feed" tvg-name="Food Network USA Eastern Feed SD" group-title="Live",Food Network USA Eastern Feed SD
+https://tvpass.org/live/FoodNetworkEast/sd
+#EXTINF:-1 tvg-id="food-network-usa-eastern-feed" tvg-name="Food Network USA Eastern Feed HD" group-title="Live",Food Network USA Eastern Feed HD
+https://tvpass.org/live/FoodNetworkEast/hd
+#EXTINF:-1 tvg-id="fox-kttv-los-angeles-ca" tvg-name="FOX (KTTV) Los Angeles SD" group-title="Live",FOX (KTTV) Los Angeles SD
+https://tvpass.org/live/fox-kttv-los-angeles-ca/sd
+#EXTINF:-1 tvg-id="fox-kttv-los-angeles-ca" tvg-name="FOX (KTTV) Los Angeles HD" group-title="Live",FOX (KTTV) Los Angeles HD
+https://tvpass.org/live/fox-kttv-los-angeles-ca/hd
+#EXTINF:-1 tvg-id="fox-wnyw-new-york-ny" tvg-name="FOX (WNYW) New York, NY SD" group-title="Live",FOX (WNYW) New York, NY SD
+https://tvpass.org/live/WNYWDT1/sd
+#EXTINF:-1 tvg-id="fox-wnyw-new-york-ny" tvg-name="FOX (WNYW) New York, NY HD" group-title="Live",FOX (WNYW) New York, NY HD
+https://tvpass.org/live/WNYWDT1/hd
+#EXTINF:-1 tvg-id="fox-business" tvg-name="Fox Business SD" group-title="Live",Fox Business SD
+https://tvpass.org/live/FoxBusiness/sd
+#EXTINF:-1 tvg-id="fox-business" tvg-name="Fox Business HD" group-title="Live",Fox Business HD
+https://tvpass.org/live/FoxBusiness/hd
+#EXTINF:-1 tvg-id="fox-news" tvg-name="Fox News SD" group-title="Live",Fox News SD
+https://tvpass.org/live/FoxNewsChannel/sd
+#EXTINF:-1 tvg-id="fox-news" tvg-name="Fox News HD" group-title="Live",Fox News HD
+https://tvpass.org/live/FoxNewsChannel/hd
+#EXTINF:-1 tvg-id="fox-sports-1" tvg-name="Fox Sports 1 SD" group-title="Live",Fox Sports 1 SD
+https://tvpass.org/live/FoxSports1/sd
+#EXTINF:-1 tvg-id="fox-sports-1" tvg-name="Fox Sports 1 HD" group-title="Live",Fox Sports 1 HD
+https://tvpass.org/live/FoxSports1/hd
+#EXTINF:-1 tvg-id="fox-sports-2" tvg-name="Fox Sports 2 SD" group-title="Live",Fox Sports 2 SD
+https://tvpass.org/live/FoxSports2/sd
+#EXTINF:-1 tvg-id="fox-sports-2" tvg-name="Fox Sports 2 HD" group-title="Live",Fox Sports 2 HD
+https://tvpass.org/live/FoxSports2/hd
+#EXTINF:-1 tvg-id="freeform-east-feed" tvg-name="Freeform East Feed SD" group-title="Live",Freeform East Feed SD
+https://tvpass.org/live/FreeformEast/sd
+#EXTINF:-1 tvg-id="freeform-east-feed" tvg-name="Freeform East Feed HD" group-title="Live",Freeform East Feed HD
+https://tvpass.org/live/FreeformEast/hd
+#EXTINF:-1 tvg-id="fuse-tv-eastern-feed" tvg-name="FUSE TV Eastern feed SD" group-title="Live",FUSE TV Eastern feed SD
+https://tvpass.org/live/FuseEast/sd
+#EXTINF:-1 tvg-id="fuse-tv-eastern-feed" tvg-name="FUSE TV Eastern feed HD" group-title="Live",FUSE TV Eastern feed HD
+https://tvpass.org/live/FuseEast/hd
+#EXTINF:-1 tvg-id="fx-movie-channel" tvg-name="FX Movie Channel SD" group-title="Live",FX Movie Channel SD
+https://tvpass.org/live/FXMovieChannel/sd
+#EXTINF:-1 tvg-id="fx-movie-channel" tvg-name="FX Movie Channel HD" group-title="Live",FX Movie Channel HD
+https://tvpass.org/live/FXMovieChannel/hd
+#EXTINF:-1 tvg-id="fx-networks-east-coast" tvg-name="FX Networks East Coast SD" group-title="Live",FX Networks East Coast SD
+https://tvpass.org/live/FXEast/sd
+#EXTINF:-1 tvg-id="fx-networks-east-coast" tvg-name="FX Networks East Coast HD" group-title="Live",FX Networks East Coast HD
+https://tvpass.org/live/FXEast/hd
+#EXTINF:-1 tvg-id="fxx-usa-eastern" tvg-name="FXX USA Eastern SD" group-title="Live",FXX USA Eastern SD
+https://tvpass.org/live/FXXEast/sd
+#EXTINF:-1 tvg-id="fxx-usa-eastern" tvg-name="FXX USA Eastern HD" group-title="Live",FXX USA Eastern HD
+https://tvpass.org/live/FXXEast/hd
+#EXTINF:-1 tvg-id="fyi-usa-eastern" tvg-name="FYI USA Eastern SD" group-title="Live",FYI USA Eastern SD
+https://tvpass.org/live/FYIEast/sd
+#EXTINF:-1 tvg-id="fyi-usa-eastern" tvg-name="FYI USA Eastern HD" group-title="Live",FYI USA Eastern HD
+https://tvpass.org/live/FYIEast/hd
+#EXTINF:-1 tvg-id="game-show-network-east" tvg-name="Game Show Network East SD" group-title="Live",Game Show Network East SD
+https://tvpass.org/live/game-show-network-east/sd
+#EXTINF:-1 tvg-id="game-show-network-east" tvg-name="Game Show Network East HD" group-title="Live",Game Show Network East HD
+https://tvpass.org/live/game-show-network-east/hd
+#EXTINF:-1 tvg-id="golf-channel-usa" tvg-name="Golf Channel USA SD" group-title="Live",Golf Channel USA SD
+https://tvpass.org/live/GolfChannel/sd
+#EXTINF:-1 tvg-id="golf-channel-usa" tvg-name="Golf Channel USA HD" group-title="Live",Golf Channel USA HD
+https://tvpass.org/live/GolfChannel/hd
+#EXTINF:-1 tvg-id="hallmark-eastern-feed" tvg-name="Hallmark Eastern Feed SD" group-title="Live",Hallmark Eastern Feed SD
+https://tvpass.org/live/HallmarkChannelEast/sd
+#EXTINF:-1 tvg-id="hallmark-eastern-feed" tvg-name="Hallmark Eastern Feed HD" group-title="Live",Hallmark Eastern Feed HD
+https://tvpass.org/live/HallmarkChannelEast/hd
+#EXTINF:-1 tvg-id="hallmark-family-hd" tvg-name="Hallmark Family HD SD" group-title="Live",Hallmark Family HD SD
+https://tvpass.org/live/HallmarkDrama/sd
+#EXTINF:-1 tvg-id="hallmark-family-hd" tvg-name="Hallmark Family HD HD" group-title="Live",Hallmark Family HD HD
+https://tvpass.org/live/HallmarkDrama/hd
+#EXTINF:-1 tvg-id="hallmark-mystery-eastern-hd" tvg-name="Hallmark Mystery Eastern HD SD" group-title="Live",Hallmark Mystery Eastern HD SD
+https://tvpass.org/live/HallmarkMoviesMysteriesEast/sd
+#EXTINF:-1 tvg-id="hallmark-mystery-eastern-hd" tvg-name="Hallmark Mystery Eastern HD HD" group-title="Live",Hallmark Mystery Eastern HD HD
+https://tvpass.org/live/HallmarkMoviesMysteriesEast/hd
+#EXTINF:-1 tvg-id="hbo-eastern-feed" tvg-name="HBO Eastern Feed SD" group-title="Live",HBO Eastern Feed SD
+https://tvpass.org/live/HBOEast/sd
+#EXTINF:-1 tvg-id="hbo-eastern-feed" tvg-name="HBO Eastern Feed HD" group-title="Live",HBO Eastern Feed HD
+https://tvpass.org/live/HBOEast/hd
+#EXTINF:-1 tvg-id="hbo-2-eastern-feed" tvg-name="HBO 2 Eastern Feed SD" group-title="Live",HBO 2 Eastern Feed SD
+https://tvpass.org/live/HBO2East/sd
+#EXTINF:-1 tvg-id="hbo-2-eastern-feed" tvg-name="HBO 2 Eastern Feed HD" group-title="Live",HBO 2 Eastern Feed HD
+https://tvpass.org/live/HBO2East/hd
+#EXTINF:-1 tvg-id="hbo-comedy-hd-east" tvg-name="HBO Comedy HD East SD" group-title="Live",HBO Comedy HD East SD
+https://tvpass.org/live/HBOComedyEast/sd
+#EXTINF:-1 tvg-id="hbo-comedy-hd-east" tvg-name="HBO Comedy HD East HD" group-title="Live",HBO Comedy HD East HD
+https://tvpass.org/live/HBOComedyEast/hd
+#EXTINF:-1 tvg-id="hbo-family-eastern-feed" tvg-name="HBO Family Eastern Feed SD" group-title="Live",HBO Family Eastern Feed SD
+https://tvpass.org/live/HBOFamilyEast/sd
+#EXTINF:-1 tvg-id="hbo-family-eastern-feed" tvg-name="HBO Family Eastern Feed HD" group-title="Live",HBO Family Eastern Feed HD
+https://tvpass.org/live/HBOFamilyEast/hd
+#EXTINF:-1 tvg-id="hbo-signature-hbo-3-eastern" tvg-name="HBO Signature (HBO 3) Eastern SD" group-title="Live",HBO Signature (HBO 3) Eastern SD
+https://tvpass.org/live/HBOSignatureEast/sd
+#EXTINF:-1 tvg-id="hbo-signature-hbo-3-eastern" tvg-name="HBO Signature (HBO 3) Eastern HD" group-title="Live",HBO Signature (HBO 3) Eastern HD
+https://tvpass.org/live/HBOSignatureEast/hd
+#EXTINF:-1 tvg-id="hbo-zone-hd-east" tvg-name="HBO Zone HD East SD" group-title="Live",HBO Zone HD East SD
+https://tvpass.org/live/HBOZoneEast/sd
+#EXTINF:-1 tvg-id="hbo-zone-hd-east" tvg-name="HBO Zone HD East HD" group-title="Live",HBO Zone HD East HD
+https://tvpass.org/live/HBOZoneEast/hd
+#EXTINF:-1 tvg-id="hgtv-usa-eastern-feed" tvg-name="HGTV USA Eastern Feed SD" group-title="Live",HGTV USA Eastern Feed SD
+https://tvpass.org/live/HGTVEast/sd
+#EXTINF:-1 tvg-id="hgtv-usa-eastern-feed" tvg-name="HGTV USA Eastern Feed HD" group-title="Live",HGTV USA Eastern Feed HD
+https://tvpass.org/live/HGTVEast/hd
+#EXTINF:-1 tvg-id="history-channel-us-eastern-feed" tvg-name="History Channel US Eastern Feed SD" group-title="Live",History Channel US Eastern Feed SD
+https://tvpass.org/live/HistoryEast/sd
+#EXTINF:-1 tvg-id="history-channel-us-eastern-feed" tvg-name="History Channel US Eastern Feed HD" group-title="Live",History Channel US Eastern Feed HD
+https://tvpass.org/live/HistoryEast/hd
+#EXTINF:-1 tvg-id="hln" tvg-name="HLN SD" group-title="Live",HLN SD
+https://tvpass.org/live/HLN/sd
+#EXTINF:-1 tvg-id="hln" tvg-name="HLN HD" group-title="Live",HLN HD
+https://tvpass.org/live/HLN/hd
+#EXTINF:-1 tvg-id="independent-film-channel-us" tvg-name="Independent Film Channel US SD" group-title="Live",Independent Film Channel US SD
+https://tvpass.org/live/IFCEast/sd
+#EXTINF:-1 tvg-id="independent-film-channel-us" tvg-name="Independent Film Channel US HD" group-title="Live",Independent Film Channel US HD
+https://tvpass.org/live/IFCEast/hd
+#EXTINF:-1 tvg-id="investigation-discovery-usa-eastern" tvg-name="Investigation Discovery USA Eastern SD" group-title="Live",Investigation Discovery USA Eastern SD
+https://tvpass.org/live/InvestigationDiscoveryEast/sd
+#EXTINF:-1 tvg-id="investigation-discovery-usa-eastern" tvg-name="Investigation Discovery USA Eastern HD" group-title="Live",Investigation Discovery USA Eastern HD
+https://tvpass.org/live/InvestigationDiscoveryEast/hd
+#EXTINF:-1 tvg-id="ion-eastern-feed" tvg-name="ION Eastern Feed SD" group-title="Live",ION Eastern Feed SD
+https://tvpass.org/live/IONTVEast/sd
+#EXTINF:-1 tvg-id="ion-eastern-feed" tvg-name="ION Eastern Feed HD" group-title="Live",ION Eastern Feed HD
+https://tvpass.org/live/IONTVEast/hd
+#EXTINF:-1 tvg-id="lifetime-movies-east" tvg-name="Lifetime Movies East SD" group-title="Live",Lifetime Movies East SD
+https://tvpass.org/live/LifetimeMoviesEast/sd
+#EXTINF:-1 tvg-id="lifetime-movies-east" tvg-name="Lifetime Movies East HD" group-title="Live",Lifetime Movies East HD
+https://tvpass.org/live/LifetimeMoviesEast/hd
+#EXTINF:-1 tvg-id="lifetime-network-us-eastern-feed" tvg-name="Lifetime Network US Eastern Feed SD" group-title="Live",Lifetime Network US Eastern Feed SD
+https://tvpass.org/live/LifetimeEast/sd
+#EXTINF:-1 tvg-id="lifetime-network-us-eastern-feed" tvg-name="Lifetime Network US Eastern Feed HD" group-title="Live",Lifetime Network US Eastern Feed HD
+https://tvpass.org/live/LifetimeEast/hd
+#EXTINF:-1 tvg-id="logo-east" tvg-name="LOGO East SD" group-title="Live",LOGO East SD
+https://tvpass.org/live/LogoEast/sd
+#EXTINF:-1 tvg-id="logo-east" tvg-name="LOGO East HD" group-title="Live",LOGO East HD
+https://tvpass.org/live/LogoEast/hd
+#EXTINF:-1 tvg-id="marquee-sports-network" tvg-name="Marquee Sports Network SD" group-title="Live",Marquee Sports Network SD
+https://tvpass.org/live/marquee-sports-network/sd
+#EXTINF:-1 tvg-id="marquee-sports-network" tvg-name="Marquee Sports Network HD" group-title="Live",Marquee Sports Network HD
+https://tvpass.org/live/marquee-sports-network/hd
+#EXTINF:-1 tvg-id="metv-toons-wjlp2-new-jersey" tvg-name="MeTV Toons (WJLP2) New Jersey SD" group-title="Live",MeTV Toons (WJLP2) New Jersey SD
+https://tvpass.org/live/metv-toons/sd
+#EXTINF:-1 tvg-id="metv-toons-wjlp2-new-jersey" tvg-name="MeTV Toons (WJLP2) New Jersey HD" group-title="Live",MeTV Toons (WJLP2) New Jersey HD
+https://tvpass.org/live/metv-toons/hd
+#EXTINF:-1 tvg-id="metv-wjlp-new-jerseynew-york" tvg-name="MeTV Wjlp New Jerseynew York SD" group-title="Live",MeTV Wjlp New Jerseynew York SD
+https://tvpass.org/live/metv-wjlp-new-jerseynew-york/sd
+#EXTINF:-1 tvg-id="metv-wjlp-new-jerseynew-york" tvg-name="MeTV Wjlp New Jerseynew York HD" group-title="Live",MeTV Wjlp New Jerseynew York HD
+https://tvpass.org/live/metv-wjlp-new-jerseynew-york/hd
+#EXTINF:-1 tvg-id="midatlantic-sports-network" tvg-name="Midatlantic Sports Network SD" group-title="Live",Midatlantic Sports Network SD
+https://tvpass.org/live/midatlantic-sports-network/sd
+#EXTINF:-1 tvg-id="midatlantic-sports-network" tvg-name="Midatlantic Sports Network HD" group-title="Live",Midatlantic Sports Network HD
+https://tvpass.org/live/midatlantic-sports-network/hd
+#EXTINF:-1 tvg-id="mlb-network" tvg-name="MLB Network SD" group-title="Live",MLB Network SD
+https://tvpass.org/live/MLBNetwork/sd
+#EXTINF:-1 tvg-id="mlb-network" tvg-name="MLB Network HD" group-title="Live",MLB Network HD
+https://tvpass.org/live/MLBNetwork/hd
+#EXTINF:-1 tvg-id="monumental-sports-network" tvg-name="Monumental Sports Network SD" group-title="Live",Monumental Sports Network SD
+https://tvpass.org/live/monumental-sports-network/sd
+#EXTINF:-1 tvg-id="monumental-sports-network" tvg-name="Monumental Sports Network HD" group-title="Live",Monumental Sports Network HD
+https://tvpass.org/live/monumental-sports-network/hd
+#EXTINF:-1 tvg-id="moremax-eastern" tvg-name="MoreMax Eastern SD" group-title="Live",MoreMax Eastern SD
+https://tvpass.org/live/MoreMaxEast/sd
+#EXTINF:-1 tvg-id="moremax-eastern" tvg-name="MoreMax Eastern HD" group-title="Live",MoreMax Eastern HD
+https://tvpass.org/live/MoreMaxEast/hd
+#EXTINF:-1 tvg-id="motor-trend-hd" tvg-name="Motor Trend HD SD" group-title="Live",Motor Trend HD SD
+https://tvpass.org/live/Motortrend/sd
+#EXTINF:-1 tvg-id="motor-trend-hd" tvg-name="Motor Trend HD HD" group-title="Live",Motor Trend HD HD
+https://tvpass.org/live/Motortrend/hd
+#EXTINF:-1 tvg-id="moviemax-max-6-east" tvg-name="MovieMax (Max 6) East SD" group-title="Live",MovieMax (Max 6) East SD
+https://tvpass.org/live/MovieMaxEast/sd
+#EXTINF:-1 tvg-id="moviemax-max-6-east" tvg-name="MovieMax (Max 6) East HD" group-title="Live",MovieMax (Max 6) East HD
+https://tvpass.org/live/MovieMaxEast/hd
+#EXTINF:-1 tvg-id="msg-madison-square-gardens" tvg-name="MSG Madison Square Gardens SD" group-title="Live",MSG Madison Square Gardens SD
+https://tvpass.org/live/msg-madison-square-gardens/sd
+#EXTINF:-1 tvg-id="msg-madison-square-gardens" tvg-name="MSG Madison Square Gardens HD" group-title="Live",MSG Madison Square Gardens HD
+https://tvpass.org/live/msg-madison-square-gardens/hd
+#EXTINF:-1 tvg-id="msg-plus" tvg-name="MSG Plus SD" group-title="Live",MSG Plus SD
+https://tvpass.org/live/msg-plus/sd
+#EXTINF:-1 tvg-id="msg-plus" tvg-name="MSG Plus HD" group-title="Live",MSG Plus HD
+https://tvpass.org/live/msg-plus/hd
+#EXTINF:-1 tvg-id="msnbc-usa" tvg-name="MSNBC USA SD" group-title="Live",MSNBC USA SD
+https://tvpass.org/live/MSNBC/sd
+#EXTINF:-1 tvg-id="msnbc-usa" tvg-name="MSNBC USA HD" group-title="Live",MSNBC USA HD
+https://tvpass.org/live/MSNBC/hd
+#EXTINF:-1 tvg-id="mtv-2-east" tvg-name="MTV 2 East SD" group-title="Live",MTV 2 East SD
+https://tvpass.org/live/mtv-2-east/sd
+#EXTINF:-1 tvg-id="mtv-2-east" tvg-name="MTV 2 East HD" group-title="Live",MTV 2 East HD
+https://tvpass.org/live/mtv-2-east/hd
+#EXTINF:-1 tvg-id="mtv-usa-eastern-feed" tvg-name="MTV USA Eastern Feed SD" group-title="Live",MTV USA Eastern Feed SD
+https://tvpass.org/live/MTVEast/sd
+#EXTINF:-1 tvg-id="mtv-usa-eastern-feed" tvg-name="MTV USA Eastern Feed HD" group-title="Live",MTV USA Eastern Feed HD
+https://tvpass.org/live/MTVEast/hd
+#EXTINF:-1 tvg-id="national-geographic-us-eastern" tvg-name="National Geographic US Eastern SD" group-title="Live",National Geographic US Eastern SD
+https://tvpass.org/live/NationalGeographicEast/sd
+#EXTINF:-1 tvg-id="national-geographic-us-eastern" tvg-name="National Geographic US Eastern HD" group-title="Live",National Geographic US Eastern HD
+https://tvpass.org/live/NationalGeographicEast/hd
+#EXTINF:-1 tvg-id="national-geographic-wild" tvg-name="National Geographic Wild SD" group-title="Live",National Geographic Wild SD
+https://tvpass.org/live/NationalGeographicWildEast/sd
+#EXTINF:-1 tvg-id="national-geographic-wild" tvg-name="National Geographic Wild HD" group-title="Live",National Geographic Wild HD
+https://tvpass.org/live/NationalGeographicWildEast/hd
+#EXTINF:-1 tvg-id="nba-tv-usa" tvg-name="NBA TV USA SD" group-title="Live",NBA TV USA SD
+https://tvpass.org/live/NBATV/sd
+#EXTINF:-1 tvg-id="nba-tv-usa" tvg-name="NBA TV USA HD" group-title="Live",NBA TV USA HD
+https://tvpass.org/live/NBATV/hd
+#EXTINF:-1 tvg-id="nbc-knbc-los-angeles-ca" tvg-name="NBC (KNBC) Los Angeles SD" group-title="Live",NBC (KNBC) Los Angeles SD
+https://tvpass.org/live/nbc-knbc-los-angeles-ca/sd
+#EXTINF:-1 tvg-id="nbc-knbc-los-angeles-ca" tvg-name="NBC (KNBC) Los Angeles HD" group-title="Live",NBC (KNBC) Los Angeles HD
+https://tvpass.org/live/nbc-knbc-los-angeles-ca/hd
+#EXTINF:-1 tvg-id="nbc-wnbc-new-york-ny" tvg-name="NBC (WNBC) New York, NY SD" group-title="Live",NBC (WNBC) New York, NY SD
+https://tvpass.org/live/WNBCDT1/sd
+#EXTINF:-1 tvg-id="nbc-wnbc-new-york-ny" tvg-name="NBC (WNBC) New York, NY HD" group-title="Live",NBC (WNBC) New York, NY HD
+https://tvpass.org/live/WNBCDT1/hd
+#EXTINF:-1 tvg-id="nbc-sports-bay-area" tvg-name="NBC Sports Bay Area SD" group-title="Live",NBC Sports Bay Area SD
+https://tvpass.org/live/nbc-sports-bay-area/sd
+#EXTINF:-1 tvg-id="nbc-sports-bay-area" tvg-name="NBC Sports Bay Area HD" group-title="Live",NBC Sports Bay Area HD
+https://tvpass.org/live/nbc-sports-bay-area/hd
+#EXTINF:-1 tvg-id="nbc-sports-boston" tvg-name="NBC Sports Boston SD" group-title="Live",NBC Sports Boston SD
+https://tvpass.org/live/nbc-sports-boston/sd
+#EXTINF:-1 tvg-id="nbc-sports-boston" tvg-name="NBC Sports Boston HD" group-title="Live",NBC Sports Boston HD
+https://tvpass.org/live/nbc-sports-boston/hd
+#EXTINF:-1 tvg-id="nbc-sports-california" tvg-name="NBC Sports California SD" group-title="Live",NBC Sports California SD
+https://tvpass.org/live/nbc-sports-california/sd
+#EXTINF:-1 tvg-id="nbc-sports-california" tvg-name="NBC Sports California HD" group-title="Live",NBC Sports California HD
+https://tvpass.org/live/nbc-sports-california/hd
+#EXTINF:-1 tvg-id="nbc-sports-philadelphia" tvg-name="NBC Sports Philadelphia SD" group-title="Live",NBC Sports Philadelphia SD
+https://tvpass.org/live/nbc-sports-philadelphia/sd
+#EXTINF:-1 tvg-id="nbc-sports-philadelphia" tvg-name="NBC Sports Philadelphia HD" group-title="Live",NBC Sports Philadelphia HD
+https://tvpass.org/live/nbc-sports-philadelphia/hd
+#EXTINF:-1 tvg-id="new-england-sports-network" tvg-name="New England Sports Network SD" group-title="Live",New England Sports Network SD
+https://tvpass.org/live/new-england-sports-network/sd
+#EXTINF:-1 tvg-id="new-england-sports-network" tvg-name="New England Sports Network HD" group-title="Live",New England Sports Network HD
+https://tvpass.org/live/new-england-sports-network/hd
+#EXTINF:-1 tvg-id="newsmax-tv" tvg-name="NewsMax TV SD" group-title="Live",NewsMax TV SD
+https://tvpass.org/live/NewsmaxTV/sd
+#EXTINF:-1 tvg-id="newsmax-tv" tvg-name="NewsMax TV HD" group-title="Live",NewsMax TV HD
+https://tvpass.org/live/NewsmaxTV/hd
+#EXTINF:-1 tvg-id="nfl-network" tvg-name="NFL Network SD" group-title="Live",NFL Network SD
+https://tvpass.org/live/NFLNetwork/sd
+#EXTINF:-1 tvg-id="nfl-network" tvg-name="NFL Network HD" group-title="Live",NFL Network HD
+https://tvpass.org/live/NFLNetwork/hd
+#EXTINF:-1 tvg-id="nfl-redzone" tvg-name="NFL RedZone SD" group-title="Live",NFL RedZone SD
+https://tvpass.org/live/NFLRedZone/sd
+#EXTINF:-1 tvg-id="nfl-redzone" tvg-name="NFL RedZone HD" group-title="Live",NFL RedZone HD
+https://tvpass.org/live/NFLRedZone/hd
+#EXTINF:-1 tvg-id="nhl-network-usa" tvg-name="NHL Network USA SD" group-title="Live",NHL Network USA SD
+https://tvpass.org/live/NHLNetwork/sd
+#EXTINF:-1 tvg-id="nhl-network-usa" tvg-name="NHL Network USA HD" group-title="Live",NHL Network USA HD
+https://tvpass.org/live/NHLNetwork/hd
+#EXTINF:-1 tvg-id="nick-jr-east" tvg-name="Nick Jr. East SD" group-title="Live",Nick Jr. East SD
+https://tvpass.org/live/NickJrEast/sd
+#EXTINF:-1 tvg-id="nick-jr-east" tvg-name="Nick Jr. East HD" group-title="Live",Nick Jr. East HD
+https://tvpass.org/live/NickJrEast/hd
+#EXTINF:-1 tvg-id="nickelodeon-usa-east-feed" tvg-name="Nickelodeon USA East Feed SD" group-title="Live",Nickelodeon USA East Feed SD
+https://tvpass.org/live/NickelodeonEast/sd
+#EXTINF:-1 tvg-id="nickelodeon-usa-east-feed" tvg-name="Nickelodeon USA East Feed HD" group-title="Live",Nickelodeon USA East Feed HD
+https://tvpass.org/live/NickelodeonEast/hd
+#EXTINF:-1 tvg-id="nicktoons-east" tvg-name="Nicktoons East SD" group-title="Live",Nicktoons East SD
+https://tvpass.org/live/NicktoonsEast/sd
+#EXTINF:-1 tvg-id="nicktoons-east" tvg-name="Nicktoons East HD" group-title="Live",Nicktoons East HD
+https://tvpass.org/live/NicktoonsEast/hd
+#EXTINF:-1 tvg-id="oprah-winfrey-network-usa-eastern" tvg-name="Oprah Winfrey Network USA Eastern SD" group-title="Live",Oprah Winfrey Network USA Eastern SD
+https://tvpass.org/live/OWNEast/sd
+#EXTINF:-1 tvg-id="oprah-winfrey-network-usa-eastern" tvg-name="Oprah Winfrey Network USA Eastern HD" group-title="Live",Oprah Winfrey Network USA Eastern HD
+https://tvpass.org/live/OWNEast/hd
+#EXTINF:-1 tvg-id="outdoor-channel-us" tvg-name="Outdoor Channel US SD" group-title="Live",Outdoor Channel US SD
+https://tvpass.org/live/OutdoorChannel/sd
+#EXTINF:-1 tvg-id="outdoor-channel-us" tvg-name="Outdoor Channel US HD" group-title="Live",Outdoor Channel US HD
+https://tvpass.org/live/OutdoorChannel/hd
+#EXTINF:-1 tvg-id="oxygen-eastern-feed" tvg-name="Oxygen Eastern Feed SD" group-title="Live",Oxygen Eastern Feed SD
+https://tvpass.org/live/OxygenEast/sd
+#EXTINF:-1 tvg-id="oxygen-eastern-feed" tvg-name="Oxygen Eastern Feed HD" group-title="Live",Oxygen Eastern Feed HD
+https://tvpass.org/live/OxygenEast/hd
+#EXTINF:-1 tvg-id="pbs-wnet-new-york-ny" tvg-name="PBS (WNET) New York, NY SD" group-title="Live",PBS (WNET) New York, NY SD
+https://tvpass.org/live/WNET/sd
+#EXTINF:-1 tvg-id="pbs-wnet-new-york-ny" tvg-name="PBS (WNET) New York, NY HD" group-title="Live",PBS (WNET) New York, NY HD
+https://tvpass.org/live/WNET/hd
+#EXTINF:-1 tvg-id="reelzchannel" tvg-name="ReelzChannel SD" group-title="Live",ReelzChannel SD
+https://tvpass.org/live/Reelz/sd
+#EXTINF:-1 tvg-id="reelzchannel" tvg-name="ReelzChannel HD" group-title="Live",ReelzChannel HD
+https://tvpass.org/live/Reelz/hd
+#EXTINF:-1 tvg-id="science" tvg-name="Science SD" group-title="Live",Science SD
+https://tvpass.org/live/Science/sd
+#EXTINF:-1 tvg-id="science" tvg-name="Science HD" group-title="Live",Science HD
+https://tvpass.org/live/Science/hd
+#EXTINF:-1 tvg-id="sec-network" tvg-name="SEC Network SD" group-title="Live",SEC Network SD
+https://tvpass.org/live/SECN/sd
+#EXTINF:-1 tvg-id="sec-network" tvg-name="SEC Network HD" group-title="Live",SEC Network HD
+https://tvpass.org/live/SECN/hd
+#EXTINF:-1 tvg-id="paramount-with-showtime-eastern-feed" tvg-name="Showtime Eastern Feed SD" group-title="Live",Showtime Eastern Feed SD
+https://tvpass.org/live/ShowtimeEast/sd
+#EXTINF:-1 tvg-id="paramount-with-showtime-eastern-feed" tvg-name="Showtime Eastern Feed HD" group-title="Live",Showtime Eastern Feed HD
+https://tvpass.org/live/ShowtimeEast/hd
+#EXTINF:-1 tvg-id="showtime-2-eastern" tvg-name="Showtime 2 Eastern SD" group-title="Live",Showtime 2 Eastern SD
+https://tvpass.org/live/Showtime2East/sd
+#EXTINF:-1 tvg-id="showtime-2-eastern" tvg-name="Showtime 2 Eastern HD" group-title="Live",Showtime 2 Eastern HD
+https://tvpass.org/live/Showtime2East/hd
+#EXTINF:-1 tvg-id="sny-sportsnet-new-york-comcast" tvg-name="SNY Sportsnet New York Comcast SD" group-title="Live",SNY Sportsnet New York Comcast SD
+https://tvpass.org/live/sny-sportsnet-new-york-comcast/sd
+#EXTINF:-1 tvg-id="sny-sportsnet-new-york-comcast" tvg-name="SNY Sportsnet New York Comcast HD" group-title="Live",SNY Sportsnet New York Comcast HD
+https://tvpass.org/live/sny-sportsnet-new-york-comcast/hd
+#EXTINF:-1 tvg-id="space-city-home-network" tvg-name="Space City Home Network SD" group-title="Live",Space City Home Network SD
+https://tvpass.org/live/space-city-home-network/sd
+#EXTINF:-1 tvg-id="space-city-home-network" tvg-name="Space City Home Network HD" group-title="Live",Space City Home Network HD
+https://tvpass.org/live/space-city-home-network/hd
+#EXTINF:-1 tvg-id="spectrum-sportsnet-la" tvg-name="Spectrum SportsNet LA SD" group-title="Live",Spectrum SportsNet LA SD
+https://tvpass.org/live/spectrum-sportsnet-la/sd
+#EXTINF:-1 tvg-id="spectrum-sportsnet-la" tvg-name="Spectrum SportsNet LA HD" group-title="Live",Spectrum SportsNet LA HD
+https://tvpass.org/live/spectrum-sportsnet-la/hd
+#EXTINF:-1 tvg-id="spectrum-sportsnet" tvg-name="Spectrum Sportsnet Lakers SD" group-title="Live",Spectrum Sportsnet Lakers SD
+https://tvpass.org/live/spectrum-sportsnet/sd
+#EXTINF:-1 tvg-id="spectrum-sportsnet" tvg-name="Spectrum Sportsnet Lakers HD" group-title="Live",Spectrum Sportsnet Lakers HD
+https://tvpass.org/live/spectrum-sportsnet/hd
+#EXTINF:-1 tvg-id="sportsnet-east" tvg-name="Sportsnet (East) SD" group-title="Live",Sportsnet (East) SD
+https://tvpass.org/live/sportsnet-east/sd
+#EXTINF:-1 tvg-id="sportsnet-east" tvg-name="Sportsnet (East) HD" group-title="Live",Sportsnet (East) HD
+https://tvpass.org/live/sportsnet-east/hd
+#EXTINF:-1 tvg-id="sportsnet-360" tvg-name="Sportsnet 360 SD" group-title="Live",Sportsnet 360 SD
+https://tvpass.org/live/sportsnet-360/sd
+#EXTINF:-1 tvg-id="sportsnet-360" tvg-name="Sportsnet 360 HD" group-title="Live",Sportsnet 360 HD
+https://tvpass.org/live/sportsnet-360/hd
+#EXTINF:-1 tvg-id="sportsnet-one" tvg-name="Sportsnet One SD" group-title="Live",Sportsnet One SD
+https://tvpass.org/live/sportsnet-one/sd
+#EXTINF:-1 tvg-id="sportsnet-one" tvg-name="Sportsnet One HD" group-title="Live",Sportsnet One HD
+https://tvpass.org/live/sportsnet-one/hd
+#EXTINF:-1 tvg-id="sportsnet-ontario" tvg-name="Sportsnet Ontario SD" group-title="Live",Sportsnet Ontario SD
+https://tvpass.org/live/sportsnet-ontario/sd
+#EXTINF:-1 tvg-id="sportsnet-ontario" tvg-name="Sportsnet Ontario HD" group-title="Live",Sportsnet Ontario HD
+https://tvpass.org/live/sportsnet-ontario/hd
+#EXTINF:-1 tvg-id="sportsnet-pacific" tvg-name="Sportsnet Pacific SD" group-title="Live",Sportsnet Pacific SD
+https://tvpass.org/live/sportsnet-pacific/sd
+#EXTINF:-1 tvg-id="sportsnet-pacific" tvg-name="Sportsnet Pacific HD" group-title="Live",Sportsnet Pacific HD
+https://tvpass.org/live/sportsnet-pacific/hd
+#EXTINF:-1 tvg-id="sportsnet-pittsburgh" tvg-name="Sportsnet Pittsburgh SD" group-title="Live",Sportsnet Pittsburgh SD
+https://tvpass.org/live/sportsnet-pittsburgh/sd
+#EXTINF:-1 tvg-id="sportsnet-pittsburgh" tvg-name="Sportsnet Pittsburgh HD" group-title="Live",Sportsnet Pittsburgh HD
+https://tvpass.org/live/sportsnet-pittsburgh/hd
+#EXTINF:-1 tvg-id="sportsnet-west" tvg-name="Sportsnet West SD" group-title="Live",Sportsnet West SD
+https://tvpass.org/live/sportsnet-west/sd
+#EXTINF:-1 tvg-id="sportsnet-west" tvg-name="Sportsnet West HD" group-title="Live",Sportsnet West HD
+https://tvpass.org/live/sportsnet-west/hd
+#EXTINF:-1 tvg-id="starz-eastern" tvg-name="Starz Eastern SD" group-title="Live",Starz Eastern SD
+https://tvpass.org/live/StarzEast/sd
+#EXTINF:-1 tvg-id="starz-eastern" tvg-name="Starz Eastern HD" group-title="Live",Starz Eastern HD
+https://tvpass.org/live/StarzEast/hd
+#EXTINF:-1 tvg-id="sundancetv-usa-east" tvg-name="SundanceTV USA East SD" group-title="Live",SundanceTV USA East SD
+https://tvpass.org/live/SundanceTVEast/sd
+#EXTINF:-1 tvg-id="sundancetv-usa-east" tvg-name="SundanceTV USA East HD" group-title="Live",SundanceTV USA East HD
+https://tvpass.org/live/SundanceTVEast/hd
+#EXTINF:-1 tvg-id="syfy-eastern-feed" tvg-name="Syfy Eastern Feed SD" group-title="Live",Syfy Eastern Feed SD
+https://tvpass.org/live/SyfyEast/sd
+#EXTINF:-1 tvg-id="syfy-eastern-feed" tvg-name="Syfy Eastern Feed HD" group-title="Live",Syfy Eastern Feed HD
+https://tvpass.org/live/SyfyEast/hd
+#EXTINF:-1 tvg-id="tbs-east" tvg-name="TBS East SD" group-title="Live",TBS East SD
+https://tvpass.org/live/TBSEast/sd
+#EXTINF:-1 tvg-id="tbs-east" tvg-name="TBS East HD" group-title="Live",TBS East HD
+https://tvpass.org/live/TBSEast/hd
+#EXTINF:-1 tvg-id="teennick-eastern" tvg-name="TeenNick Eastern SD" group-title="Live",TeenNick Eastern SD
+https://tvpass.org/live/TeenNickEast/sd
+#EXTINF:-1 tvg-id="teennick-eastern" tvg-name="TeenNick Eastern HD" group-title="Live",TeenNick Eastern HD
+https://tvpass.org/live/TeenNickEast/hd
+#EXTINF:-1 tvg-id="telemundo-eastern-feed" tvg-name="Telemundo Eastern Feed SD" group-title="Live",Telemundo Eastern Feed SD
+https://tvpass.org/live/TelemundoEast/sd
+#EXTINF:-1 tvg-id="telemundo-eastern-feed" tvg-name="Telemundo Eastern Feed HD" group-title="Live",Telemundo Eastern Feed HD
+https://tvpass.org/live/TelemundoEast/hd
+#EXTINF:-1 tvg-id="the-cooking-channel" tvg-name="The Cooking Channel SD" group-title="Live",The Cooking Channel SD
+https://tvpass.org/live/CookingChannel/sd
+#EXTINF:-1 tvg-id="the-cooking-channel" tvg-name="The Cooking Channel HD" group-title="Live",The Cooking Channel HD
+https://tvpass.org/live/CookingChannel/hd
+#EXTINF:-1 tvg-id="the-tennis-channel" tvg-name="The Tennis Channel SD" group-title="Live",The Tennis Channel SD
+https://tvpass.org/live/TennisChannel/sd
+#EXTINF:-1 tvg-id="the-tennis-channel" tvg-name="The Tennis Channel HD" group-title="Live",The Tennis Channel HD
+https://tvpass.org/live/TennisChannel/hd
+#EXTINF:-1 tvg-id="the-weather-channel" tvg-name="The Weather Channel SD" group-title="Live",The Weather Channel SD
+https://tvpass.org/live/TheWeatherChannel/sd
+#EXTINF:-1 tvg-id="the-weather-channel" tvg-name="The Weather Channel HD" group-title="Live",The Weather Channel HD
+https://tvpass.org/live/TheWeatherChannel/hd
+#EXTINF:-1 tvg-id="tlc-usa-eastern" tvg-name="TLC USA Eastern SD" group-title="Live",TLC USA Eastern SD
+https://tvpass.org/live/TLCEast/sd
+#EXTINF:-1 tvg-id="tlc-usa-eastern" tvg-name="TLC USA Eastern HD" group-title="Live",TLC USA Eastern HD
+https://tvpass.org/live/TLCEast/hd
+#EXTINF:-1 tvg-id="tmc-us-eastern-feed" tvg-name="TMC (US) Eastern Feed SD" group-title="Live",TMC (US) Eastern Feed SD
+https://tvpass.org/live/TheMovieChannelEast/sd
+#EXTINF:-1 tvg-id="tmc-us-eastern-feed" tvg-name="TMC (US) Eastern Feed HD" group-title="Live",TMC (US) Eastern Feed HD
+https://tvpass.org/live/TheMovieChannelEast/hd
+#EXTINF:-1 tvg-id="tnt-eastern-feed" tvg-name="TNT Eastern Feed SD" group-title="Live",TNT Eastern Feed SD
+https://tvpass.org/live/TNTEast/sd
+#EXTINF:-1 tvg-id="tnt-eastern-feed" tvg-name="TNT Eastern Feed HD" group-title="Live",TNT Eastern Feed HD
+https://tvpass.org/live/TNTEast/hd
+#EXTINF:-1 tvg-id="travel-us-east" tvg-name="Travel US East SD" group-title="Live",Travel US East SD
+https://tvpass.org/live/TravelChannelEast/sd
+#EXTINF:-1 tvg-id="travel-us-east" tvg-name="Travel US East HD" group-title="Live",Travel US East HD
+https://tvpass.org/live/TravelChannelEast/hd
+#EXTINF:-1 tvg-id="trutv-usa-eastern" tvg-name="truTV USA Eastern SD" group-title="Live",truTV USA Eastern SD
+https://tvpass.org/live/truTVEast/sd
+#EXTINF:-1 tvg-id="trutv-usa-eastern" tvg-name="truTV USA Eastern HD" group-title="Live",truTV USA Eastern HD
+https://tvpass.org/live/truTVEast/hd
+#EXTINF:-1 tvg-id="tsn1" tvg-name="TSN1 SD" group-title="Live",TSN1 SD
+https://tvpass.org/live/tsn1/sd
+#EXTINF:-1 tvg-id="tsn1" tvg-name="TSN1 HD" group-title="Live",TSN1 HD
+https://tvpass.org/live/tsn1/hd
+#EXTINF:-1 tvg-id="tsn2" tvg-name="TSN2 SD" group-title="Live",TSN2 SD
+https://tvpass.org/live/tsn2/sd
+#EXTINF:-1 tvg-id="tsn2" tvg-name="TSN2 HD" group-title="Live",TSN2 HD
+https://tvpass.org/live/tsn2/hd
+#EXTINF:-1 tvg-id="tsn3" tvg-name="TSN3 SD" group-title="Live",TSN3 SD
+https://tvpass.org/live/tsn3/sd
+#EXTINF:-1 tvg-id="tsn3" tvg-name="TSN3 HD" group-title="Live",TSN3 HD
+https://tvpass.org/live/tsn3/hd
+#EXTINF:-1 tvg-id="tsn4" tvg-name="TSN4 SD" group-title="Live",TSN4 SD
+https://tvpass.org/live/tsn4/sd
+#EXTINF:-1 tvg-id="tsn4" tvg-name="TSN4 HD" group-title="Live",TSN4 HD
+https://tvpass.org/live/tsn4/hd
+#EXTINF:-1 tvg-id="tsn5" tvg-name="TSN5 SD" group-title="Live",TSN5 SD
+https://tvpass.org/live/tsn5/sd
+#EXTINF:-1 tvg-id="tsn5" tvg-name="TSN5 HD" group-title="Live",TSN5 HD
+https://tvpass.org/live/tsn5/hd
+#EXTINF:-1 tvg-id="turner-classic-movies-usa" tvg-name="Turner Classic Movies USA SD" group-title="Live",Turner Classic Movies USA SD
+https://tvpass.org/live/TCMEast/sd
+#EXTINF:-1 tvg-id="turner-classic-movies-usa" tvg-name="Turner Classic Movies USA HD" group-title="Live",Turner Classic Movies USA HD
+https://tvpass.org/live/TCMEast/hd
+#EXTINF:-1 tvg-id="tv-land-eastern" tvg-name="TV Land Eastern SD" group-title="Live",TV Land Eastern SD
+https://tvpass.org/live/tv-land-eastern/sd
+#EXTINF:-1 tvg-id="tv-land-eastern" tvg-name="TV Land Eastern HD" group-title="Live",TV Land Eastern HD
+https://tvpass.org/live/tv-land-eastern/hd
+#EXTINF:-1 tvg-id="tv-one" tvg-name="TV One SD" group-title="Live",TV One SD
+https://tvpass.org/live/TVOne/sd
+#EXTINF:-1 tvg-id="tv-one" tvg-name="TV One HD" group-title="Live",TV One HD
+https://tvpass.org/live/TVOne/hd
+#EXTINF:-1 tvg-id="universal-kids" tvg-name="Universal Kids SD" group-title="Live",Universal Kids SD
+https://tvpass.org/live/UniversalKidsEast/sd
+#EXTINF:-1 tvg-id="universal-kids" tvg-name="Universal Kids HD" group-title="Live",Universal Kids HD
+https://tvpass.org/live/UniversalKidsEast/hd
+#EXTINF:-1 tvg-id="univision-eastern-feed" tvg-name="Univision Eastern Feed SD" group-title="Live",Univision Eastern Feed SD
+https://tvpass.org/live/UnivisionEast/sd
+#EXTINF:-1 tvg-id="univision-eastern-feed" tvg-name="Univision Eastern Feed HD" group-title="Live",Univision Eastern Feed HD
+https://tvpass.org/live/UnivisionEast/hd
+#EXTINF:-1 tvg-id="usa-network-east-feed" tvg-name="USA Network East Feed SD" group-title="Live",USA Network East Feed SD
+https://tvpass.org/live/USANetworkEast/sd
+#EXTINF:-1 tvg-id="usa-network-east-feed" tvg-name="USA Network East Feed HD" group-title="Live",USA Network East Feed HD
+https://tvpass.org/live/USANetworkEast/hd
+#EXTINF:-1 tvg-id="vh1-eastern-feed" tvg-name="VH1 Eastern Feed SD" group-title="Live",VH1 Eastern Feed SD
+https://tvpass.org/live/VH1East/sd
+#EXTINF:-1 tvg-id="vh1-eastern-feed" tvg-name="VH1 Eastern Feed HD" group-title="Live",VH1 Eastern Feed HD
+https://tvpass.org/live/VH1East/hd
+#EXTINF:-1 tvg-id="vice" tvg-name="VICE SD" group-title="Live",VICE SD
+https://tvpass.org/live/VICETV/sd
+#EXTINF:-1 tvg-id="vice" tvg-name="VICE HD" group-title="Live",VICE HD
+https://tvpass.org/live/VICETV/hd
+#EXTINF:-1 tvg-id="we-womens-entertainment-eastern" tvg-name="WE (Women's Entertainment) Eastern SD" group-title="Live",WE (Women's Entertainment) Eastern SD
+https://tvpass.org/live/WeTVEast/sd
+#EXTINF:-1 tvg-id="we-womens-entertainment-eastern" tvg-name="WE (Women's Entertainment) Eastern HD" group-title="Live",WE (Women's Entertainment) Eastern HD
+https://tvpass.org/live/WeTVEast/hd
+#EXTINF:-1 tvg-id="wpix-new-york-superstation" tvg-name="WPIX New York (SUPERSTATION) SD" group-title="Live",WPIX New York (SUPERSTATION) SD
+https://tvpass.org/live/WPIX/sd
+#EXTINF:-1 tvg-id="wpix-new-york-superstation" tvg-name="WPIX New York (SUPERSTATION) HD" group-title="Live",WPIX New York (SUPERSTATION) HD
+https://tvpass.org/live/WPIX/hd
+#EXTINF:-1 tvg-id="yes-network" tvg-name="Yes Network SD" group-title="Live",Yes Network SD
+https://tvpass.org/live/yes-network/sd
+#EXTINF:-1 tvg-id="yes-network" tvg-name="Yes Network HD" group-title="Live",Yes Network HD
+https://tvpass.org/live/yes-network/hd
+#EXTINF:-1 tvg-id="" tvg-name="Boston Red Sox @ Minnesota Twins (03/16 1:05 PM ET) SD" group-title="MLB",Boston Red Sox @ Minnesota Twins (03/16 1:05 PM ET) SD
+https://tvpass.org/live/new-england-sports-network/sd
+#EXTINF:-1 tvg-id="" tvg-name="Boston Red Sox @ Minnesota Twins (03/16 1:05 PM ET) HD" group-title="MLB",Boston Red Sox @ Minnesota Twins (03/16 1:05 PM ET) HD
+https://tvpass.org/live/new-england-sports-network/hd
+#EXTINF:-1 tvg-id="" tvg-name="Atlanta Braves @ Toronto Blue Jays (03/16 1:07 PM ET) SD" group-title="MLB",Atlanta Braves @ Toronto Blue Jays (03/16 1:07 PM ET) SD
+https://tvpass.org/live/sportsnet-east/sd
+#EXTINF:-1 tvg-id="" tvg-name="Atlanta Braves @ Toronto Blue Jays (03/16 1:07 PM ET) HD" group-title="MLB",Atlanta Braves @ Toronto Blue Jays (03/16 1:07 PM ET) HD
+https://tvpass.org/live/sportsnet-east/hd
+#EXTINF:-1 tvg-id="" tvg-name="Philadelphia 76ers @ Dallas Mavericks (03/16 1:10 PM ET) SD" group-title="NBA",Philadelphia 76ers @ Dallas Mavericks (03/16 1:10 PM ET) SD
+https://tvpass.org/live/NBA03/sd
+#EXTINF:-1 tvg-id="" tvg-name="Philadelphia 76ers @ Dallas Mavericks (03/16 1:10 PM ET) HD" group-title="NBA",Philadelphia 76ers @ Dallas Mavericks (03/16 1:10 PM ET) HD
+https://tvpass.org/live/NBA03/hd
+#EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates @ New York Yankees (03/16 1:10 PM ET) SD" group-title="MLB",Pittsburgh Pirates @ New York Yankees (03/16 1:10 PM ET) SD
+https://tvpass.org/live/sportsnet-pittsburgh/sd
+#EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates @ New York Yankees (03/16 1:10 PM ET) HD" group-title="MLB",Pittsburgh Pirates @ New York Yankees (03/16 1:10 PM ET) HD
+https://tvpass.org/live/sportsnet-pittsburgh/hd
+#EXTINF:-1 tvg-id="" tvg-name="Vegas Golden Knights @ Detroit Red Wings (03/16 1:10 PM ET) SD" group-title="NHL",Vegas Golden Knights @ Detroit Red Wings (03/16 1:10 PM ET) SD
+https://tvpass.org/live/TNTEast/sd
+#EXTINF:-1 tvg-id="" tvg-name="Vegas Golden Knights @ Detroit Red Wings (03/16 1:10 PM ET) HD" group-title="NHL",Vegas Golden Knights @ Detroit Red Wings (03/16 1:10 PM ET) HD
+https://tvpass.org/live/TNTEast/hd
+#EXTINF:-1 tvg-id="" tvg-name="Houston Astros @ New York Mets (03/16 1:10 PM ET) SD" group-title="MLB",Houston Astros @ New York Mets (03/16 1:10 PM ET) SD
+https://tvpass.org/live/MLBNetwork/sd
+#EXTINF:-1 tvg-id="" tvg-name="Houston Astros @ New York Mets (03/16 1:10 PM ET) HD" group-title="MLB",Houston Astros @ New York Mets (03/16 1:10 PM ET) HD
+https://tvpass.org/live/MLBNetwork/hd
+#EXTINF:-1 tvg-id="" tvg-name="St. Louis Cardinals @ Miami Marlins (03/16 1:10 PM ET) SD" group-title="MLB",St. Louis Cardinals @ Miami Marlins (03/16 1:10 PM ET) SD
+https://tvpass.org/live/mlb-01/sd
+#EXTINF:-1 tvg-id="" tvg-name="St. Louis Cardinals @ Miami Marlins (03/16 1:10 PM ET) HD" group-title="MLB",St. Louis Cardinals @ Miami Marlins (03/16 1:10 PM ET) HD
+https://tvpass.org/live/mlb-01/hd
+#EXTINF:-1 tvg-id="" tvg-name="Orlando Magic @ Cleveland Cavaliers (03/16 1:10 PM ET) SD" group-title="NBA",Orlando Magic @ Cleveland Cavaliers (03/16 1:10 PM ET) SD
+https://tvpass.org/live/WABCDT1/sd
+#EXTINF:-1 tvg-id="" tvg-name="Orlando Magic @ Cleveland Cavaliers (03/16 1:10 PM ET) HD" group-title="NBA",Orlando Magic @ Cleveland Cavaliers (03/16 1:10 PM ET) HD
+https://tvpass.org/live/WABCDT1/hd
+#EXTINF:-1 tvg-id="" tvg-name="Phoenix Suns @ Los Angeles Lakers (03/16 3:40 PM ET) SD" group-title="NBA",Phoenix Suns @ Los Angeles Lakers (03/16 3:40 PM ET) SD
+https://tvpass.org/live/WABCDT1/sd
+#EXTINF:-1 tvg-id="" tvg-name="Phoenix Suns @ Los Angeles Lakers (03/16 3:40 PM ET) HD" group-title="NBA",Phoenix Suns @ Los Angeles Lakers (03/16 3:40 PM ET) HD
+https://tvpass.org/live/WABCDT1/hd
+#EXTINF:-1 tvg-id="" tvg-name="Dallas Stars @ Colorado Avalanche (03/16 3:40 PM ET) SD" group-title="NHL",Dallas Stars @ Colorado Avalanche (03/16 3:40 PM ET) SD
+https://tvpass.org/live/TNTEast/sd
+#EXTINF:-1 tvg-id="" tvg-name="Dallas Stars @ Colorado Avalanche (03/16 3:40 PM ET) HD" group-title="NHL",Dallas Stars @ Colorado Avalanche (03/16 3:40 PM ET) HD
+https://tvpass.org/live/TNTEast/hd
+#EXTINF:-1 tvg-id="" tvg-name="Chicago White Sox @ Texas Rangers (03/16 4:05 PM ET) SD" group-title="MLB",Chicago White Sox @ Texas Rangers (03/16 4:05 PM ET) SD
+https://tvpass.org/live/mlb-03/sd
+#EXTINF:-1 tvg-id="" tvg-name="Chicago White Sox @ Texas Rangers (03/16 4:05 PM ET) HD" group-title="MLB",Chicago White Sox @ Texas Rangers (03/16 4:05 PM ET) HD
+https://tvpass.org/live/mlb-03/hd
+#EXTINF:-1 tvg-id="" tvg-name="Detroit Tigers @ Atlanta Braves (03/16 4:05 PM ET) SD" group-title="MLB",Detroit Tigers @ Atlanta Braves (03/16 4:05 PM ET) SD
+https://tvpass.org/live/MLBNetwork/sd
+#EXTINF:-1 tvg-id="" tvg-name="Detroit Tigers @ Atlanta Braves (03/16 4:05 PM ET) HD" group-title="MLB",Detroit Tigers @ Atlanta Braves (03/16 4:05 PM ET) HD
+https://tvpass.org/live/MLBNetwork/hd
+#EXTINF:-1 tvg-id="" tvg-name="Oakland Athletics @ San Francisco Giants (03/16 4:05 PM ET) SD" group-title="MLB",Oakland Athletics @ San Francisco Giants (03/16 4:05 PM ET) SD
+https://tvpass.org/live/mlb-02/sd
+#EXTINF:-1 tvg-id="" tvg-name="Oakland Athletics @ San Francisco Giants (03/16 4:05 PM ET) HD" group-title="MLB",Oakland Athletics @ San Francisco Giants (03/16 4:05 PM ET) HD
+https://tvpass.org/live/mlb-02/hd
+#EXTINF:-1 tvg-id="" tvg-name="Cleveland Guardians @ Milwaukee Brewers (03/16 4:10 PM ET) SD" group-title="MLB",Cleveland Guardians @ Milwaukee Brewers (03/16 4:10 PM ET) SD
+https://tvpass.org/live/mlb-04/sd
+#EXTINF:-1 tvg-id="" tvg-name="Cleveland Guardians @ Milwaukee Brewers (03/16 4:10 PM ET) HD" group-title="MLB",Cleveland Guardians @ Milwaukee Brewers (03/16 4:10 PM ET) HD
+https://tvpass.org/live/mlb-04/hd
+#EXTINF:-1 tvg-id="" tvg-name="Anaheim Ducks @ St Louis Blues (03/16 6:10 PM ET) SD" group-title="NHL",Anaheim Ducks @ St Louis Blues (03/16 6:10 PM ET) SD
+https://tvpass.org/live/NHL21/sd
+#EXTINF:-1 tvg-id="" tvg-name="Anaheim Ducks @ St Louis Blues (03/16 6:10 PM ET) HD" group-title="NHL",Anaheim Ducks @ St Louis Blues (03/16 6:10 PM ET) HD
+https://tvpass.org/live/NHL21/hd
+#EXTINF:-1 tvg-id="" tvg-name="Toronto Raptors @ Portland Trail Blazers (03/16 6:10 PM ET) SD" group-title="NBA",Toronto Raptors @ Portland Trail Blazers (03/16 6:10 PM ET) SD
+https://tvpass.org/live/NBA27/sd
+#EXTINF:-1 tvg-id="" tvg-name="Toronto Raptors @ Portland Trail Blazers (03/16 6:10 PM ET) HD" group-title="NBA",Toronto Raptors @ Portland Trail Blazers (03/16 6:10 PM ET) HD
+https://tvpass.org/live/NBA27/hd
+#EXTINF:-1 tvg-id="" tvg-name="Atlanta Hawks @ Brooklyn Nets (03/16 6:10 PM ET) SD" group-title="NBA",Atlanta Hawks @ Brooklyn Nets (03/16 6:10 PM ET) SD
+https://tvpass.org/live/NBA20/sd
+#EXTINF:-1 tvg-id="" tvg-name="Atlanta Hawks @ Brooklyn Nets (03/16 6:10 PM ET) HD" group-title="NBA",Atlanta Hawks @ Brooklyn Nets (03/16 6:10 PM ET) HD
+https://tvpass.org/live/NBA20/hd
+#EXTINF:-1 tvg-id="" tvg-name="Utah Jazz @ Minnesota Timberwolves (03/16 7:10 PM ET) SD" group-title="NBA",Utah Jazz @ Minnesota Timberwolves (03/16 7:10 PM ET) SD
+https://tvpass.org/live/NBA12/sd
+#EXTINF:-1 tvg-id="" tvg-name="Utah Jazz @ Minnesota Timberwolves (03/16 7:10 PM ET) HD" group-title="NBA",Utah Jazz @ Minnesota Timberwolves (03/16 7:10 PM ET) HD
+https://tvpass.org/live/NBA12/hd
+#EXTINF:-1 tvg-id="" tvg-name="Charlotte Hornets @ Los Angeles Clippers (03/16 7:10 PM ET) SD" group-title="NBA",Charlotte Hornets @ Los Angeles Clippers (03/16 7:10 PM ET) SD
+https://tvpass.org/live/NBA08/sd
+#EXTINF:-1 tvg-id="" tvg-name="Charlotte Hornets @ Los Angeles Clippers (03/16 7:10 PM ET) HD" group-title="NBA",Charlotte Hornets @ Los Angeles Clippers (03/16 7:10 PM ET) HD
+https://tvpass.org/live/NBA08/hd
+#EXTINF:-1 tvg-id="" tvg-name="Edmonton Oilers @ New York Rangers (03/16 7:10 PM ET) SD" group-title="NHL",Edmonton Oilers @ New York Rangers (03/16 7:10 PM ET) SD
+https://tvpass.org/live/sportsnet-east/sd
+#EXTINF:-1 tvg-id="" tvg-name="Edmonton Oilers @ New York Rangers (03/16 7:10 PM ET) HD" group-title="NHL",Edmonton Oilers @ New York Rangers (03/16 7:10 PM ET) HD
+https://tvpass.org/live/sportsnet-east/hd
+#EXTINF:-1 tvg-id="" tvg-name="Florida Panthers @ New York Islanders (03/16 7:10 PM ET) SD" group-title="NHL",Florida Panthers @ New York Islanders (03/16 7:10 PM ET) SD
+https://tvpass.org/live/NHL30/sd
+#EXTINF:-1 tvg-id="" tvg-name="Florida Panthers @ New York Islanders (03/16 7:10 PM ET) HD" group-title="NHL",Florida Panthers @ New York Islanders (03/16 7:10 PM ET) HD
+https://tvpass.org/live/NHL30/hd
+#EXTINF:-1 tvg-id="" tvg-name="Cincinnati Reds @ Milwaukee Brewers (03/16 7:30 PM ET) SD" group-title="MLB",Cincinnati Reds @ Milwaukee Brewers (03/16 7:30 PM ET) SD
+https://tvpass.org/live/MLBNetwork/sd
+#EXTINF:-1 tvg-id="" tvg-name="Cincinnati Reds @ Milwaukee Brewers (03/16 7:30 PM ET) HD" group-title="MLB",Cincinnati Reds @ Milwaukee Brewers (03/16 7:30 PM ET) HD
+https://tvpass.org/live/MLBNetwork/hd
+#EXTINF:-1 tvg-id="" tvg-name="Utah Hockey Club @ Vancouver Canucks (03/16 8:10 PM ET) SD" group-title="NHL",Utah Hockey Club @ Vancouver Canucks (03/16 8:10 PM ET) SD
+https://tvpass.org/live/NHL03/sd
+#EXTINF:-1 tvg-id="" tvg-name="Utah Hockey Club @ Vancouver Canucks (03/16 8:10 PM ET) HD" group-title="NHL",Utah Hockey Club @ Vancouver Canucks (03/16 8:10 PM ET) HD
+https://tvpass.org/live/NHL03/hd
+#EXTINF:-1 tvg-id="" tvg-name="Oklahoma City Thunder @ Milwaukee Bucks (03/16 9:10 PM ET) SD" group-title="NBA",Oklahoma City Thunder @ Milwaukee Bucks (03/16 9:10 PM ET) SD
+https://tvpass.org/live/ESPN/sd
+#EXTINF:-1 tvg-id="" tvg-name="Oklahoma City Thunder @ Milwaukee Bucks (03/16 9:10 PM ET) HD" group-title="NBA",Oklahoma City Thunder @ Milwaukee Bucks (03/16 9:10 PM ET) HD
+https://tvpass.org/live/ESPN/hd
+#EXTINF:-1 tvg-id="" tvg-name="Winnipeg Jets @ Seattle Kraken (03/16 9:10 PM ET) SD" group-title="NHL",Winnipeg Jets @ Seattle Kraken (03/16 9:10 PM ET) SD
+https://tvpass.org/live/tsn3/sd
+#EXTINF:-1 tvg-id="" tvg-name="Winnipeg Jets @ Seattle Kraken (03/16 9:10 PM ET) HD" group-title="NHL",Winnipeg Jets @ Seattle Kraken (03/16 9:10 PM ET) HD
+https://tvpass.org/live/tsn3/hd

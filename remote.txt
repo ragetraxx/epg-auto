@@ -1,3 +1,21 @@
+Here are the steps to sort channels on the OTT Navigator app: 
+
+1. Open the OTT Navigator app: and navigate to the main menu.
+
+2. Access the Settings: Look for the Settings or gear icon to open the Lists Settings.
+
+3. Find the Select sort order
+option: 
+
+4. Within the settings, select your preferred sort method: You will typically see options such as:
+
+Sort channels by: Order from provider playlist
+Sort channels by (with lowest priority): Order from provider playlist
+Sort categories by: Order from provider playlist
+
+5. Apply the changes: Confirm your selection to apply the new channel sorting order.
+
+
 ### SkyTV ###
 1 - Converge Vision PPV HD
 2 - ALLTV2

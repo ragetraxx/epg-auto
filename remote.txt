@@ -1,0 +1,547 @@
+### SkyTV ###
+1 - Converge Vision PPV HD
+2 - ALLTV2
+3 - One PH
+4 - PTV
+5 - TV5 Philippines
+6 - One News
+7 - GMA
+8 - Kapamilya Channel
+9 - RPTV
+10 - Bilyonaryo News Channel
+11 - GTV
+12 - UNTV
+13 - IBC 13
+14 - SMNI
+15 - Jeepney TV
+16 - Kapamilya Channel HD
+17 - DZMM Teleradyo
+18 - Abante RadyoTV
+19 - DZRH News Television
+20 - ANC SD
+21 - ANC HD
+22 - A2Z
+23 - Aliw Channel 23
+24 - INCTV
+25 - NET 25
+26 - Solar Flix
+27 - Congress TV
+28 - Golden Nation Network
+29 - Pinoy Xtreme
+30 - CLTV
+31 - PTV
+32 - TV5 Broken Link
+33 - NET 25
+34 - PBO
+35 - Cinemax
+36 - Cinema One
+37 - Celestial Movies Pinoy
+38 - HBO
+39 - HBO Family
+40 - HBO Hits
+41 - HBO Signature
+42 - VIVA Cinema
+43 - Celestial Classic Movies
+44 - CinemaWorld
+45 - Thrill
+46 - Cinemo
+47 - TMC
+48 - Tap Movies
+49 - Tap Actionflix
+50 - NBA TV Philippines
+51 - Solar Sports
+52 - One Sports
+53 - Premier Football
+54 - Premier Sports
+55 - Premier Sports 2
+56 - SPOTV
+57 - SPOTV2
+58 - Tap Sports
+59 - Edge Sports
+60 - Motorvision
+61 - NBA TV Philippines
+62 - Cartoonito
+63 - Cartoon Network
+64 - Nick Jr
+65 - Nickelodeon
+66 - Animax
+67 - TapTV
+68 - Tap Edge
+69 - Lifetime
+70 - AXN
+71 - Warner TV
+72 - Rock Action
+73 - Rock Entertainment
+74 - KIX HD
+75 - KBS World
+76 - CNN International
+77 - CNBC
+78 - BBC World News
+79 - Channel News Asia
+80 - FOX News Channel
+81 - USA Today
+82 - DW
+83 - Euronews
+84 - Al Jazeera
+85 - Phoenix Info News
+86 - NHK World japan
+87 - CGTN Documentary
+88 - CGTN
+89 - Bloomberg
+90 - France24
+91 - Rai Italia
+92 - ABC Australia
+93 - TVE Internacional
+94 - CCTV4
+95 - MYX
+96 - MTV 90s
+97 - MEZZO Live
+98 - Hallypop
+99 - RJ DigiTV
+100 - RJTV
+101 - Rock TV of Manila
+102 - The Aquarium Channel
+103 - Metro Channel
+104 - Filam TV HD
+105 - Living Asia HD
+106 - Vegas Life
+107 - Mindanow Network
+108 - TLC
+109 - HGTV
+110 - Fashion TV
+111 - Discovery
+112 - Discovery Asia
+113 - Animal Planet
+114 - Asian Food Network
+115 - Love Nature
+116 - Fashion TV
+117 - Knowledge Channel
+118 - History Channel
+119 - Crime Investigation
+120 - Global Trekker
+121 - Arirang
+122 - TV5 Monde
+123 - NHK BS
+124 - Lotus Macau HD
+125 - Saudi TV
+126 - DD National
+127 - Xingkong
+128 - BS Nittele
+129 - Da Ai Television
+130 - BS10
+131 - HNTV
+132 - BS Fuji
+133 - Lotus Macau
+134 - 3ABN
+135 - EWTN
+136 - TBN Asia
+137 - Light TV
+138 - TV Maria
+139 - Radio Maria
+140 - Oras ng Himala
+141 - RESERVED
+142 - Advisory Channel
+143 - The Manila Hotel
+144 - Las Casas Filipinas de Acuzar
+145 - Best Western Plus
+146 - Best Western Plus
+147 - La Jolla
+148 - Devera Hotel
+149 - Royce Hotel and Casino
+
+### Cignal Play ###
+150 - Cignal Play PPV HD
+151 - One PH
+152 - Buko
+153 - Sari-Sari
+154 - PTV
+155 - TV5 HD
+156 - DepEd Channel
+157 - One News
+158 - RPTV
+159 - IBC 13
+160 - TrueTV
+161 - A2Z
+162 - Bilyonaryo Channel
+163 - TV5 SD
+164 - TVN Movies Pinoy
+165 - PBO
+166 - Viva Cinema
+167 - TMC (Tagalized Movie Channel)
+168 - Celestial Movies Pinoy
+169 - Tap Movies
+170 - Thrill
+171 - HBO
+172 - HBO Hits
+173 - HBO Family
+174 - HBO Signature
+175 - HITS Movies
+176 - Tap Action Flix
+177 - Cinemax
+178 - NBA TV  Philippines
+179 - PBA Rush
+180 - One Sports HD Cignal
+181 - One Sports Plus
+182 - UAAP Varsity Channel
+183 - TAP Sports
+184 - Premier Sports
+185 - Premier Sports 2
+186 - SpoTV HD
+187 - SpoTV 2 HD
+188 - Knowledge Channel
+189 - Animax
+190 - DreamWorks HD
+191 - Dreamworks Tagalog
+192 - Moonbug Kids
+193 - Nickelodeon
+194 - Cartoon Network (Cignal)
+195 - Nick Jr.
+196 - Warner TV
+197 - TVN Premium
+198 - KBS World
+199 - AXN
+200 - Hits HD
+201 - Hits Now
+202 - Lifetime
+203 - Tap TV
+204 - Tap Edge
+205 - Rock Action
+206 - Rock Entertainment
+207 - Crime Investigation
+208 - Asian Food Network (Cignal)
+209 - Food Network
+210 - HGTV
+211 - Fashion TV
+212 - History HD
+213 - Discovery Channel
+214 - Animal Planet
+215 - Travel Channel
+216 - BBC Earth
+217 - BBC Lifestyle
+218 - Global Trekker
+219 - Techstorm
+220 - CNN International
+221 - BBC World News
+222 - Bloomberg
+223 - ABC Australia
+224 - Al Jazeera
+225 - CHANNEL NEWS ASIA
+226 - CCTV-4
+227 - France 24
+228 - Arirang
+229 - CGTN Documentary
+230 - CGTN
+231 - NHK World Japan
+232 - TV5 Monde
+233 - Lotus Macau
+234 - KIX HD
+235 - TV Maria
+236 - tvUP
+237 - RESERVED
+238 - RESERVED
+
+### iWantTFC Channels ###
+250 - The Filipino Channel Asia
+251 - TFC Global
+252 - TFC North America
+253 - Kapamilya Channel
+254 - ANC
+255 - ANC Global
+256 - DZMM Teleradyo
+257 - Jeepney TV
+258 - Knowledge Channel
+259 - MYX
+260 - MOR Entertainment
+261 - GMA Pinoy TV
+262 - GMA Life TV
+263 - GMA News TV
+264 - Cinema One
+265 - Cinemo
+266 - Kapamilya Channel HD (Stream 1)
+267 - MYX (Stream 1)
+268 - MYX (Stream 2)
+269 - ANC (Stream 1)
+270 - ANC (Stream 2)
+271 - Knowledge Channel
+272 - Knowledge Channel
+273 - CINEMO!
+274 - Cinema One
+275 - MOR Entertainment
+276 - DZMM Teleradyo
+277 - GMA PINOY TV (Asia)
+278 - The Filipino Channel ASIA
+279 - The Filipino Channel Global
+280 - The Filipino Channel CANADA
+281 - TFC Global
+282 - GMA PINOY TV (VPN United States)
+283 - GMA LIFE TV (VPN United States)
+284 - GMA News TV (VPN United States)
+
+### RageTV Plus ###
+996 - Rage Music TV
+997 - RageTV
+998 - SineManila
+999 - BIHM TV
+1000 - animeX
+300 - Heart Of Asia
+301 - I Heart Movies
+302 - HALLYPOP
+303 - Front Row Channel
+304 - JUNGO TV PINOY
+305 - SCREAMFLIX
+306 - COMBAT GO
+307 - AWSN
+308 - Studio Choom
+309 - Arirang Radio
+310 - HIP HOP TV
+311 - DEF JAM
+312 - StreetzTV
+313 - CLUBBING TV
+314 - Fox News Radio
+315 - NBA on Prime
+316 - Basketball 24/7
+317 - Redbull
+318 - World Poker Tour
+319 - NitroCircusTV
+320 - One Championship TV
+321 - The Repair Shop
+322 - ROMEDY NOW
+323 - MN+ HD
+324 - MNX HD
+325 - MOVIES NOW HD
+326 - Studio Universal
+327 - CP24
+328 - BNN Bloomberg
+329 - CTV News Channel 1
+330 - CTV News Channel 2
+331 - CTV News Channel 3
+332 - CTV News Channel 4
+333 - CTV News Channel 5
+334 - CTV News Channel 6
+335 - CTV News Channel 7
+336 - CTV News Channel 8
+337 - CTV News Channel 9
+338 - CTV News Channel 10
+339 - TSN1
+340 - TSN2
+341 - TSN3
+342 - TSN4
+343 - TSN5
+344 - TNT Sports 1 HD
+345 - TNT Sports 2 HD
+346 - TNT Sports 3 HD
+347 - TNT Sports 4 HD
+348 - TNT Sports 5 HD
+349 - NFL Channel
+350 - GolfPass
+351 - Top Gear
+352 - National Geographic
+353 - National Geographic Wild
+354 - Outdoor Channel
+355 - Techstorm (CBM)
+356 - Living Asia Channel
+357 - Vegas Life TV
+358 - FilAm TV
+359 - Pacific Island Network
+360 - Latino Channel TV
+361 - ACTV
+362 - MindaNOW Network
+363 - Global Fashion Channel
+364 - Wellbeing TV
+365 - Moonbug
+367 - CBeebies
+368 - Moonbug Kids HD
+369 - Aniplus Eng
+370 - Aniplus Indo
+371 - Treehouse
+372 - YTV Youth Television
+373 - ZOO MOO
+374 - Pokemon 24/7
+375 - Blippi and Friends
+376 - PBS Kids
+377 - ãdül† Swim
+381 - CNN
+382 - LiveNOW from FOX
+383 - CNBC Asia
+384 - ABC News Live
+385 - Scripps News
+386 - CBS News
+387 - NBC News NOW
+388 - NBC Sports NOW
+389 - NBC Los Angeles
+390 - Today All Day
+391 - Dateline247
+392 - Sky News
+400 - Noticias Telemundo Ahora
+401 - CNBC Asia
+402 - BBC Newsᶠʰᵈ
+403 - Bloomberg TV Asia Live Event (720p)
+405 - Channel news Asia
+406 - RT International
+407 - RT Documentary
+408 - TRT World
+409 - Al Jazeera
+410 - DW DEUTSCHEWELLE
+411 - EURONEWS
+412 - WION
+413 - CGTN
+414 - Jakarta GlobeNews Channel
+415 - SEA Today
+416 - France24
+417 - i24 News
+418 - Freedom
+419 - PressTV
+420 - TVP World
+421 - One America News
+422 - AsianCrush
+423 - NEW K MOVIES
+424 - NHK World Japan
+425 - CCTV4
+426 - MagellanTV NOW
+427 - Fashion TV
+428 - MTV
+428 - MTV Live
+429 - MTV 00s
+430 - MTV Hits
+431 - Club MTV
+432 - MTV 80s
+433 - MTV 90s
+434 - MTV Live
+436 - MTV Live
+435 - Trace UK
+436 - Plous TV
+437 - EWTN Asia-Pacific
+442 - Warner TV
+444 - HGTV
+445 - Lifetime
+446 - HITS Movies
+447 - HBO HD
+448 - HBO Hits HD
+449 - HBO Family
+450 - Cinemax
+451 - Golf Channel USA
+452 - Hope Channel Philippines
+453 - NOW 70s
+454 - NOW 80s
+455 - Now Rock
+456 - Trace Sport Stars
+457 - Trace Urban
+458 - Kidoodle TV
+459 - Hope Channel International
+460 - GCTV
+460 - CCTN 47
+461 - TV5 Monde Pacifique
+462 - TV5 Monde Asie
+463 - TV5MONDE Style
+464 - TV5MONDE Info
+
+### Pilipinas Live App Channels ###
+490 - NBA TV  Pilipinas Live
+491 - Smart Live TV 1
+492 - Smart Live TV 2
+493 - Smart Live TV 5
+494 - Smart Live TV 6
+495 - Smart Live TV 7
+496 - Smart Live TV 8
+497 - Smart Live TV 9
+498 - Pilipinas Live 1
+499 - Pilipinas Live 2
+500 - Pilipinas Live 3
+501 - Pilipinas Live 4
+502 - Pilipinas Live 5
+503 - Pilipinas Live 6
+504 - Pilipinas Live 7
+505 - Pilipinas Live 8
+506 - Pilipinas Live 9
+507 - Pilipinas Live 10
+
+### Samsung TV Plus PH ###
+509 - Euronews World
+510 - Bilyonaryo News Channel
+
+### World Sports ###
+369 - FIGHT Networ
+377 - NBC Golf
+378 - NBC4 KNBC
+379 - DAZN
+380 - Horizon Sport
+381 - TNT Sports 1
+382 - TNT Sports 2
+383 - TNT Sports 3
+384 - TNT Sports 4
+810 - SPOTV2
+
+### AstroGo ###
+316 - NHK World Premium
+
+### USA Channels ###
+420 - ABC NEWS
+421 - CBS News
+423 - LiveNOW from FOX
+422 - NBC News NOW
+424 - ABC (WPLG)
+425 - CBS East
+428 - WGN Chicago
+426 - FOX (WNYW)
+447 - ACC Network
+449 - beIN Sports
+450 - Big Ten Network
+451 - CBS Sports Network
+452 - ESPN
+453 - ESPN 2
+454 - ESPNews
+455 - ESPN U
+462 - FIGHT NETWORK
+458 - Fox Soccer Plus
+456 - FS1
+457 - FS2
+460 - Marquee Sports Network
+468 - MLB Network
+468 - MLB TV
+461 - NBA TV USA
+377 - Golf Channel
+377 - Golf Channel
+467 - NFL Channel
+464 - NFL Network
+465 - NFL Redzone
+469 - NHL Network
+459 - Racer Network
+448 - SEC Network
+470 - Spectrum LA Dodgers
+471 - Spectrum LA Lakers
+473 - Sportsnet
+474 - SportsNet New York
+475 - TSN1
+476 - TSN2
+477 - TSN3
+478 - TSN 4K
+479 - TSN5
+352 - TNT Sports 1 HD
+353 - TNT Sports 2 HD
+354 - TNT Sports 3 HD
+355 - TNT Sports 4 HD
+356 - TNT Sports 5 HD
+439 - FXM
+429 - A&E
+321 - Documentary+
+431 - Dove
+437 - E! Entertainment Television HDTV (East) (E! HD)
+438 - FX East
+440 - FXX East
+436 - GAME SHOW NETWORK
+442 - MTV East
+443 - MTV2 East
+444 - MTV Classic
+445 - MTV Live
+446 - MTV-U
+434 - Oxygen True Crime
+435 - Paramount Network East
+433 - SYFY East
+441 - TBS East
+431 - TNT
+432 - truTV East
+430 - USA Network
+
+### Radio ###
+21 - Super Radyo DZBB
+

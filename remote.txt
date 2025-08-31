@@ -49,35 +49,35 @@ Note: All details are correct at time of publishing. Channel line-up is subject 
 29 - Pinoy Xtreme
 30 - CLTV
 31 - PTV
-32 - TV5 Broken Link
+32 - TV5
 33 - NET 25
 34 - PBO
-35 - Cinemax
+35 - VIVA Cinema
 36 - Cinema One
-37 - Celestial Movies Pinoy
-38 - HBO
-39 - HBO Family
-40 - HBO Hits
-41 - HBO Signature
-42 - VIVA Cinema
-43 - Celestial Classic Movies
-44 - CinemaWorld
+37 - Cinemo
+38 - TMC
+39 - Celestial Movies Pinoy
+40 - Cinemax
+41 - HBO
+42 - HBO Family
+43 - HBO Hits
+44 - HBO Signature
 45 - Thrill
-46 - Cinemo
-47 - TMC
-48 - Tap Movies
-49 - Tap Actionflix
+46 - Tap Movies
+47 - Tap Actionflix
+48 - Celestial Classic Movies
+49 - CinemaWorld
 50 - NBA TV Philippines
-51 - Solar Sports
-52 - One Sports
-53 - Premier Football
-54 - Premier Sports
-55 - Premier Sports 2
-56 - SPOTV
-57 - SPOTV2
-58 - Tap Sports
-59 - Edge Sports
-60 - Motorvision
+51 - One Sports
+52 - Premier Football
+53 - Premier Sports
+54 - Premier Sports 2
+55 - SPOTV
+56 - SPOTV2
+57 - Tap Sports
+58 - Edge Sports
+59 - Motorvision
+60 - Solar Sports
 61 - NBA TV Philippines
 62 - Cartoonito
 63 - Cartoon Network
@@ -95,24 +95,24 @@ Note: All details are correct at time of publishing. Channel line-up is subject 
 75 - KBS World
 76 - CNN International
 77 - CNBC
-78 - BBC World News
-79 - Channel News Asia
-80 - FOX News Channel
-81 - USA Today
+78 - Bloomberg
+79 - BBC World News
+80 - Channel News Asia
+81 - FOX News Channel
 82 - DW
-83 - Euronews
-84 - Al Jazeera
-85 - Phoenix Info News
-86 - NHK World japan
-87 - CGTN Documentary
-88 - CGTN
-89 - Bloomberg
-90 - France24
-91 - Rai Italia
-92 - ABC Australia
-93 - TVE Internacional
-94 - CCTV4
-95 - WION
+83 - USA Today
+84 - Euronews
+85 - WION
+86 - ABC Australia
+87 - Al Jazeera
+88 - France24
+89 - Phoenix Info News
+90 - NHK World japan
+91 - CGTN Documentary
+92 - CGTN
+93 - Rai Italia
+94 - TVE Internacional
+95 - CCTV4
 96 - MYX
 97 - MTV 90s
 98 - MEZZO Live
@@ -126,13 +126,13 @@ Note: All details are correct at time of publishing. Channel line-up is subject 
 106 - Living Asia HD
 107 - Vegas Life
 108 - Mindanow Network
-109 - TLC
-110 - HGTV
-111 - Fashion TV
-112 - Discovery
-113 - Discovery Asia
-114 - Animal Planet
-115 - Asian Food Network
+109 - Asian Food Network
+110 - TLC
+111 - HGTV
+112 - Fashion TV
+113 - Discovery
+114 - Discovery Asia
+115 - Animal Planet
 116 - Love Nature
 117 - Fashion TV
 118 - Living Asia HD

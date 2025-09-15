@@ -1,0 +1,50 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-mp4a_96000=295860601.m3u8",
+    GROUP-ID="audio-AACL-96",
+    LANGUAGE="und",
+    NAME="Undetermined",
+    DEFAULT=YES,
+    AUTOSELECT=YES,
+    CHANNELS="2"
+
+#EXT-X-STREAM-INF:BANDWIDTH=703647,AVERAGE-BANDWIDTH=639680,
+    CODECS="avc1.4d4015,mp4a.40.2",
+    RESOLUTION=426x240,
+    FRAME-RATE=29.970,
+    AUDIO="audio-AACL-96"
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-avc1_512000=1229000998.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=1272655,AVERAGE-BANDWIDTH=1156960,
+    CODECS="avc1.4d401e,mp4a.40.2",
+    RESOLUTION=640x360,
+    FRAME-RATE=29.970,
+    AUDIO="audio-AACL-96"
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-avc1_1000000=4096882004.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=1505855,AVERAGE-BANDWIDTH=1368959,
+    CODECS="avc1.4d401f,mp4a.40.2",
+    RESOLUTION=854x480,
+    FRAME-RATE=29.970,
+    AUDIO="audio-AACL-96"
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-avc1_1200000=893555631.m3u8
+
+
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+
+#EXT-X-KEY:METHOD=SAMPLE-AES,
+    URI="skd://5ec4ccfe-d925-3045-9ba4-c1c260b80afe",
+    KEYFORMAT="com.apple.streamingkeydelivery",
+    KEYFORMATVERSIONS="1"
+
+#EXTINF:10.0,
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment0.ts
+#EXTINF:10.0,
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment1.ts
+#EXTINF:10.0,
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment2.ts
+#EXTINF:10.0,
+https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment3.ts

@@ -1,6 +1,11 @@
 #EXTM3U
 #EXT-X-VERSION:7
 #EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-KEY:METHOD=SAMPLE-AES,
+    URI="skd://5ec4ccfe-d925-3045-9ba4-c1c260b80afe",
+    KEYFORMAT="com.apple.streamingkeydelivery",
+    KEYFORMATVERSIONS="1"
+
 
 #EXT-X-MEDIA:TYPE=AUDIO,URI="https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-mp4a_96000=295860601.m3u8",
     GROUP-ID="audio-AACL-96",
@@ -31,20 +36,3 @@ https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-avc1_1000000=409688200
     AUDIO="audio-AACL-96"
 https://gsattv.akamaized.net/live/media0/gtv/Fairplay/gtv-avc1_1200000=893555631.m3u8
 
-
-#EXT-X-TARGETDURATION:10
-#EXT-X-MEDIA-SEQUENCE:0
-
-#EXT-X-KEY:METHOD=SAMPLE-AES,
-    URI="skd://5ec4ccfe-d925-3045-9ba4-c1c260b80afe",
-    KEYFORMAT="com.apple.streamingkeydelivery",
-    KEYFORMATVERSIONS="1"
-
-#EXTINF:10.0,
-https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment0.ts
-#EXTINF:10.0,
-https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment1.ts
-#EXTINF:10.0,
-https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment2.ts
-#EXTINF:10.0,
-https://gsattv.akamaized.net/live/media0/gtv/Fairplay/segment3.ts

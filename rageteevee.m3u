@@ -2186,6 +2186,87 @@ https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pl_sdi9/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=63055a8904644407a64a57874703f71e:0fd611777d37a7ff8afce19d9cee2e91
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pl_sdi10/default/index.mpd
 
+#EXTINF:-1 group-title="NBA League Pass" group-logo="https://i.imgur.com/oKDL44Q.png"
+
+#EXTINF:-1 tvg-id="NBA-AtlantaHawks.us" tvg-logo="https://i.imgur.com/FlakOmu.png" group-title="NBA League Pass",Atlanta Hawks
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_atlantahawks/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-BostonCeltics.us" tvg-logo="https://i.imgur.com/PF0LYVy.png" group-title="NBA League Pass",Boston Celtics
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_bostonceltics/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-CharlotteHornets.us" tvg-logo="https://i.imgur.com/VuwTLk1.png" group-title="NBA League Pass",Charlotte Hornets
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_charlottehornets/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-DallasMavericks.us" tvg-logo="https://i.imgur.com/GnWAhS4.png" group-title="NBA League Pass",Dallas Mavericks
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_dallasmavericks/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-DetroitPistons.us" tvg-logo="https://i.imgur.com/iV0Ew3L.png" group-title="NBA League Pass",Detroit Pistons
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_detroitpistons/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-HoustonRockets.us" tvg-logo="https://i.imgur.com/Bca8CEL.png" group-title="NBA League Pass",Houston Rockets
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_houstonrockets/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-LAClippers.us" tvg-logo="https://i.imgur.com/SGGVLkw.png" group-title="NBA League Pass",LA Clippers
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_laclippers/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-MiamiHeat.us" tvg-logo="https://i.imgur.com/Q5or5vx.png" group-title="NBA League Pass",Miami Heat
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_miamiheat/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-NewOrleansPelicans.us" tvg-logo="https://i.imgur.com/uvorcCK.png" group-title="NBA League Pass",New Orleans Pelicans
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_neworleanspelicans/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-NewYorkKnicks.us" tvg-logo="https://i.imgur.com/1qYEJmk.png" group-title="NBA League Pass",New York Knicks
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_newyorkknicks/index.m3u8
+
+
+#EXTINF:-1 tvg-id="NBA-OklahomaCityThunder.us" tvg-logo="https://i.imgur.com/JSu4u1p.png" group-title="NBA League Pass",Oklahoma City Thunders
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_oklahomacitythunder/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-SanAntonioSpurs.us" tvg-logo="https://i.imgur.com/qErg5pU.png" group-title="NBA League Pass",Sacramento Kings
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_sacramentokings/index.m3u8
+
+#EXTINF:-1 tvg-id="NBA-SanAntonioSpurs.us" tvg-logo="https://i.imgur.com/xTtny4a.png" group-title="NBA League Pass",San Antonio Spurs
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_sanantoniospurs/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/PH28000012L_20250402T010703SQUARE.png" tvg-name="" ch-number="650" group-title="Samsung TV Plus PH" group-logo="https://i.imgur.com/ObgJcL3.png",Ani One 
 https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8
 
@@ -7841,7 +7922,13 @@ https://op-group1-densxvisionhd-1.dens.tv/h/h37/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-group1-densxvisionhd-1.dens.tv/h/h217/index.m3u8
 
-#EXTINF:-1 group-logo="https://i.imgur.com/zbaSPgW.png" group-title="World Sports" 
+#EXTINF:-1 group-logo="https://i.imgur.com/zbaSPgW.png" group-title="World Sports"
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/aLN71Xx.png",Tap Sports
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/wrestling/index.m3u8
 
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.uk" tvg-logo="https://tv.assets.pressassociation.io/c45c421e-6415-5530-a3ae-9667368d1422.png" ch-number="2050" group-title="World Sports",Premier Sports 1 UK
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -10052,6 +10139,11 @@ https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(knbc)/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0020e77e0f75070a0b504fa69f65e3b7:cec1b5e92b8358141585e66775184ab7
 https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s-v2/Live/channel(lc135mf424)/master_2hr.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/wk09JRh.png" ch-number="2844" group-title="PeacockTV",NBC One
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0045a118e231f1326bcdb45350b1ceaa:8c13afbfa54ea37a368b8b859021f6e3
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc122ycnuy)/master.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"3e429eb91a1791d55df2a554dc58dda7":"2f688f94ef580a61eada6932598137e4"}

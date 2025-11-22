@@ -1,0 +1,244 @@
+#EXTINF:-1 tvg-id="DirecTV.MLB.Extra.Innings.(721).us" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mlb-extra-innings-us.png" ch-number="750" group-title="Premium Live Events",MLB 1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/MLB_1/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.MLB.Extra.Innings.(721).us" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mlb-extra-innings-us.png" ch-number="751" group-title="Premium Live Events",MLB 2
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/MLB_2/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.MLB.Extra.Innings.(723).us" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mlb-extra-innings-us.png" ch-number="752" group-title="Premium Live Events",MLB 3
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/MLB_3/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(748).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="753" group-title="Premium Live Events",NBA 1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_1/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(750).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="754" group-title="Premium Live Events",NBA 2
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_2/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(751).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="755" group-title="Premium Live Events",NBA 3
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_3/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(752).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="756" group-title="Premium Live Events",NBA 4
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_4/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(753).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="757" group-title="Premium Live Events",NBA 5
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_5/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(754).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="758" group-title="Premium Live Events",NBA 6
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_6/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(755).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="759" group-title="Premium Live Events",NBA 7
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_7/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(756).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="760" group-title="Premium Live Events",NBA 8
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_8/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(757).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="761" group-title="Premium Live Events",NBA 9
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_9/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(758).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="762" group-title="Premium Live Events",NBA 10
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_10/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(759).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="763" group-title="Premium Live Events",NBA 11
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_11/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(760).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="764" group-title="Premium Live Events",NBA 12
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_12/index.m3u8
+
+#EXTINF:-1 tvg-id="DirecTV.NBA.League.Pass.(761).us" tvg-logo="https://i.imgur.com/Bwv5KgE.png" ch-number="765" group-title="Premium Live Events",NBA 13
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NBA_13/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 1" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="766" group-title="Premium Live Events",NFL 1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_1/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 2" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="767" group-title="Premium Live Events",NFL 2
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_2/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 3" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="768" group-title="Premium Live Events",NFL 3
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_3/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 4" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="769" group-title="Premium Live Events",NFL 4
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_4/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 5" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="770" group-title="Premium Live Events",NFL 5
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_5/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 6" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="771" group-title="Premium Live Events",NFL 6
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_6/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 7" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="772" group-title="Premium Live Events",NFL 7
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_7/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 8" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="773" group-title="Premium Live Events",NFL 8
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_8/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 9" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="774" group-title="Premium Live Events",NFL 9
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_9/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFl 10" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="775" group-title="Premium Live Events",NFl 10
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_10/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 11" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="776" group-title="Premium Live Events",NFL 11
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_11/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 12" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="777" group-title="Premium Live Events",NFL 12
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_12/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 13" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="778" group-title="Premium Live Events",NFL 13
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_13/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 14" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="779" group-title="Premium Live Events",NFL 14
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_14/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NFL 15" tvg-logo="https://i.imgur.com/WBOM46Z.png" ch-number="780" group-title="Premium Live Events",NFL 15
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NFL_15/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 1" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="781" group-title="Premium Live Events",NHL 1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_1/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 2" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="782" group-title="Premium Live Events",NHL 2
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_2/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 3" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="783" group-title="Premium Live Events",NHL 3
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_3/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 4" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="784" group-title="Premium Live Events",NHL 4
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_4/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 5" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="785" group-title="Premium Live Events",NHL 5
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_5/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 6" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="786" group-title="Premium Live Events",NHL 6
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_6/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 7" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="787" group-title="Premium Live Events",NHL 7
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_7/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 8" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="788" group-title="Premium Live Events",NHL 8
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_8/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 9" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="789" group-title="Premium Live Events",NHL 9
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_9/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 10" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="790" group-title="Premium Live Events",NHL 10
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_10/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 11" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="791" group-title="Premium Live Events",NHL 11
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_11/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NHL 13" tvg-logo="https://i.imgur.com/pBKZZ8z.png" ch-number="792" group-title="Premium Live Events",NHL 13
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl1.moveonjoy.com/NHL_13/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PPV 1" tvg-logo="https://m.media-amazon.com/images/I/61m-kOtqMlL.png" ch-number="793" group-title="Premium Live Events",PPV 1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl3.moveonjoy.com/PPV_1/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PPV 2" tvg-logo="https://m.media-amazon.com/images/I/61m-kOtqMlL.png" ch-number="794" group-title="Premium Live Events",PPV 2
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl3.moveonjoy.com/PPV_2/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PPV 3" tvg-logo="https://m.media-amazon.com/images/I/61m-kOtqMlL.png" ch-number="795" group-title="Premium Live Events",PPV 3
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl3.moveonjoy.com/PPV_3/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PPV 2" tvg-logo="https://m.media-amazon.com/images/I/61m-kOtqMlL.png" ch-number="796" group-title="Premium Live Events",PPV 4
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl3.moveonjoy.com/PPV_4/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PPV 5" tvg-logo="https://m.media-amazon.com/images/I/61m-kOtqMlL.png" ch-number="797" group-title="Premium Live Events",PPV 5
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl3.moveonjoy.com/PPV_5/index.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="PPV 6" tvg-logo="https://m.media-amazon.com/images/I/61m-kOtqMlL.png" ch-number="798" group-title="Premium Live Events",PPV 6
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; CLK-LX2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36
+https://fl3.moveonjoy.com/PPV_6/index.m3u8

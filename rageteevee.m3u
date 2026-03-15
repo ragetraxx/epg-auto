@@ -86,13 +86,10 @@ https://cdn10.tyfiles.cfd/live/cdn10/chunks.m3u8
 #EXTVLCOPT:network-caching=1000
 https://a1xs.vip/2000005
 
-#EXTINF:-1 tvg-id="SkySp.F1.uk" tvg-name="SkySp F1" tvg-logo="https://i.imgur.com/vX7zC9e.png" ch-number="" group-logo="https://i.imgur.com/j2oFkCe.png" group-title="Exclusive Sports Events",F1 Heineken Chinese Grand Prix 2026 (Race) (03-15-2026 @ 3:00 PM) (Stream 2)
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-referrer=https://streams.center/embed/hls.php?stream=hbfkazbkaznc49
-#EXTVLCOPT:http-origin=https://streams.center/embed/hls.php?stream=hbfkazbkaznc49
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-icy-metadata=1
-https://mainstreams.pro/hls/hbfkazbkaznc49.m3u8
+#EXTINF:-1 tvg-id="SkySp.F1.uk" tvg-name="SkySp F1" tvg-logo="https://i.imgur.com/vX7zC9e.png" ch-number="" group-logo="https://i.imgur.com/j2oFkCe.png" group-title="Exclusive Sports Events",F1 Heineken Chinese Grand Prix 2026 (Race) (03-15-2026 @ 3:00 PM) (TSN 5)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd
 
 #EXTINF:-1 group-logo="https://data-corporate.abs-cbn.com/wp-content/uploads/2025/07/14163941/1-iwant-new-logo.jpg" group-title="IwantTFC Livestreams"
 

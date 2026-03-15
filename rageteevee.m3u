@@ -86,7 +86,7 @@ https://cdn10.tyfiles.cfd/live/cdn10/chunks.m3u8
 #EXTVLCOPT:network-caching=1000
 https://a1xs.vip/2000005
 
-#EXTINF:-1 tvg-id="SkySp.F1.uk" tvg-name="SkySp F1" tvg-logo="https://i.imgur.com/vX7zC9e.png" ch-number="" group-logo="https://i.imgur.com/j2oFkCe.png" group-title="Exclusive Sports Events",F1 Heineken Chinese Grand Prix 2026 (Race) (03-15-2026 @ 3:00 PM) (TSN 5)
+#EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="TSN 5" tvg-logo="https://i.imgur.com/vX7zC9e.png" ch-number="" group-logo="https://i.imgur.com/j2oFkCe.png" group-title="Exclusive Sports Events",F1 Heineken Chinese Grand Prix 2026 (Race) (03-15-2026 @ 3:00 PM) (TSN 5)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4
 https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd
